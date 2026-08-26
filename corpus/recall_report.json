@@ -1,0 +1,141 @@
+{
+  "n_scored": 16,
+  "skipped": [
+    "inc-015"
+  ],
+  "recall_at_1": 0.5,
+  "recall_at_3": 0.8125,
+  "recall_at_8": 0.9375,
+  "recall_at_8_fused_only": 0.8125,
+  "mrr": 0.671875,
+  "results": [
+    {
+      "id": "inc-001",
+      "question": "What does MCDP 1 identify as the four elements that characterize the n",
+      "rank_pre": null,
+      "rank_post": 2,
+      "top1_post": "MCDP 1, (20 June 1997), Ch 1: The Nature of War, \"Physical, Moral, and M",
+      "top1_score": 4.737619876861572
+    },
+    {
+      "id": "inc-002",
+      "question": "How does MCDP 1 define friction?",
+      "rank_pre": 1,
+      "rank_post": 1,
+      "top1_post": "MCDP 1, (20 June 1997), Ch 1: The Nature of War, \"Friction\", para 3, p.5",
+      "top1_score": 3.784890651702881
+    },
+    {
+      "id": "inc-003",
+      "question": "What is the relationship between war and policy according to MCDP 1?",
+      "rank_pre": 1,
+      "rank_post": 1,
+      "top1_post": "MCDP 1, (20 June 1997), Ch 2: The Theory of War, \"War As an Act of Polic",
+      "top1_score": 6.088001251220703
+    },
+    {
+      "id": "inc-004",
+      "question": "What is maneuver warfare as described in MCDP 1?",
+      "rank_pre": 1,
+      "rank_post": 2,
+      "top1_post": "MCDP 1, (20 June 1997), Ch 4: The Conduct of War, \"Conclusion\", para 2, ",
+      "top1_score": 7.194036960601807
+    },
+    {
+      "id": "inc-005",
+      "question": "What does MCDP 1 mean by commander's intent, and why does it matter?",
+      "rank_pre": 6,
+      "rank_post": 1,
+      "top1_post": "MCDP 1, (20 June 1997), Ch 4: The Conduct of War, \"Commander's Intent\", ",
+      "top1_score": 5.530159950256348
+    },
+    {
+      "id": "inc-006",
+      "question": "What is the main effort in Marine Corps doctrine, and how is it used?",
+      "rank_pre": null,
+      "rank_post": 6,
+      "top1_post": "MCDP 1, (20 June 1997), Ch 3: Preparing for War, \"Doctrine\", para 1, p.5",
+      "top1_score": 0.8396444320678711
+    },
+    {
+      "id": "inc-007",
+      "question": "Explain surfaces and gaps as used in Marine Corps doctrine.",
+      "rank_pre": 3,
+      "rank_post": 4,
+      "top1_post": "MCDP 7, Ch 3: Chapter 3, \"The Learning Environment\", para 9, p.3-7",
+      "top1_score": 2.3957340717315674
+    },
+    {
+      "id": "inc-008",
+      "question": "What is mission tactics and how does it relate to decentralized comman",
+      "rank_pre": 5,
+      "rank_post": 3,
+      "top1_post": "MCDP 1-3, (30 July 1997), Ch 4: Being Faster, \"Becoming Faster\", para 5,",
+      "top1_score": 7.034934997558594
+    },
+    {
+      "id": "inc-009",
+      "question": "Why does Marine Corps doctrine emphasize tempo?",
+      "rank_pre": null,
+      "rank_post": null,
+      "top1_post": "MCDP 2, Ch 3: Creating Effective Intelligence, \"Conclusion\", para 2, p.1",
+      "top1_score": 3.6512629985809326
+    },
+    {
+      "id": "inc-010",
+      "question": "What is a center of gravity and how does it relate to critical vulnera",
+      "rank_pre": 1,
+      "rank_post": 1,
+      "top1_post": "MCDP 1, (20 June 1997), Ch 2: The Theory of War, \"Vulnerabilities\", para",
+      "top1_score": 5.859805583953857
+    },
+    {
+      "id": "inc-011",
+      "question": "What is combined arms as defined in Marine Corps doctrine?",
+      "rank_pre": 2,
+      "rank_post": 2,
+      "top1_post": "MCDP 1-3, (30 July 1997), Ch 8: Making it Happen, \"Conclusion Notes\", pa",
+      "top1_score": 5.486649513244629
+    },
+    {
+      "id": "inc-012",
+      "question": "According to MCDP 6, what is command and control and what are its two ",
+      "rank_pre": 1,
+      "rank_post": 1,
+      "top1_post": "MCDP 6, (4 October 1996), Ch 1: The Nature of Command and Control, \"What",
+      "top1_score": 5.387001037597656
+    },
+    {
+      "id": "inc-013",
+      "question": "What does MCDP 5 say about the relationship between planning and uncer",
+      "rank_pre": 1,
+      "rank_post": 2,
+      "top1_post": "MCDP 5, (21 July 1997), Ch 3: Planning Effectively, \"Situational Factors",
+      "top1_score": 4.443953037261963
+    },
+    {
+      "id": "inc-014",
+      "question": "What is the difference between attrition warfare and maneuver warfare ",
+      "rank_pre": 2,
+      "rank_post": 1,
+      "top1_post": "MCDP 1, (20 June 1997), Ch 2: The Theory of War, \"Styles of Warfare\", pa",
+      "top1_score": 5.13437557220459
+    },
+    {
+      "id": "inc-016",
+      "question": "What are the four fundamentals of the shot process in TC 3-22.9?",
+      "rank_pre": 2,
+      "rank_post": 1,
+      "top1_post": "TC 3-22.9, (May 2016 (Change 3)), Ch 5: Chapter 5, \"Functional Elements ",
+      "top1_score": 5.314620494842529
+    },
+    {
+      "id": "inc-018",
+      "question": "What are the three phases of care in TCCC?",
+      "rank_pre": 1,
+      "rank_post": 1,
+      "top1_post": "TCCC, (01 May 2026), \"Basic Management Plan for Tactical Evacuation Care",
+      "top1_score": 3.5781004428863525
+    }
+  ]
+}

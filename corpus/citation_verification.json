@@ -1,0 +1,1211 @@
+{
+  "seed": 12,
+  "sampled": 120,
+  "tally": {
+    "PARTIAL": 13,
+    "PASS": 106,
+    "FAIL": 1
+  },
+  "results": [
+    {
+      "pub_id": "MCDP 3",
+      "citation": "MCDP 3, Ch 3: Expeditionary Organizations, \"Marine Corps Forces Commands\", para 9, p.82",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 90 (chunk spans pages: True)",
+      "page_printed": "82",
+      "page_pdf_start": 90,
+      "spans_pages": true,
+      "text_head": "\u2022 Advising the joint force commander on the use of Marine Corps forces. \u2022 Accomplishing missions or tasks assi"
+    },
+    {
+      "pub_id": "MCDP 1-3",
+      "citation": "MCDP 1-3, (30 July 1997), Ch 2: Achieving a Decision, \"Achieved\", para 1, p.20",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 27",
+      "page_printed": "20",
+      "page_pdf_start": 27,
+      "spans_pages": false,
+      "text_head": "On August 2, 216 B.C., the Carthaginian general Hannibal fought the Roman army under the command of Terentius "
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Resrignaturej Toritod Il\", para 3, p.6-2",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 36",
+      "page_printed": "6-2",
+      "page_pdf_start": 36,
+      "spans_pages": true,
+      "text_head": "\u2022 Location at the time of enemy observation (reference to an important terrain feature, by map coordinates, by"
+    },
+    {
+      "pub_id": "MCDP 5",
+      "citation": "MCDP 5, (21 July 1997), Ch 2: Planning Theory, \"Conclusion\", para 1, p.58",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 65",
+      "page_printed": "58",
+      "page_pdf_start": 65,
+      "spans_pages": true,
+      "text_head": "We have addressed planning from several different aspects. This discussion outlines the range of factors gover"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Boo4. Types Of Patrols\", para 4, p.8-2",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 48",
+      "page_printed": "8-2",
+      "page_pdf_start": 48,
+      "spans_pages": false,
+      "text_head": "Motorized Patrols Where terrain and road networks permit, a motorized patrol overcomes the inherent disadvanta"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 2: The Theory of War, \"Speed and Focus\", para 2, p.40",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 49 (chunk spans pages: True)",
+      "page_printed": "40",
+      "page_pdf_start": 49,
+      "spans_pages": true,
+      "text_head": "Speed is rapidity of action. It applies to both time and space. Speed over time is tempo\u2014the consistent abilit"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 13: AppA, \"Simplicity\", para 1, p.A-3",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 218",
+      "page_printed": "A-3",
+      "page_pdf_start": 218,
+      "spans_pages": true,
+      "text_head": "Preparing clear, uncomplicated plans and clear, concise orders to ensure thorough understanding follow the pri"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 4: The Conduct of War, \"Conclusion\", para 22, p.103",
+      "verdict": "PARTIAL",
+      "detail": "1/3 probes on pdf page 112 (chunk spans pages: False)",
+      "page_printed": "103",
+      "page_pdf_start": 112,
+      "spans_pages": false,
+      "text_head": "Hans von Seeckt, Thoughts of a Soldier, trans. G. Water- 1. house (London: Ernest Benn Ltd., 1930) p. 123."
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, \"Types of MAGTFs\", para 19, p.2-14",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 55",
+      "page_printed": "2-14",
+      "page_pdf_start": 55,
+      "spans_pages": true,
+      "text_head": "An important type of SPMAGTF is an alert contingency MAGTF. Each of the MEFs usually maintain an alert conting"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 4: The Conduct of War, \"Surfaces and Gaps\", para 2, p.92",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 101 (chunk spans pages: True)",
+      "page_printed": "92",
+      "page_pdf_start": 101,
+      "spans_pages": true,
+      "text_head": "Gaps may in fact be physical gaps in the enemy's dispositions, but they may also be any weakness in time, spac"
+    },
+    {
+      "pub_id": "MCDP 3",
+      "citation": "MCDP 3, Ch 4: Expeditionary Concepts, \"Case Study: The Persian Gulf, 1990\", para 6, p.105",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 113",
+      "page_printed": "105",
+      "page_pdf_start": 113,
+      "spans_pages": true,
+      "text_head": "With the arrival of 2d Force Service Support Group, Lieutenant General Boomer reorganized his logistics. The 1"
+    },
+    {
+      "pub_id": "MCDP 1-3",
+      "citation": "MCDP 1-3, (30 July 1997), Ch 2: Achieving a Decision, \"Military Judgment\", para 13, p.30",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 37",
+      "page_printed": "30",
+      "page_pdf_start": 37,
+      "spans_pages": false,
+      "text_head": "Just because a target is vulnerable does not, however, mean that it is worth attacking. We must direct our res"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Individual Movement\", para 9, p.4-4",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 24",
+      "page_printed": "4-4",
+      "page_pdf_start": 24,
+      "spans_pages": false,
+      "text_head": "To perform the high crawl, keep body off the ground. Rest weight on forearms and lower legs. Cradle rifle in a"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 6, \"Squatting\", para 3, p.6-18",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 108",
+      "page_printed": "6-18",
+      "page_pdf_start": 108,
+      "spans_pages": false,
+      "text_head": "Note. The firer may opt to use pressure from firing hand to rotate weapon to place the magazine against the op"
+    },
+    {
+      "pub_id": "MCDP 3",
+      "citation": "MCDP 3, Ch 2: The Nature of Expeditionary Operations, \"Sustainability\", para 3, p.53",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 61",
+      "page_printed": "53",
+      "page_pdf_start": 61,
+      "spans_pages": false,
+      "text_head": "Finally, another important consideration for sustaining an expeditionary force is the support requirements of "
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Enemy In Sight, And Hasty Ambush Right\", para 9, p.11-8",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 66",
+      "page_printed": "11-8",
+      "page_pdf_start": 66,
+      "spans_pages": false,
+      "text_head": "Offensive Measures When used offensively, the enemy is decisively engaged. Escapees are pursued and destroyed "
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 9, \"Wind Direction and Value\", para 4, p.C-10",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 198",
+      "page_printed": "C-10",
+      "page_pdf_start": 198,
+      "spans_pages": false,
+      "text_head": "C-23. The clock system can be used to determine the direction and value of the wind. Picture a clock with the "
+    },
+    {
+      "pub_id": "MCDP 7",
+      "citation": "MCDP 7, Ch 1, \"The Nature of Learning\", para 2, p.1-3",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 9 (chunk spans pages: True)",
+      "page_printed": "1-3",
+      "page_pdf_start": 9,
+      "spans_pages": true,
+      "text_head": "dynamic human endeavor. The Marine Corps, as the Nation\u2019s force-in-readiness, must have the versatility and fl"
+    },
+    {
+      "pub_id": "MCDP 1-2",
+      "citation": "MCDP 1-2, Ch 2: Designing the Campaign, \"The Campaign Concept\", para 4, p.45",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 52",
+      "page_printed": "45",
+      "page_pdf_start": 52,
+      "spans_pages": true,
+      "text_head": "Phasing the Campaign A campaign is required whenever we pursue a strategic aim not attainable through a single"
+    },
+    {
+      "pub_id": "MCDP 6",
+      "citation": "MCDP 6, (4 October 1996), Ch 1: The Nature of Command and Control, \"Complexity in Command and Control\", para 2, p.44",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 51",
+      "page_printed": "44",
+      "page_pdf_start": 51,
+      "spans_pages": true,
+      "text_head": "Each individual part of a complex system may itself be a complex system\u2014as in the military, in which a company"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, \"Joint Operations Conducted Through\", para 1, p.2-4",
+      "verdict": "FAIL",
+      "detail": "0/3 probes found near printed page 2-4",
+      "page_printed": "2-4",
+      "page_pdf_start": 45,
+      "spans_pages": false,
+      "text_head": "Strategic Operational Tactical Figure 2-2. Commander\u2019s Level of War Orientation."
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Platoon\", para 7, p.7-3",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 43 (chunk spans pages: False)",
+      "page_printed": "7-3",
+      "page_pdf_start": 43,
+      "spans_pages": false,
+      "text_head": "When a scouting fire team is directed to advance over A scouting fire team takes advantage of available open g"
+    },
+    {
+      "pub_id": "MCDP 7",
+      "citation": "MCDP 7, Ch 4, \"The Learning Leader\", para 18, p.4-12",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 74",
+      "page_printed": "4-12",
+      "page_pdf_start": 74,
+      "spans_pages": true,
+      "text_head": "Learning is the foundation for all that Marines do\u2014it is the key enabler for all warfighting functions and our"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 13: AppA, \"Intelligence\", para 1, p.B-3",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 224",
+      "page_printed": "B-3",
+      "page_pdf_start": 224,
+      "spans_pages": false,
+      "text_head": "Intelligence provides the commander with an understanding of the enemy and the battlespace and identifies the "
+    },
+    {
+      "pub_id": "MCDP 3",
+      "citation": "MCDP 3, Ch 1: The Landscape: Chaos in the Littorals, \"Fragmentation and Integration\", para 3, p.8",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 16",
+      "page_printed": "8",
+      "page_pdf_start": 16,
+      "spans_pages": true,
+      "text_head": "A second major trend in global relations is integration. At the same time that the world is fragmenting politi"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 4: The Conduct of War, \"Orienting on the Enemy\", para 8, p.79",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 88",
+      "page_printed": "79",
+      "page_pdf_start": 88,
+      "spans_pages": true,
+      "text_head": "Commanders should command from where they can best influence the action, normally well forward. This allows th"
+    },
+    {
+      "pub_id": "MCDP 1-1",
+      "citation": "MCDP 1-1, Ch 1: The Strategic Environment, \"Strategic Constants and Norms\", para 1, p.20",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 27",
+      "page_printed": "20",
+      "page_pdf_start": 27,
+      "spans_pages": false,
+      "text_head": "In Some Principles of Maritime Strategy, originally published in 1911, Sir Julian Corbett wrote\u2014"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 1: The Nature of War, \"Physical, Moral, and Mental Forces\", para 3, p.16",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 25",
+      "page_printed": "16",
+      "page_pdf_start": 25,
+      "spans_pages": true,
+      "text_head": "Because it is difficult to come to grips with moral and mental forces, it is tempting to exclude them from our"
+    },
+    {
+      "pub_id": "MCDP 1-2",
+      "citation": "MCDP 1-2, Ch 1: The Campaign, \"Operations\", para 3, p.8",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 15",
+      "page_printed": "8",
+      "page_pdf_start": 15,
+      "spans_pages": false,
+      "text_head": "The nature of these tasks requires that the operational commander retain a certain amount of latitude in the c"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 4, \"Security Cooperation, and Deterrence\", para 7, p.4-2",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 111",
+      "page_printed": "4-2",
+      "page_pdf_start": 111,
+      "spans_pages": false,
+      "text_head": "Security cooperation involves all Department of Defense interactions with foreign defense establishments to bu"
+    },
+    {
+      "pub_id": "MCDP 6",
+      "citation": "MCDP 6, (4 October 1996), Ch 2: Command and Control Theory, \"Organization Theory\", para 4, p.88",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 95",
+      "page_printed": "88",
+      "page_pdf_start": 95,
+      "spans_pages": true,
+      "text_head": "Organization also serves the important socializing function of providing sources of group identity for members"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 7, \"Immediate hold determination\", para 4, p.7-7",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 125 (chunk spans pages: True)",
+      "page_printed": "7-7",
+      "page_pdf_start": 125,
+      "spans_pages": true,
+      "text_head": "7-20. Immediate hold locations for azimuth (wind or lead): (See figure 7-4.) Figure 7-4. Immediate hold locati"
+    },
+    {
+      "pub_id": "MCDP 1-1",
+      "citation": "MCDP 1-1, Ch 4: The Making of Strategy, \"Strategy-Making Pitfalls\", para 25, p.107",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 114",
+      "page_printed": "107",
+      "page_pdf_start": 114,
+      "spans_pages": true,
+      "text_head": "There is no shortcut to strategic wisdom. While some have predicted that the United States will be able to con"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 6, \"Stability Operations\", para 1, p.6-4",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 131",
+      "page_printed": "6-4",
+      "page_pdf_start": 131,
+      "spans_pages": true,
+      "text_head": "Stability operations encompass various military missions, tasks, and activities conducted outside the United S"
+    },
+    {
+      "pub_id": "MCDP 5",
+      "citation": "MCDP 5, (21 July 1997), Ch 1: The Nature of Planning, \"Planning Misused\", para 1, p.23",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 30",
+      "page_printed": "23",
+      "page_pdf_start": 30,
+      "spans_pages": false,
+      "text_head": "Planning is an essential military activity. However, several common mistakes must be understood so that we can"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Iioos. Hide\", para 6, p.11-6",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 64",
+      "page_printed": "11-6",
+      "page_pdf_start": 64,
+      "spans_pages": false,
+      "text_head": "The size of the area physically occupied by a patrol in a hide and the number of security posts required are g"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 7, \"Deliberate hold determination\", para 2, p.7-9",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 127",
+      "page_printed": "7-9",
+      "page_pdf_start": 127,
+      "spans_pages": true,
+      "text_head": "7-23. Deliberate holds for complex engagements are discussed in detail in appendix C, Complex Engagements. The"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 1: The Nature of War, \"Fluidity\", para 7, p.12",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 21",
+      "page_printed": "12",
+      "page_pdf_start": 21,
+      "spans_pages": false,
+      "text_head": "If we are to win, we must be able to operate in a disorderly environment. In fact, we must not only be able to"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Qbi Ro\", para 24, p.11-4",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 62",
+      "page_printed": "11-4",
+      "page_pdf_start": 62,
+      "spans_pages": false,
+      "text_head": "The patrol may halt briefly to send a message, eat, rest, check direction, or make a reconnaissance. The area "
+    },
+    {
+      "pub_id": "MCDP 2",
+      "citation": "MCDP 2, Ch 2: Intelligence Theory, para 2, p.46",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 53",
+      "page_printed": "46",
+      "page_pdf_start": 53,
+      "spans_pages": false,
+      "text_head": "Complicating this problem is the reality that an enemy's intentions are normally the product of thought proces"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 5, \"Detection Best Practices\", para 1, p.5-5",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 87",
+      "page_printed": "5-5",
+      "page_pdf_start": 87,
+      "spans_pages": false,
+      "text_head": "5-22. Target acquisition is the discovery of any object in the operational environment such as personnel, vehi"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 9, \"Technique\", para 7, p.9-3",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 155",
+      "page_printed": "9-3",
+      "page_pdf_start": 155,
+      "spans_pages": false,
+      "text_head": "Note. It is more difficult to engage adversaries to the firing side while moving laterally. The twist required"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 8, \"Retrograde\", para 3, p.8-9",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 152",
+      "page_printed": "8-9",
+      "page_pdf_start": 152,
+      "spans_pages": false,
+      "text_head": "Delay A delay involves a force under pressure trading space for time by slowing down the enemy\u2019s momentum. Its"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, \"Operational Environments of Amphibious Operations\", para 1, p.2-24",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 65",
+      "page_printed": "2-24",
+      "page_pdf_start": 65,
+      "spans_pages": true,
+      "text_head": "In general, amphibious operations will likely be planned and executed based on one of three operational enviro"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 4, \"Support to Foreign Internal Defense\", para 1, p.4-4",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 113",
+      "page_printed": "4-4",
+      "page_pdf_start": 113,
+      "spans_pages": true,
+      "text_head": "Foreign internal defense involves participation by civilian and military agencies of a government in any of th"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 7, \"Close Quarters Engagements\", para 2, p.7-10",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 128",
+      "page_printed": "7-10",
+      "page_pdf_start": 128,
+      "spans_pages": false,
+      "text_head": "7-25. Rapidly determining an accurate range to target is critical to the success of the Soldier at mid and ext"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Platoon\", para 10, p.7-3",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 43",
+      "page_printed": "7-3",
+      "page_pdf_start": 43,
+      "spans_pages": false,
+      "text_head": "Scout reconnoiters for a short distance into woods. Finding edge of woods to be unoccupied, another scout retu"
+    },
+    {
+      "pub_id": "MCDP 5",
+      "citation": "MCDP 5, (21 July 1997), Ch 1: The Nature of Planning, \"The Functions of Planning and Plans\", para 2, p.15",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 22",
+      "page_printed": "15",
+      "page_pdf_start": 22,
+      "spans_pages": true,
+      "text_head": "Second, planning develops a shared situational awareness. The process of planning itself should provide a comm"
+    },
+    {
+      "pub_id": "MCDP 1-2",
+      "citation": "MCDP 1-2, Ch 2: Designing the Campaign, \"Supporting the Military Strategic Aim\", para 8, p.38",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 45",
+      "page_printed": "38",
+      "page_pdf_start": 45,
+      "spans_pages": true,
+      "text_head": "Campaigning Under an Erosion Strategy Erosion strategies are appropriate when our political goal is limited an"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 9, \"Offensive Operations\", para 4, p.9-2",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 159",
+      "page_printed": "9-2",
+      "page_pdf_start": 159,
+      "spans_pages": false,
+      "text_head": "The Marine Corps warfighting philosophy is offensive in nature. It focuses on the enemy and uses speed to seiz"
+    },
+    {
+      "pub_id": "MCDP 2",
+      "citation": "MCDP 2, Ch 3: Creating Effective Intelligence, \"Intelligence As A Team Effort\", para 1, p.86",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 93",
+      "page_printed": "86",
+      "page_pdf_start": 93,
+      "spans_pages": true,
+      "text_head": "Intelligence is the commander's responsibility and the intelligence officer's primary duty, but it is also def"
+    },
+    {
+      "pub_id": "MCDP 3",
+      "citation": "MCDP 3, Ch 1: The Landscape: Chaos in the Littorals, \"The Developing World\", para 5, p.16",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 24",
+      "page_printed": "16",
+      "page_pdf_start": 24,
+      "spans_pages": false,
+      "text_head": "The developing world often lacks the capability to cope with major disasters and disruptions\u2014or to deal with t"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 11, \"Aviation Combat Element\", para 1, p.11-4",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 185 (chunk spans pages: True)",
+      "page_printed": "11-4",
+      "page_pdf_start": 185,
+      "spans_pages": true,
+      "text_head": "The capability of the ACE to observe the battlefield and report in near real time gives the MAGTF commander a "
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Platoon\", para 5, p.7-2",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 42",
+      "page_printed": "7-2",
+      "page_pdf_start": 42,
+      "spans_pages": false,
+      "text_head": "Figure 7-2. Assessing Probable Enemy Machine Gun Positions. order to be prepared to go into action immediately"
+    },
+    {
+      "pub_id": "MCDP 2",
+      "citation": "MCDP 2, Ch 3: Creating Effective Intelligence, \"The Intelligence-Operations Connection\", para 5, p.83",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 90",
+      "page_printed": "83",
+      "page_pdf_start": 90,
+      "spans_pages": true,
+      "text_head": "The importance of the intelligence-operations connection is seen in the contrasting approaches to intelligence"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 13, \"Command And Control\", para 1, p.13-9",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 210",
+      "page_printed": "13-9",
+      "page_pdf_start": 210,
+      "spans_pages": false,
+      "text_head": "Logistic command and control is the means to ensure the effective employment of resources. Effective logistics"
+    },
+    {
+      "pub_id": "MCDP 5",
+      "citation": "MCDP 5, (21 July 1997), Ch 3: Planning Effectively, \"Planning as Shaping\", para 2, p.79",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 86",
+      "page_printed": "79",
+      "page_pdf_start": 86,
+      "spans_pages": true,
+      "text_head": "We should try to shape events in a way that allows us several alternatives and avoids irreversible commitments"
+    },
+    {
+      "pub_id": "MCDP 1-3",
+      "citation": "MCDP 1-3, (30 July 1997), Ch 7: Exploiting Success and Finishing, \"Use of the Reserve in Combat-Conclusion\", para 6, p.108",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 115",
+      "page_printed": "108",
+      "page_pdf_start": 115,
+      "spans_pages": true,
+      "text_head": "Sometimes we must employ the reserve to deal with some crisis, rendering it temporarily unavailable for commit"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 9, \"Downrange Feedback\", para 2, p.E-3",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 217",
+      "page_printed": "E-3",
+      "page_pdf_start": 217,
+      "spans_pages": false,
+      "text_head": "E-13. After zeroing, downrange feedback should be conducted. If modified field fire or known distance ranges a"
+    },
+    {
+      "pub_id": "MCDP 7",
+      "citation": "MCDP 7, Ch 4, \"The Learning Leader\", para 7, p.4-6",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 68",
+      "page_printed": "4-6",
+      "page_pdf_start": 68,
+      "spans_pages": false,
+      "text_head": "Leaders who encourage an open discussion with their Marines about how thoughts and actions contributed to outc"
+    },
+    {
+      "pub_id": "MCDP 1-1",
+      "citation": "MCDP 1-1, Ch 1: The Strategic Environment, \"Strategic Constants and Norms\", para 6, p.22",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 29",
+      "page_printed": "22",
+      "page_pdf_start": 29,
+      "spans_pages": false,
+      "text_head": "Strategic masters manipulate the physical environment, exploit its strengths, evade its weaknesses, acknowledg"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"I2Oo3. Types Of Reconnaissance\", para 7, p.12-2",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 70",
+      "page_printed": "12-2",
+      "page_pdf_start": 70,
+      "spans_pages": false,
+      "text_head": "The commander specifies specific routes or areas of interest within the zone. The zone to be reconnoitered usu"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 9, \"Peer Coaches\", para 7, p.E-9",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 223",
+      "page_printed": "E-9",
+      "page_pdf_start": 223,
+      "spans_pages": true,
+      "text_head": "E-29. Using a peer coach, although generally not as effective as using an experienced coach, is still a very u"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 3, \"Achieving a Decision\", para 1, p.3-27",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 102",
+      "page_printed": "3-27",
+      "page_pdf_start": 102,
+      "spans_pages": false,
+      "text_head": "The objective of tactics is to achieve military success through a decision in battle. In combat, the success t"
+    },
+    {
+      "pub_id": "MCDP 6",
+      "citation": "MCDP 6, (4 October 1996), Ch 1: The Nature of Command and Control, \"What is Command and Control?\", para 2, p.37",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 44",
+      "page_printed": "37",
+      "page_pdf_start": 44,
+      "spans_pages": false,
+      "text_head": "Command and control is the means by which a commander recognizes what needs to be done and sees to it that app"
+    },
+    {
+      "pub_id": "MCDP 1-1",
+      "citation": "MCDP 1-1, Ch 2: Strategy: Ends and Means, \"National Strategy\", para 8, p.40",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 47",
+      "page_printed": "40",
+      "page_pdf_start": 47,
+      "spans_pages": true,
+      "text_head": "Figure 1. Relationship of political objectives to national strategy and supporting strategies. In war, the nat"
+    },
+    {
+      "pub_id": "MCDP 5",
+      "citation": "MCDP 5, (21 July 1997), Ch 1: The Nature of Planning, \"Planning as Command and Control\", para 2, p.12",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 19",
+      "page_printed": "12",
+      "page_pdf_start": 19,
+      "spans_pages": false,
+      "text_head": "Since planning is part of command and control, the fundamental object of command and control is also the funda"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 7, \"Desired Point of Impact\", para 1, p.7-5",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 123",
+      "page_printed": "7-5",
+      "page_pdf_start": 123,
+      "spans_pages": false,
+      "text_head": "7-7. The sight picture is the placement of the aligned sights on the target itself. The Soldier must maintain "
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 8, \"Types Of Defensive Operations\", para 3, p.8-4",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 147",
+      "page_printed": "8-4",
+      "page_pdf_start": 147,
+      "spans_pages": true,
+      "text_head": "In retrogrades, commanders may employ dynamic elements to draw an adversary into a positional disadvantage as "
+    },
+    {
+      "pub_id": "MCDP 2",
+      "citation": "MCDP 2, Ch 2: Intelligence Theory, \"Characteristics of Good Intelligence\", para 2, p.38",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 45",
+      "page_printed": "38",
+      "page_pdf_start": 45,
+      "spans_pages": true,
+      "text_head": "First, intelligence should be objective\u2014as free as humanly possible of bias or distortion. We have already not"
+    },
+    {
+      "pub_id": "MCDP 7",
+      "citation": "MCDP 7, Ch 2, \"The Culture of Learning\", para 5, p.2-3",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 31",
+      "page_printed": "2-3",
+      "page_pdf_start": 31,
+      "spans_pages": true,
+      "text_head": "Organizational culture consists of the underlying beliefs, assumptions, values, and ways Marines interact that"
+    },
+    {
+      "pub_id": "MCDP 2",
+      "citation": "MCDP 2, Ch 3: Creating Effective Intelligence, \"The Challenge to Intelligence\", para 2, p.75",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 82",
+      "page_printed": "75",
+      "page_pdf_start": 82,
+      "spans_pages": false,
+      "text_head": "Our fundamental premise is that intelligence is not knowledge for its own sake, but instead knowledge for the "
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Iooo3. Commander'S Duties\", para 6, p.10-2",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 54",
+      "page_printed": "10-2",
+      "page_pdf_start": 54,
+      "spans_pages": false,
+      "text_head": "\u2022 Machine gun and/or shoulder-launched, multipurpose assault weapon (SMAW) team and/or squad. \u2022 Forward observ"
+    },
+    {
+      "pub_id": "MCDP 6",
+      "citation": "MCDP 6, (4 October 1996), Ch 3: Creating Effective Command, \"Conclusion Notes\", para 13, p.142",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 149",
+      "page_printed": "142",
+      "page_pdf_start": 149,
+      "spans_pages": false,
+      "text_head": "14. \"War is the realm of uncertainty Carl von .\": . . Clausewitz, On War, p. 101."
+    },
+    {
+      "pub_id": "MCDP 3",
+      "citation": "MCDP 3, Ch 3: Expeditionary Organizations, \"Naval Expeditionary Forces\", para 9, p.74",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 82",
+      "page_printed": "74",
+      "page_pdf_start": 82,
+      "spans_pages": true,
+      "text_head": "A Marine expeditionary force normally deploys by echelon. The lead echelon of the Marine expeditionary force, "
+    },
+    {
+      "pub_id": "MCDP 3",
+      "citation": "MCDP 3, Ch 4: Expeditionary Concepts, \"Operational Maneuver from the Sea\", para 6, p.91",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 99",
+      "page_printed": "91",
+      "page_pdf_start": 99,
+      "spans_pages": false,
+      "text_head": "Operational maneuver from the sea is not merely a way of introducing an expeditionary force onto foreign soil,"
+    },
+    {
+      "pub_id": "MCDP 7",
+      "citation": "MCDP 7, Ch 2, \"The Culture of Learning\", para 12, p.2-7",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 35",
+      "page_printed": "2-7",
+      "page_pdf_start": 35,
+      "spans_pages": false,
+      "text_head": "Lessons Learned From Belleau Wood The \u201cdevil dogs\u201d from the 4th Marine Brigade, who fought at Belleau Wood in "
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 4: The Conduct of War, \"Mcdpi\", para 2, p.106",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 115",
+      "page_printed": "106",
+      "page_pdf_start": 115,
+      "spans_pages": false,
+      "text_head": "10. Mission: \"The task, together with the purpose, that clearly indicates the action to be taken and the reaso"
+    },
+    {
+      "pub_id": "MCDP 5",
+      "citation": "MCDP 5, (21 July 1997), Ch 3: Planning Effectively, \"Continuous, Evolutionary Planning\", para 3, p.83",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 90",
+      "page_printed": "83",
+      "page_pdf_start": 90,
+      "spans_pages": false,
+      "text_head": "Because militaries are hierarchical organizations, planning is generally seen as proceeding sequentially from "
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 3, \"Planning Considerations\", para 1, p.3-5",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 80",
+      "page_printed": "3-5",
+      "page_pdf_start": 80,
+      "spans_pages": true,
+      "text_head": "Design does not end in problem framing. Every planning step furthers the design effort by deepening the unders"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"4Oo2. Camouflage\", para 14, p.4-3",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 23",
+      "page_printed": "4-3",
+      "page_pdf_start": 23,
+      "spans_pages": false,
+      "text_head": "If time, material, and surroundings permit, a ghillie suit should be constructed. (Refer to MCWP 3-15.3, Scout"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"I3Oo7. Urban Patrols\", para 43, p.13-13",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 85 (chunk spans pages: False)",
+      "page_printed": "13-13",
+      "page_pdf_start": 85,
+      "spans_pages": false,
+      "text_head": "DIRECTION OF MOVEMENT ) A&SB Figure 13-2. Platoon-sized Dismounted Urban Patrol Formations. Exit points, route"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 8, \"Deep Area\", para 4, p.8-3",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 146 (chunk spans pages: True)",
+      "page_printed": "8-3",
+      "page_pdf_start": 146,
+      "spans_pages": true,
+      "text_head": "Security Area FEBA FEBA Main Battle Area -----xx----- Rear Area XXX Figure 8-1. Organization of the Battlespac"
+    },
+    {
+      "pub_id": "MCDP 1-1",
+      "citation": "MCDP 1-1, Ch 4: The Making of Strategy, \"The Strategy-Making Process\", para 26, p.90",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 97",
+      "page_printed": "90",
+      "page_pdf_start": 97,
+      "spans_pages": true,
+      "text_head": "It was immediately apparent that, given the global scale of the conflict, the strength of the enemy, and the d"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 4, \"Adaptive Rail System\", para 3, p.4-1",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 77",
+      "page_printed": "4-1",
+      "page_pdf_start": 77,
+      "spans_pages": false,
+      "text_head": "4-1. The ARS and rail grabbers are designed for M16- and M4-/M4A1-series weapons to mount: Weapons. \uf06c Aiming d"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"(Cjf3 A\", para 1, p.7-4",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 44",
+      "page_printed": "7-4",
+      "page_pdf_start": 44,
+      "spans_pages": false,
+      "text_head": "\u2014 \u20140\u2014 Figure 7-4. Searching Edge of a Woodline (Dense Underbrush/Poor Visibility). fire team as it exits the w"
+    },
+    {
+      "pub_id": "MCDP 1-2",
+      "citation": "MCDP 1-2, Ch 3: Conducting the, \"(Mcrp S-2A)\", para 12, p.112",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 119 (chunk spans pages: False)",
+      "page_printed": "112",
+      "page_pdf_start": 119,
+      "spans_pages": false,
+      "text_head": "Meehan, p. 16. 28. Logistics: \"The science of planning and carrying out the 29. movement and maintenance of fo"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 3: Preparing for War, \"Professionalism\", para 2, p.57",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 66",
+      "page_printed": "57",
+      "page_pdf_start": 66,
+      "spans_pages": false,
+      "text_head": "Leaders must have a strong sense of the great responsibility of their office; the resources they will expend i"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 3: Preparing for War, \"Conclusion\", para 1, p.67",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 76",
+      "page_printed": "67",
+      "page_pdf_start": 76,
+      "spans_pages": true,
+      "text_head": "There are two basic military functions: waging war and preparing for war. Any military activities that do not "
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 9, \"Determining Wind Drift\", para 5, p.C-13",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 201",
+      "page_printed": "C-13",
+      "page_pdf_start": 201,
+      "spans_pages": false,
+      "text_head": "C-31. To estimate the effects of the wind on the shot, Soldiers need to determine three windage factors: Veloc"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Enemy In Sight, And Hasty Ambush Right\", para 7, p.11-8",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 66",
+      "page_printed": "11-8",
+      "page_pdf_start": 66,
+      "spans_pages": false,
+      "text_head": "Immediate Assault. This immediate action drill is used defensively to make and quickly break undesired but una"
+    },
+    {
+      "pub_id": "MCDP 2",
+      "citation": "MCDP 2, Ch 1: The Nature of Intelligence, \"How Important Is Intelligence?\", para 3, p.4",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 11",
+      "page_printed": "4",
+      "page_pdf_start": 11,
+      "spans_pages": false,
+      "text_head": "Intelligence, therefore, is at once inseparable from both command and operations. Intelligence contributes to "
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Iooo4. Patrol Leader Duties\", para 30, p.10-5",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 57",
+      "page_printed": "10-5",
+      "page_pdf_start": 57,
+      "spans_pages": false,
+      "text_head": "\u2022 The mission, planned routes (primary and alternate), and the fire support plan of the patrol. \u2022 The individu"
+    },
+    {
+      "pub_id": "MCDP 1-3",
+      "citation": "MCDP 1-3, (30 July 1997), Ch 7: Exploiting Success and Finishing, \"Consolidation, Exploitation, and Pursuit\", para 5, p.104",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 111",
+      "page_printed": "104",
+      "page_pdf_start": 111,
+      "spans_pages": false,
+      "text_head": "The third way to exploit advantage is through pursuit. A pursuit is an offensive tactic designed to catch or c"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 11, \"National And Theater Assets\", para 1, p.11-6",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 187",
+      "page_printed": "11-6",
+      "page_pdf_start": 187,
+      "spans_pages": false,
+      "text_head": "The MAGTF can request reconnaissance support from national, theater, joint, other Service, and allied reconnai"
+    },
+    {
+      "pub_id": "MCDP 1-2",
+      "citation": "MCDP 1-2, Ch 3: Conducting the, \"Leadership\", para 15, p.101",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 108",
+      "page_printed": "101",
+      "page_pdf_start": 108,
+      "spans_pages": false,
+      "text_head": "David Jablonsky, \"Strategy and the Operational Level of 12. War,\" The Operational Art of Warfare Across the Sp"
+    },
+    {
+      "pub_id": "MCDP 1-2",
+      "citation": "MCDP 1-2, Ch 2: Designing the Campaign, \"The Campaign Plan\", para 1, p.59",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 66",
+      "page_printed": "59",
+      "page_pdf_start": 66,
+      "spans_pages": false,
+      "text_head": "The campaign plan is the statement of the design for prosecuting the commander's portion of the overall strate"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 1: The Nature of War, \"Uncertainty\", para 5, p.8",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 17",
+      "page_printed": "8",
+      "page_pdf_start": 17,
+      "spans_pages": true,
+      "text_head": "Part of uncertainty is the ungovernable element of chance. Chance is a universal characteristic of war and a c"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 4: The Conduct of War, \"The Challenge\", para 1, p.71",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 80",
+      "page_printed": "71",
+      "page_pdf_start": 80,
+      "spans_pages": true,
+      "text_head": "The challenge is to develop a concept of warfighting consistent with our understanding of the nature and theor"
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 4: The Conduct of War, \"Decisionmaking\", para 6, p.86",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 95",
+      "page_printed": "86",
+      "page_pdf_start": 95,
+      "spans_pages": true,
+      "text_head": "We should base our decisions on awareness rather than on mechanical habit. That is, we act on a keen appreciat"
+    },
+    {
+      "pub_id": "MCDP 5",
+      "citation": "MCDP 5, (21 July 1997), Ch 1: The Nature of Planning, \"Uncertainty and Time: Planning for an Unknowable Future\", para 2, p.20",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 27",
+      "page_printed": "20",
+      "page_pdf_start": 27,
+      "spans_pages": false,
+      "text_head": "All planning is based on imperfect knowledge and involves assumptions about the future. All planning by defini"
+    },
+    {
+      "pub_id": "MCDP 6",
+      "citation": "MCDP 6, (4 October 1996), Ch 2: Command and Control Theory, \"Leadership Theory\", para 1, p.82",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 89",
+      "page_printed": "82",
+      "page_pdf_start": 89,
+      "spans_pages": false,
+      "text_head": "Leadership is the influencing of people to work toward the accomplishment of a common objective. Because war i"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 6, \"Squatting\", para 2, p.6-18",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 108",
+      "page_printed": "6-18",
+      "page_pdf_start": 108,
+      "spans_pages": false,
+      "text_head": "6-40. Perform the following to assume a good squatting firing position: Face the target. \uf06c Place the feet shou"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 2, \"Cycle of Function\", para 4, p.2-4",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 38",
+      "page_printed": "2-4",
+      "page_pdf_start": 38,
+      "spans_pages": false,
+      "text_head": "2-8. The cycle of function is the mechanical process a weapon follows during operation. The information provid"
+    },
+    {
+      "pub_id": "MCDP 3",
+      "citation": "MCDP 3, Ch 4: Expeditionary Concepts, \"Conclusion Notes\", para 27, p.142",
+      "verdict": "PARTIAL",
+      "detail": "2/3 probes on pdf page 150 (chunk spans pages: False)",
+      "page_printed": "142",
+      "page_pdf_start": 150,
+      "spans_pages": false,
+      "text_head": "Service component command: \"A command consisting of 8. the Service component commander and all those Service f"
+    },
+    {
+      "pub_id": "MCDP 1-1",
+      "citation": "MCDP 1-1, Ch 2: Strategy: Ends and Means, \"Ends in Military Strategy\", para 11, p.58",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 65",
+      "page_printed": "58",
+      "page_pdf_start": 65,
+      "spans_pages": true,
+      "text_head": "Victory in a strategy of erosion can be more flexibly defined or more ambiguous than is the case with an annih"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 3, \"Problem Framing\", para 2, p.3-3",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 78",
+      "page_printed": "3-3",
+      "page_pdf_start": 78,
+      "spans_pages": false,
+      "text_head": "Design As a form of conceptual planning, design is the conception and articulation of a framework for solving "
+    },
+    {
+      "pub_id": "MCDP 1",
+      "citation": "MCDP 1, (20 June 1997), Ch 4: The Conduct of War, \"Conclusion\", para 19, p.102",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 111",
+      "page_printed": "102",
+      "page_pdf_start": 111,
+      "spans_pages": false,
+      "text_head": "16. Combat power: \"The total means of destructive and/or disruptive force which a military unit/formation, can"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 7, \"Immediate hold for Range to Target\", para 5, p.7-12",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 130",
+      "page_printed": "7-12",
+      "page_pdf_start": 130,
+      "spans_pages": true,
+      "text_head": "7-36. Immediate range determination holds are based on the zero applied to the weapon. The 300 meter zero is t"
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "citation": "TC 3-22.9, (May 2016 (Change 3)), Ch 9, \"Hydraulic Shots (Timer)\", para 2, p.B-12",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 188",
+      "page_printed": "B-12",
+      "page_pdf_start": 188,
+      "spans_pages": false,
+      "text_head": "B-30. Hydraulic shots, or \u201ctimers,\u201d are impacts on a target where immediate incapacitation is not guaranteed. "
+    },
+    {
+      "pub_id": "MCDP 2",
+      "citation": "MCDP 2, Ch 3: Creating Effective Intelligence, \"Conclusion\", para 1, p.100",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 107",
+      "page_printed": "100",
+      "page_pdf_start": 107,
+      "spans_pages": false,
+      "text_head": "\u2014=o-- The Marine Corps' philosophy of intelligence recognizes that intelligence is an inherent responsibility "
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 3, \"Battlespace\", para 7, p.3-8",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 83",
+      "page_printed": "3-8",
+      "page_pdf_start": 83,
+      "spans_pages": false,
+      "text_head": "The size of an area of operations will normally change over the course of an operation. Many factors can influ"
+    },
+    {
+      "pub_id": "MCDP 5",
+      "citation": "MCDP 5, (21 July 1997), Ch 2: Planning Theory, \"The Planning Hierarchy\", para 5, p.36",
+      "verdict": "PARTIAL",
+      "detail": "1/3 probes on pdf page 43 (chunk spans pages: True)",
+      "page_printed": "36",
+      "page_pdf_start": 43,
+      "spans_pages": true,
+      "text_head": "Howto dolt Figure 2. The planning hierarchy. for the overall conduct of military actions is conceptual plannin"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, \"Sustaining Force\", para 1, p.2-32",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 73",
+      "page_printed": "2-32",
+      "page_pdf_start": 73,
+      "spans_pages": false,
+      "text_head": "The sustaining force maintains a presence ashore over an extended period of time to support continued operatio"
+    },
+    {
+      "pub_id": "MCDP 1-2",
+      "citation": "MCDP 1-2, Ch 2: Designing the Campaign, \"Supporting the Military Strategic Aim\", para 3, p.36",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 43",
+      "page_printed": "36",
+      "page_pdf_start": 43,
+      "spans_pages": false,
+      "text_head": "The second approach is to convince the enemy that making peace on our terms will be less painful than continui"
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "citation": "MCWP 3-11.3, Ch 7: Positioning, \"Fireoi\", para 3, p.11-2",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 60",
+      "page_printed": "11-2",
+      "page_pdf_start": 60,
+      "spans_pages": false,
+      "text_head": "adequate firepower in any direction required. When attachments are made to the patrol, the attachments ORO are"
+    },
+    {
+      "pub_id": "MCDP 2",
+      "citation": "MCDP 2, Ch 3: Creating Effective Intelligence, \"Generating Tempo Through Intelligence\", para 7, p.92",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 99",
+      "page_printed": "92",
+      "page_pdf_start": 99,
+      "spans_pages": true,
+      "text_head": "Finally, we can enhance tempo through effective information management\u2014taking advantage of all available commu"
+    },
+    {
+      "pub_id": "MCDP 1-0",
+      "citation": "MCDP 1-0, Ch 3, \"Commander\u2019s Critical Information Requirements\", para 2, p.3-18",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 93",
+      "page_printed": "3-18",
+      "page_pdf_start": 93,
+      "spans_pages": false,
+      "text_head": "Not all information requirements directly support the commander\u2019s decisionmaking, so CCIRs must link to the cr"
+    },
+    {
+      "pub_id": "MCDP 2",
+      "citation": "MCDP 2, Ch 1: The Nature of Intelligence, \"Intelligence as Knowledge\", para 5, p.8",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 15",
+      "page_printed": "8",
+      "page_pdf_start": 15,
+      "spans_pages": true,
+      "text_head": "Finally, we note that knowledge does not exist for its own sake, but as the basis for action. We do not develo"
+    },
+    {
+      "pub_id": "MCDP 1-1",
+      "citation": "MCDP 1-1, Ch 4: The Making of Strategy, \"Strategy-Making Pitfalls\", para 45, p.112",
+      "verdict": "PASS",
+      "detail": "all 3 probes found on pdf page 119",
+      "page_printed": "112",
+      "page_pdf_start": 119,
+      "spans_pages": false,
+      "text_head": "Discussions in this publication of American Cold War 8. strategies are strongly influenced by the analysis of "
+    }
+  ]
+}

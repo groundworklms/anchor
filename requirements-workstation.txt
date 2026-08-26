@@ -1,0 +1,10 @@
+# Runs on the WORKSTATION: corpus ingest, verification, and the test suite. None of this
+# is installed on the device, and none of it is needed to serve.
+#
+#   py -m pip install -r requirements-workstation.txt
+#
+# PyMuPDF is the whole ingest pipeline -- chunking, screening, citation verification.
+# It is heavy and it never has to touch the Jetson, which is why the split exists.
+
+PyMuPDF==1.27.1
+pytest==8.4.2

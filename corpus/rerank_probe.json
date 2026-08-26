@@ -1,0 +1,7999 @@
+{
+ "records": [
+  {
+   "id": "MCDP1-c4-f2c59a0ef6-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.6488089561462402,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP1-c4-a1efc30e38-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 1.1818815469741821,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-e90d41cf36-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.4310832023620605,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-b575a2eee8-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.2784290313720703,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-e3c255f065-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 0.5773913860321045,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-726580e906-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 0.7842663526535034,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-a7b069f55d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 3.1658735275268555,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-ae8694784a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.168128967285156,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-ea15f80f04-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 2.0371923446655273,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-4537ee9a4f-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 1.2437379360198975,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c2-3fcd983791-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 7",
+   "top_score": 0.6234115362167358,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP13-c7-89926cee18-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 7",
+   "top_score": 0.8400990962982178,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP3-c2-5da2c33262-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": -0.011574268341064453,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-772df72d01-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 8.576638221740723,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-fe52842997-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.6569929122924805,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-386bceae00-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.825969219207764,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-d5fdcacf6a-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.0530619621276855,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-50fffe69bc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.9272632598876953,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-166488c176-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.3942677974700928,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-e04a284845-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.418391227722168,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-c169497a04-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.0247364044189453,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-469540b7bc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.6388378143310547,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-afb6388777-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 0.915343165397644,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-d66eae9c35-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.444040298461914,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c6-53e4fe28af-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.100137710571289,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-9d8070f1d7-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": 1.2981356382369995,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-ffce77a89c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 3.267914295196533,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-c4cf1afcea-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.34114408493042,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-7b38057da0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 0.41352012753486633,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-1fca84d8f1-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -0.31653374433517456,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-5e41f26d81-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.775303840637207,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-663cbb61bf-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 1.2035349607467651,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP10-c13-e130f5fbc3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.615987777709961,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-4901b76e2e-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.097797870635986,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c2-b0314c083a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 1.2439637184143066,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP6-c3-6f3c9d316b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.9427882432937622,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c3-4f3835541f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 2.566359043121338,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP7-c3-53bd5f3c01-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 7",
+   "top_score": 4.720803737640381,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-1a61292623-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.343745231628418,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-05e483a92e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.20766544342041,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-ca1ade7428-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.190074920654297,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-91289323b8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 0.26678821444511414,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-78716dad5e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 3.153144359588623,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-cf6509b10d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 2.6938157081604004,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-a2361c61b7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": -2.813746452331543,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP11-c2-8a72443a64-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 3.748384714126587,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c3-64723f28e7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 5.5669941902160645,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-d9d64d102f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.0793991088867188,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-a954a1013f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 3.2872912883758545,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-e780e20011-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 7.140132904052734,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-34ed55bcab-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 0.8937710523605347,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-01bca5e100-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.475311756134033,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-008fe11468-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.783456325531006,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-c85ade9935-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.910329818725586,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-f3361d2791-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.144340515136719,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-44fdf923ef-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.6335721015930176,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP7-c2-d11d451b2e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 7",
+   "top_score": 5.223004341125488,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-cf67adece8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.42951774597168,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-fa5347bf5b-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.930199146270752,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-a03ebab3ed-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 5.663946151733398,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-0f267b0238-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": -0.9114199876785278,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c3-fd7f6004d9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 0.8346350193023682,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-07f6fb2bfd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.05001449584961,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-0b99a83751-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.272709846496582,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-6826cbd368-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.01117205619812,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-bacf6277a8-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.9104485511779785,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-97b2d4eaba-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.332120895385742,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-06ffa73c66-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.8818554878234863,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c4-9208b1629a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 6.812315940856934,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-25729913ee-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": -0.6718636751174927,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-be375ca82b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.47593355178833,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-b01eb299fa-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.5021626949310303,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-2f7ac77e02-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.033299446105957,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-f8c6ba2e82-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.022738933563232,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c2-d7df464cc1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 3.1535613536834717,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-7fe0ae028b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.0763444900512695,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-e250bc9e93-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": -1.13422429561615,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-cfd9a1ecb0-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.831314086914062,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-689b6208a1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.9833382368087769,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-7cd2affda6-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.8083667755126953,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c4-c0655f236c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 1.1155245304107666,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-7db4f71ee6-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.8142764568328857,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-0f4fc48ab8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 5.618575572967529,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-af1888012a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": -0.13045145571231842,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-8107dcc363-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 2.605454921722412,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-5351292615-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.6284362077713013,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c2-cd882aa062-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 4.253084182739258,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c7-3e58b1378c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.921834945678711,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-13c25906f1-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.185421466827393,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-ba045c361f-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.246431350708008,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-1053d4540c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": -0.5282032489776611,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-a1ca4fefc1-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.7213454246521,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-1bacfa7ef3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.5452589988708496,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-e0af032a41-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.293893337249756,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-6a08dd2770-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.0346245765686035,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-421b08b49b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.6991286277771,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-1e6739259f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.077897787094116,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-3e1df698bc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 6.006627559661865,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-f2a5bf70d6-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.9989018440246582,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-e639c591da-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.8900809288024902,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-3a5c967d1d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 6.751904487609863,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-1d5b31bfdf-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.4183486700057983,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-ebfc5a436e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 8.711519241333008,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-7879f9124f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 8.282197952270508,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-0c6763e779-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.6921560764312744,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-2b60db9a2d-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.128892421722412,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-d94b5ee7b4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": -0.20397081971168518,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-fc7716f4ee-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 3.9429574012756348,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-9db3d92869-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 4.923394680023193,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c2-8a37ba9842-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.32002329826355,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-8fc1c1ef99-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.465712547302246,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-fa401e1f71-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": -0.28642168641090393,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-62a9f7c848-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 5",
+   "top_score": -1.5143121480941772,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP6-c2-58a7ba4d86-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.880792498588562,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-a6ab619a47-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": -0.3169286847114563,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-bfcca0e009-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 0.8577545881271362,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-4deec17371-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.379315972328186,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-8000c1dbd0-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 1.3043599128723145,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-aa8f363c30-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.733096122741699,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-85d241ab62-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.73906946182251,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-c688c5c1fb-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.6346285343170166,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-4dbda1a345-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.50219202041626,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-eb09ce3d1c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.338045120239258,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-2d730cc2c9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.0540473461151123,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-8a5cc5108c-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 1.6097402572631836,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-d2e5ad9b01-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.854625225067139,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-b74e426c6d-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.647458553314209,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-dccc4e122c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.876152515411377,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c1-59d6d0dd98-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 2.7445967197418213,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-8d84cdf210-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.5918378829956055,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-49e46bdcdd-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.0193333625793457,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-b4ae4a327a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.549069404602051,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-93062e7b9d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.110762596130371,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-26546a6af2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.3010735511779785,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-0f150d2b3e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.612391948699951,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-0772de3f9c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.732256889343262,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-38640c69e5-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.391188144683838,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-8e0ba01d48-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 9.7059326171875,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-8d66d5efb4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 5.100209712982178,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-da408c5600-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.7282252311706543,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-455113818c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.1548900604248047,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-3629624732-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.862699508666992,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c5-ee0ce88bd0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.673252582550049,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP11-c3-178efaad81-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": -2.8324785232543945,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-d5d9a892d5-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": -3.571932792663574,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP3-c1-01e35bf4a0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 6.072671413421631,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-557534278b-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.721632480621338,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-ef4b23070c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.925918102264404,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-0753976584-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 1.437491774559021,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-c19147ed61-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.205772876739502,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-f8cb06f9a2-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.532547950744629,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-4ac45cc762-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 6.516706943511963,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-e7c7172c57-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.0701727867126465,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-6f50191dbd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 4.7670722007751465,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-730868c688-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 6.162051200866699,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-251b5815e9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 7",
+   "top_score": -2.7161660194396973,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP10-c11-37f0c54c06-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.504471302032471,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-9be4a83db3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.7910306453704834,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCWP3113-c7-2fe23e37ae-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.537335395812988,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-91da38012a-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": 3.1412477493286133,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-21d62fccba-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 6.353938102722168,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-4a54d88f27-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.094363689422607,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-4bf9c1d029-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.470245361328125,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-9e4f3129ff-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 0.009608358144760132,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-4ce63ec96e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 5.373424053192139,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-7c9982f1c1-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.284613847732544,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-10bde509cc-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.975290298461914,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-652c05ba68-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.794398307800293,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-cbf37db72c-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.992232799530029,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-1892fad19b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.200697898864746,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-5bd359b2b0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": -1.5950196981430054,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-8404963702-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": -3.3371286392211914,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-52fde46203-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": -4.562214374542236,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP6-c3-31caf52184-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 0.899194598197937,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-ebce629b95-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": -1.4407315254211426,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-44b62846ad-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 5.104138374328613,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-000077f29d-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.119966983795166,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-8fef68669e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.191945552825928,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-cbd9240f46-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 4.123128414154053,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-b3adcfeb9d-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.951640605926514,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-ad8d5bd881-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 3.0226120948791504,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-8432097f8f-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.895552635192871,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-c88f970a09-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.453808784484863,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-a333b03a8d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 2.230372428894043,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-678b6406f1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.726001739501953,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-ea464e80c1-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.144449710845947,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c2-9f6c28ecdb-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.597872257232666,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c3-d8a3b69910-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 3.3288888931274414,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-c6ef02590e-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.464507579803467,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-d3e92d0038-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 1.069247841835022,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-f506f482ab-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.499064922332764,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-57aff5e451-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.499328136444092,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-3c3a949522-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.528201580047607,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-257507c434-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.346827983856201,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-36522b8719-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 4.917728900909424,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-6ed3e9247d-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": 6.348715782165527,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-c945bf61d6-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.0411248207092285,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-9859dd6d28-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.274001598358154,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-721995acf9-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.4267191886901855,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-62a7670326-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.429764270782471,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-8c57ef5f15-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.057317733764648,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-4bc7e919e3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.639098644256592,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-935962bfa3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.602900505065918,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-265a8e34dd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.1183266639709473,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-5672cf743c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.214904308319092,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-d2866575ec-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.483482360839844,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-3a281b9709-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.811795711517334,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-b3e3eb9528-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.894393801689148,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-9bcb0f9a81-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.156783580780029,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-8de0002cb4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 0.18664324283599854,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP1-c2-e0516386fa-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 5.930216312408447,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-284e190a2c-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 0.9720298051834106,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-c392b95403-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.092266082763672,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-f9e2f6b802-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.7245564460754395,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-d7072bc84c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 7.65671443939209,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c1-1bf3086d69-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 4.240359306335449,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-889e2a7fd0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.4640300273895264,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-3a1ba939b4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.863824844360352,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-941e42f80f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 5.422891139984131,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-ccb3d6e94c-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.7554116249084473,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-96a2b707d9-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.297128915786743,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-326063a183-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.08563756942749,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-f7217241ad-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.25242280960083,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-615dc90723-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.886800289154053,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c8-c26ecd3e96-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.6965153217315674,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-4343e86e9c-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.745499134063721,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-bf0a664370-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.251314640045166,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c4-37f4983821-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.9682962894439697,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-5d61447443-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.374825954437256,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP7-c4-370316ac4e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 7",
+   "top_score": 1.900398850440979,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-54f074eae0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.418772220611572,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-5d7f8b3c3b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.257485270500183,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-9f61ff629b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 2.3394598960876465,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-96cc705c1c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.738403081893921,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-0f091dd943-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.7886972427368164,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-36c9df514d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.050787448883057,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-fb732bc784-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": -1.45641028881073,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-84e38eeef0-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.194169044494629,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-54184f3246-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.315062046051025,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-61babf94f4-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.703462600708008,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-e928856b8f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 1.0000067949295044,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-b99e6820fb-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.972845554351807,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-a919302cdd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 3.989284038543701,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-e737ace7c9-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 8.059856414794922,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c4-36b1f7d34c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.676429271697998,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-87eb00e007-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 2.6169798374176025,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c8-ef434b59b0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.058659076690674,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-66805026ff-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.227217674255371,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c1-1521e02fd4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": -1.0284532308578491,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP12-c1-a6df253665-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 2.3694005012512207,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c2-60ba0ed18f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.9246833324432373,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-33b9713416-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.5712008476257324,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c2-495d0b274f-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 0.4878891408443451,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c3-b744b533c8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 2.2776122093200684,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c1-bf0dceeb1a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.2854652404785156,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-d52fe98dd3-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.3105549812316895,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-bbf78a8b22-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.9287116527557373,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-6d026a6a2d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.8279266357421875,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-155288afc1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 0.021265000104904175,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-532bfe9c0b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.920696258544922,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-c6d28cc916-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.617217063903809,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-8a38686ee4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.675889015197754,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-16331dc003-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.9175028800964355,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-d6fa5b57de-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.20045280456543,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-226692e1bd-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.70398473739624,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-81f416c557-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 2.336961269378662,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-a4bd726afc-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.304715633392334,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-3d765db60d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 1.011528491973877,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-25d1e95a56-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 2.421039581298828,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c3-2e926d976f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 4.895468235015869,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c6-e01ba4d43c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.333227634429932,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c1-5a2b23e67c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 3.1700873374938965,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-0c2106c64b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.5412369966506958,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-9da644031d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 3.1865177154541016,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c2-7274183958-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.376715660095215,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-27c9231dde-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.646605014801025,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c1-bd194aa557-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 3.800785541534424,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c2-089329f999-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.985825300216675,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-7c10e06a42-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.197508811950684,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-9d0c7d4191-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.944254159927368,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-392b54c00e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 2.9092798233032227,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-ca5bf47f20-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 3.568305253982544,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c2-c64c01b2aa-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 5.976541519165039,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-95e65778c2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 4.030816555023193,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-dda4af3687-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.93687105178833,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-9f052e4b44-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 1.3668432235717773,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-6cdadadb44-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": -0.13733217120170593,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-ed773cb78d-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -0.0009841620922088623,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-6b9e01869c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.316552639007568,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-c2f9a0054f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 5.345443248748779,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-0c7bbd0e05-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 7.200311183929443,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-c394e7f95f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 1.1545090675354004,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-540f13f4bc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.7633352279663086,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-3e183bf0ee-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.0894265174865723,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-363399aaa8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 0.341044157743454,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-53638c7427-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.927509784698486,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-73660ed0a9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.18419075012207,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-b8e6f2798b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.5591635704040527,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-9676018e95-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.8134689331054688,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-d77c22671b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.9345808029174805,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-991608fc40-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.5182039737701416,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-fa798a88f0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.001108169555664,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-ecd29ad3c1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.1332001686096191,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-1affaa75a3-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.80845308303833,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-efcb744b78-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.3054380416870117,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-549ea0f096-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 0.4033799469470978,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-94c6a90817-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.0783910751342773,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP13-c5-6b12d44d86-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": -1.6342989206314087,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-3f26e581f3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 1.9147151708602905,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c1-f05142d7e3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 2.2787747383117676,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-8e7a925f59-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.741765260696411,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-ced6700ad2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 5.531430244445801,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-443439eb56-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 6.906471252441406,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c1-668a7a74ce-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.2257888317108154,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-bba49c02b8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 10.16513442993164,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-22b88676f0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 6.5405120849609375,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-06d7137cf8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": -0.5225353240966797,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-bbb404960d-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.38782000541687,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-6d8dd60522-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.125904560089111,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-fe3beffc2b-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.069088459014893,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-24b79b5e1c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.3669519424438477,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "TC3229-c1-085c5f93f0-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.775254726409912,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-307f4a8a1c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.775085926055908,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-b585b43227-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.824423313140869,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-98234ebb72-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.3832461833953857,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-8fba5b6cc5-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.363654613494873,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c7-518393c0a8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 1.471765398979187,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-10f3d5d234-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": -1.1233652830123901,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-a4395ea00d-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -2.1536061763763428,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-64fb168c25-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.390148162841797,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-25e3a41c81-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.142684459686279,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c2-22c653249c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.2397375106811523,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-35a641dbde-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.1486495733261108,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-b26701d3a0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.69528579711914,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-f3524665fa-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": -0.06493622064590454,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-4a7b69dfbb-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.210389614105225,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-f2a7e5f338-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.17044925689697266,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-419bb77150-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.3126095533370972,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-d9b3a62522-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.7942605018615723,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c5-df17d7b225-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.8460206985473633,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-4f008df289-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 4.669497489929199,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-36a11f4ef1-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.802065849304199,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-942f1b2e90-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.067506790161133,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c1-52a88225b2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 6.457289218902588,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-235ddbc7a4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.747392177581787,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-be1b22f870-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 2.7231693267822266,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-6627051fe1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.8922512531280518,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-ab664af3db-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.9223175048828125,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-3e3c0fa15e-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.807954788208008,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-9b01ee5c5c-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.142258167266846,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-55f4555e23-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.817389965057373,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-5412425f4d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.330225467681885,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-b16056f013-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.780670642852783,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-556c7d627b-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.898083209991455,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-47f6f84f69-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.646641254425049,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-e909d21ea5-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.8980170488357544,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-5389169b23-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 0.3118925392627716,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-37cc97c91b-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -2.3003978729248047,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-00b5d63afb-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.489564299583435,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-3387b665bd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 7.392518043518066,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-4379bd4cce-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 0.13564664125442505,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-32f725c339-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.083657264709473,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-916e88e065-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.7636284828186035,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-ca1d01a2fa-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.0512630939483643,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-d730296339-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.925302028656006,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-f352d86ed4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 0.9445492029190063,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-9db745942e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 3.466146945953369,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-0a1394a3bb-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.056506156921387,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-9225c3e0be-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -0.05282291769981384,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-a9f26d55c7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.4037885665893555,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-5915d1202d-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": -0.913062334060669,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-5ce0d8ffa2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 5.066624641418457,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-e9520fab66-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.965585231781006,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c1-35ffe202ac-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": -2.9952545166015625,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-31a9b62636-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 1.3149725198745728,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-41612d055b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 2.255298137664795,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-559252421c-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.7157578468322754,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c4-f3b0768955-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.283044815063477,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-e9ca26f430-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.514099597930908,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-844a57f268-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 6.177827835083008,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-39e388e89c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 2.1424503326416016,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-12141477b1-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.089245319366455,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-e5dd22d004-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 4.519524097442627,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c2-22baa3ff15-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.9252495765686035,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-8bbdcf00d7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.246568202972412,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c7-d4e4235a69-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 1.3304694890975952,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-fe57195929-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.110511779785156,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c7-8ab8a112fb-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": -0.06342370808124542,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-9760cc1db4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 1.886950135231018,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-d46d5b8ec9-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.107822895050049,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-fe088d1f80-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 1.7952748537063599,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-10d377e80e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.427587985992432,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-955821a45c-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 0.4122900664806366,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-f5380d6e21-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.1614112854003906,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-352fba6cd2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 0.5664554834365845,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-72fa259058-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.9986343383789062,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-b264fa19ab-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.318427324295044,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-1dcaa3f781-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.8328642845153809,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-c93a54929a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.8634046316146851,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-83319f4dea-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.0979676246643066,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-31613858a1-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.3832077980041504,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-2ebb01b0c3-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.925434589385986,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-73a21ffea6-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.061808109283447,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-a076811878-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.753860950469971,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-259bc60980-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.321560382843018,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-14ec78eaf8-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.798025131225586,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-61e5e19aeb-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.337867259979248,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c2-ca6baa3203-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 2.8667891025543213,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-fd00620222-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.529489517211914,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-0234079497-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 0.809459924697876,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-f08886409c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.539185881614685,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-495daf655b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.206147193908691,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-ace018378f-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.527254104614258,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-e36b91faed-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.804566860198975,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-5c138268f4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 4.237488746643066,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-2cf5974b92-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.959015369415283,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-9043e3f6a0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.791597843170166,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-2cbf461ec4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 1.1505223512649536,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-10d8fb5ab6-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.637681722640991,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-db328ae88c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": -2.84022855758667,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-555b23507d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.912650227546692,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-5972a79220-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.2589448690414429,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-54b83baa1c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.92843770980835,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c8-81ddb1c0dc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.370707988739014,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-51bd72d1e5-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.539001941680908,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-bcccdaaf1c-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.1919522285461426,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-06df40df76-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.398029327392578,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-e8125d7838-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 1.6525872945785522,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-257e465ca8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 10.114328384399414,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-365aed8def-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -1.4464327096939087,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-a661a28209-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 8.794842720031738,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-568faf04d3-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 0.7522928714752197,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-572a1b63a3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.258763313293457,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-7900d78bc4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": -0.008798986673355103,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP3-c4-7b2086e9a5-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.31744077801704407,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP13-c2-d683578213-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.9018912315368652,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-60df73a6c5-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 2",
+   "top_score": -0.045591577887535095,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP12-c3-8cdb42a9c5-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 4.045295715332031,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-9ae27c468c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.1281630992889404,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-a3143f7274-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.9485111236572266,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-077c1ae129-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.153337001800537,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-8ce04f2343-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.2683029174804688,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-12b39a0baf-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 7.8569769859313965,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-79ef01821c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.896545886993408,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-82e88ca6ae-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.714128017425537,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-c7d4e09117-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.6167333126068115,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-76e99ddfe7-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 0.49537596106529236,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCWP3113-c7-2aa23ba7fe-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.912869453430176,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-a591292e05-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.345783233642578,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-ca48dcec27-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": -1.4947961568832397,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-b80c5e9512-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 8.311234474182129,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-010edb0fd8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 3.687711238861084,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-9a22c67ae9-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.470853328704834,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-005b9408b1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": -2.335596799850464,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c2-a2ee4bc090-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 1.8901329040527344,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-8b9c70aac0-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.70973539352417,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-1be832dc48-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.658601999282837,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-423f7a9c44-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.476700782775879,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c4-9d278cbaca-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.788070201873779,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-5cc6bdfa78-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": 3.193652868270874,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-fd73586513-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 5.98887300491333,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-b011ea94fe-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 5.382617473602295,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-6986d01dcf-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.8032732009887695,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-a1ae950c8f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": -0.10181333124637604,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP11-c2-bb1c48cd53-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 5.769583225250244,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP12-c1-6eefcba31d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 5.381963729858398,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-08d0f88e51-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.5317063331604,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-bdc9d2b05a-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.989927053451538,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-690bc6a85b-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.116314888000488,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-c129c0a889-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.5774778127670288,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP13-c8-3e018c3b79-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 6.37124490737915,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-4cf2e0f73b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 8.260961532592773,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-b5c3ab3973-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": -0.9007971286773682,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-b83b4acc8c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.0599470138549805,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c6-8090551a13-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.272279262542725,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-96e8b74cf7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.9771019220352173,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-3dc953ac1b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.458253860473633,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-17fc697876-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.9209513664245605,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-5954a664ea-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.232466697692871,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-cb7555d937-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 6.677095890045166,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-1b1dd2b108-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.1265201568603516,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-2b976d7b78-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 5.299679279327393,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-421e5687f1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.716688394546509,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-113efe0a52-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 3.9051573276519775,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-0e30a066d8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 2.6451001167297363,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-7b3e970e27-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.860670566558838,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c5-2142c4181c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 4.124969005584717,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-1d370e9794-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.9365863800048828,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-8caed8f8f3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 4.234194755554199,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP7-c2-d55a6f233a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 7",
+   "top_score": 5.194231033325195,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c4-32faca4ae3-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 9.215532302856445,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-57d51f54ab-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 5.3842854499816895,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-b25127088c-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.8719985485076904,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-9478642467-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.696000576019287,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-777d1d25d2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 5.707813262939453,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP7-c2-b6ff795267-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": -0.448767751455307,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP1-c4-6eef1dfe0c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 0.9720487594604492,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-e166d1130e-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.578545093536377,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c4-e67e9d39fe-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 2.8018150329589844,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-48b9c14e86-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.430327892303467,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-bcfdcd75e1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 3.88342022895813,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-76056eb4d8-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.766458034515381,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-6288128b07-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 0.6343899965286255,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-a265b85802-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.419633865356445,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-5693f282cf-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 2.3527560234069824,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-93f4739e05-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 2.319002628326416,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-d939c1f2bb-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 2.9312005043029785,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-1106110bb3-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 0.6017764806747437,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-8b7a38687b-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.247968912124634,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-ec8ba1f6a5-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 5.231345176696777,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-225b80a155-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 0.20118916034698486,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-cc14806818-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 3.7574644088745117,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c4-b17eca5463-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.796675205230713,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-23834742e6-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.8009543418884277,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-f8dfa8004d-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 1.8937638998031616,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-d8bb01e38d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.357641220092773,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-3903daf970-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.641599655151367,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-6efd93a7d9-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.926022529602051,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-9af927e241-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.783833026885986,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c2-d55cfd82db-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 1.5223873853683472,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-0a6b232b6e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.180924892425537,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-7a16a61fb4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.9314689636230469,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-09b03110ff-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.0964419841766357,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-f5e1e16b48-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.798984050750732,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-32b743b152-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.0256547927856445,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-bfe814d5be-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": -0.21128907799720764,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-e91a9b6e00-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 7.696526050567627,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-81df01627c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 3",
+   "top_score": 8.998709678649902,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP5-c2-fe85fe2393-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 0.9113466739654541,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP7-c2-7e25ea1c86-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 7",
+   "top_score": 3.237635612487793,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-e216a8b0f5-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.711817741394043,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-777487e136-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 7.262999057769775,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-051bc003f4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.245375156402588,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-2c33aae129-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 3.9461684226989746,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c6-77e202a1ea-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 4.124128818511963,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-c67bf0c977-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 3.6035728454589844,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c2-b977b1ea22-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 4.546565532684326,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-66231886a1-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.578593730926514,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c1-270da4e8bc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": -0.24490752816200256,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-03ec455348-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.213508129119873,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-1f3d688559-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -0.9557591676712036,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-dca8392865-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.9707565307617188,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-8041f52bbd-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.270394802093506,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-a0e2ce3cda-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.9413347244262695,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-0c9befa6a3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 7.110128402709961,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-785f9015dc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 2.6685173511505127,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCWP3113-c7-7550eadeeb-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 7.08456563949585,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-2387687b01-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": -0.3951967656612396,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-6fce23db7e-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": -0.30700960755348206,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c1-805803bbdb-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 0.564811110496521,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-2ffced3329-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.0685231685638428,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-f66f855c73-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 0.23934060335159302,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-10e9e66c47-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.50585412979126,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c3-2521e570c6-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 6.247909069061279,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-a74bb7573e-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.81724739074707,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-68e16d395e-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.013634204864502,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-d8df86131d-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.039417743682861,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-b603fa5241-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.871145009994507,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-abaf9ca2af-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -0.2015465497970581,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-0a60412992-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": -0.24873483180999756,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-dc68af0048-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 8.96858024597168,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-65c110652b-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.8489251136779785,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-a13909d0e4-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.020357131958008,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-d113c74ae0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.081754684448242,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-2c504157f0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.029760360717773,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c4-46d72163f2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 2.858959436416626,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCWP3113-c7-330d16d1ea-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.511653423309326,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-f0eb8b4f0e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 5.738032817840576,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-870d5c221c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 5.579590320587158,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-21b7e128f7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 2",
+   "top_score": 0.05804821848869324,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP10-c6-c4880d756b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.454392910003662,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-5c1615a6d7-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.71640157699585,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-2611b1296a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.6832051277160645,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-ccaa3075d3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.74345588684082,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-046606b75e-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.576969146728516,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-370a487e26-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 5.851071834564209,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-8c59d02056-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.569912433624268,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-37247a6d7d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.591042995452881,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-73e6283cef-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": -0.2527814507484436,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-a4e776dc47-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": -1.0520488023757935,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-dc6e815843-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.635885715484619,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-dd90c0524d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 3.829228639602661,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-a084de94b9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 6.1135735511779785,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-6d15dbbe87-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 4.8504319190979,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-7ee788b084-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.40251350402832,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-e70085c6c2-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.702739238739014,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-975afbeb88-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": 0.6951498985290527,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-773e2dc0cf-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 0.7670410871505737,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-494e255792-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 7.211338043212891,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-2f21340e52-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.366878032684326,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-f58d3a7730-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.759902477264404,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-4f03675606-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 6.712996959686279,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-c71b097504-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 5",
+   "top_score": 0.6440532207489014,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCWP3113-c7-1022d702f7-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.423862457275391,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-781b4dd44b-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.863533020019531,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-b7ac2da91e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.505002975463867,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-2eafc8c9ef-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.752864360809326,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c4-1c6ab1b229-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.67148208618164,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-796c539621-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.538524150848389,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-152785950e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 2.094475746154785,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c8-c71ae8b1ff-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 1.6360622644424438,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-cc74a2f9ff-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.57357919216156,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-0e36ea0b95-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.705384254455566,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-3efb0ff7df-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": 0.8609429597854614,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-67ed1ba4f4-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.0458157062530518,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-64c7db6a54-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.5216150283813477,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-39076c886f-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.888177394866943,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-1195514d6b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.47898736596107483,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-564b0740a4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.775108337402344,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c3-67625f23fa-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 5.131600856781006,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-5902f286c0-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": 7.135097980499268,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-da491d2152-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 3.8477439880371094,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-4c736706ad-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": -0.9057271480560303,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP6-c3-49884dbd6b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.24137020111084,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-6ca711a83a-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.429863452911377,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-aa47b2fe9c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 3.137251377105713,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c3-c6734eba3c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": -1.9425287246704102,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-0ffa2c37dc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 0.718843936920166,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP3-c3-cccdeba6d3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 1.5671371221542358,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-e9a2159085-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.9065229892730713,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-3a8fddf7a0-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.920006036758423,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-d6ab3c9032-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.287587642669678,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c6-3cfd1bda4e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.4898746013641357,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-b0d3240cda-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 1.8620506525039673,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-610c8ab696-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": -0.8962434530258179,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c4-7d8db31788-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.94834566116333,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-64e1c7871a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.143070220947266,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-4a4fd6d779-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 0.48377731442451477,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-fc87775d5c-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.2322916984558105,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-e83968a50f-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.69255256652832,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-fa6dcd6fbd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.139675140380859,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-26b22d6d9a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.1158344745635986,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP3-c4-cac062fb96-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.25847864151001,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-4971cda110-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.485157489776611,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c6-547462f727-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.401735305786133,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-24d207a05a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 0.41555511951446533,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-c0a501e106-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.735264301300049,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-51a55831d7-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.486801147460938,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-955aac6eb5-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 4.138676643371582,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-2acf530188-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.128147125244141,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-1d4f2ed3b2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.284977436065674,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-03dbd8a265-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.111761093139648,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-6b35700833-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 7.509668350219727,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-f05c6967e1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 0.2910427153110504,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-a54620295f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 1.1118454933166504,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-059fc189bc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 6.838432788848877,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c2-03fd3d8e14-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1",
+   "top_score": 6.663690567016602,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP13-c3-b3d0011665-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.301070690155029,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP6-c3-84be463e5a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 1",
+   "top_score": 0.5292737483978271,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP5-c2-ba9fbb7b84-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.3735315799713135,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-f5666f3c76-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -2.3215906620025635,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-3ab43b2c9e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.417876243591309,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-8b2110d7af-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.1159253120422363,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-3299b4bc79-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 8.148370742797852,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-cf6143dc14-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 6.247395038604736,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-837003f857-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.172300815582275,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-d77b7edd81-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.6008479595184326,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-a1c93ba32d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.4217453002929688,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-47aa540af2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 0.5598444938659668,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-7005cd0514-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.575122594833374,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c5-5b15bea792-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.0270676612854004,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP5-c1-df936ff08d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.3865742683410645,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-c288af03c4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.43742561340332,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-9f35c95225-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.629585862159729,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-fe997468f4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.668616771697998,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-3fe0ccb06e-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.9318089485168457,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-37a4d7059b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.05301570892334,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-7ecbd8e4fd-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 7.490603923797607,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-77c0d488cc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.089051723480225,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP3-c1-a576017243-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": -1.8139861822128296,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "TC3229-c6-9edbf7dc02-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.8533835411071777,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-b759ac4c38-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.8518753051757812,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-e7411d8d4a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": -0.25011810660362244,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-eded9ca231-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.19039538502693176,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-285bb33190-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.221932888031006,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-f459cfb062-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.068289756774902,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-29f09e39ac-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 7.375983715057373,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-295f91a68e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.843704223632812,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-55e626419d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 4.79719877243042,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-aec8f25353-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.8480868339538574,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP10-c13-f7cbcc7a6a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.366614818572998,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-5bcf2b029c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 6.566779613494873,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-2abcbcb49d-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.808823347091675,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-79a3597724-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 0.52530837059021,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-a8a4a5ba81-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.4638123512268066,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-4645c1d35c-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.122182369232178,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c6-ff8ddf8293-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.083617210388184,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-69f17a0aaa-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.0220448970794678,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-6135094737-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 6.172508716583252,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c2-41e7b78ae3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.731867551803589,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-162b20f920-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.471263885498047,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-45fbbf7db4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.115314483642578,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-900d05b825-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 9.05196475982666,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c1-a0a940444c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 0.0035511255264282227,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-d681125c57-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.1973395347595215,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-bfef65a7dc-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.999500274658203,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-5376e97de1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 7.624331951141357,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-cf9e2584a5-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 1.599696397781372,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-ac4edd717a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 4.566287994384766,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-29b9afa72d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.584352970123291,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-8d02973126-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.9113622903823853,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-3f9918eb4d-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.884725570678711,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-31b5e40ec1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 3.942477226257324,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c1-f87f079bc8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 6.0465898513793945,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-00d12562d7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 8.248119354248047,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-9fc73c2546-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.562435150146484,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-481030e527-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.52575421333313,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-8ba3b7fca3-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": 5.998106479644775,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP7-c4-956a2b9609-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 7",
+   "top_score": 3.143500328063965,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-b9e7ade591-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.7827370166778564,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP2-c2-c61d3be2af-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.8478965759277344,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-12b278b081-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.6590421199798584,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-51b62f6fa2-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.7375831604003906,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-501590843c-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": -2.014652729034424,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-eee6253bdb-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.128844738006592,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-4364d424de-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 0.982431173324585,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-0b0f0db901-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 0.9724946022033691,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP5-c2-a3c52b98be-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 3.959409713745117,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-87ec0f38fd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.9767545461654663,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-a686c9d6ef-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 1.6035549640655518,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-67e80e941f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.3109612762928009,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-0bb0b3d461-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 3.61470103263855,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-1635ff90b6-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.7750725746154785,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c5-d5618738a1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.099835395812988,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-ac010a543f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 6.216606616973877,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-82a89b36c6-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.0958175659179688,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP10-c12-34edfc4013-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.116886019706726,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c4-d7929146b8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 4.4854207038879395,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-c0722cfd07-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.444438457489014,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-11920fdc0b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 6.2181715965271,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-e8f56182c0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 3.0380802154541016,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-9d52e9c62d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.986510753631592,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-61d3e6d758-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.741470813751221,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-212f12ba80-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.4107686281204224,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-bffecd890c-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.335131645202637,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-db1b7ad5d8-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": -0.2841840386390686,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-0155f7f5da-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.929018020629883,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-227277b170-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.436955451965332,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-95538a26d6-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.243930339813232,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-f5b85670d2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.356563091278076,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c2-e50628bc38-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 4.720599174499512,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-6dd54d9c1c-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.509720802307129,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-58d0692fe4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.022783041000366,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP10-c7-5f0a44514c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.383224010467529,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-eb72d229ee-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 8.733515739440918,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-9ef7d43251-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.522197246551514,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-3e466b565d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": -2.578242301940918,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCWP3113-c7-27695379f6-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.716419696807861,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-d61ec3a9a0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 1.9672744274139404,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP7-c1-9da9d05c9a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 7",
+   "top_score": 5.357006072998047,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c4-daab78b8f4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.359792947769165,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-e1f1eadca1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.699894905090332,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-392c108783-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.511315822601318,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c7-1ee08b661c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.2733516693115234,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-690964b798-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 5.168600559234619,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-009fd97e6c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.705536127090454,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP7-c1-61b699d21b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 7",
+   "top_score": 4.110649585723877,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-6ca9739a8f-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.661681652069092,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-e824d6a59d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.541126728057861,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-185f4d83b0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 5.939926624298096,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-0ada68128d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 2.4027857780456543,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-611fbb6385-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.284399509429932,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-5e15a8a59f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.073751449584961,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-b840d697d4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 2.959231376647949,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-fb321d063a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 1.5231660604476929,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-3d93d8a6e9-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.830928325653076,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-25a31bead9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.9751179218292236,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-99d79b36fa-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.8006765842437744,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-c98b1f8755-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.4002292156219482,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-aff1d5e7fc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": -1.4699143171310425,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-6ab189a7a2-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.815745830535889,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-4578afef92-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 3.7276415824890137,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-b4d073220c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.204287052154541,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP2-c1-1460d6f614-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.2989922761917114,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-e4d81fcc0b-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 0.1323031485080719,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-9ef2eb279a-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.701903820037842,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-5ee98f1efe-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.899618625640869,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-4eaa93177a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 0.5644197463989258,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP11-c1-5e7e2ca3ee-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 6.610797882080078,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-fecfd69e89-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 1.9139193296432495,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-43adcf37a0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.4559683799743652,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-6fbd5d504f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.1795380115509033,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCWP3113-c7-c0cf2c4529-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.1906349658966064,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-3a53c50d5c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 0.5657087564468384,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-421b622318-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 3.15411376953125,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-563be04c34-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.653963565826416,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c2-d87d825e79-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 0.9148464202880859,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-406ac1c684-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.353612422943115,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-83d328f93f-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.310451984405518,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-4f836f1811-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 4.630764484405518,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-fa88af0c1c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.9498748779296875,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-0780e2268c-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.142446994781494,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-ddf73dac06-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.285165309906006,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-bad7d1daf9-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.211793422698975,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c2-86f764758b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 1.5362539291381836,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-9d97922ee2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 1.6130861043930054,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-d8c3b61965-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.11740493774414,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-9d576913ac-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 1.9441488981246948,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-1cae4c6764-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 4.326267719268799,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-ef29e3cd41-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.1069374084472656,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-b61808231d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.948326110839844,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-d43043476f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 4.465775966644287,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-31a1e406c2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.3290455341339111,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c2-81c098f391-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 3.8464698791503906,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TCCC-c0-015f02f653-0",
+   "kind": "in",
+   "item_pub_id": "TCCC",
+   "top_pub_id": "TCCC",
+   "top_score": 2.3573405742645264,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-9ba8479edf-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 6.884859561920166,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-865ed20459-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.1250433921813965,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-d8839296e4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.2802324295043945,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c2-85646d5ab4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 5.302846431732178,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-4f363181e3-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 0.5265036821365356,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-54d8b5d182-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.291509985923767,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP5-c3-7ad5c2fe37-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.4412119388580322,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-2e7106c4ae-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.694333076477051,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-6c29fd2472-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.4927806854248047,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-74ed0b05d0-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.415198802947998,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-e3476edbaf-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": -1.045893669128418,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-d0c8d12868-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 1.3215993642807007,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-c9fa78f462-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.128223896026611,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-2cd01ef5dd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.598788738250732,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-2bf4df6c78-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.3473901748657227,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c2-74f5a2dc25-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.877031326293945,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c7-d38521c7f1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.1641461849212646,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-57ebe079c9-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.524722099304199,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-4738283972-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.5124969482421875,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP1-c1-c25b51d155-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 3.2717459201812744,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-7aa07696fb-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.912037372589111,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-55d036f7cf-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.9647064208984375,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c6-ac589db568-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.95367431640625,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-36a02f39d3-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.030721187591553,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-ebed4fb4e2-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": -0.4735802710056305,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-53de4d9fa7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 7.077770709991455,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c1-36efd03d5a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.310485363006592,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-4f0bd2978d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.1124614477157593,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-60ae877451-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.553774356842041,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "TC3229-c9-b7661ab4fe-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.620630741119385,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-77a35b98e1-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.3484230041503906,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-21a21438cc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 9.680935859680176,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-a83d4d1a6f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 1.5015023946762085,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-c340ce03dc-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 6.803328037261963,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-7a8b0814d1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 2.1716647148132324,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-bb4fcd3269-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 6.144117832183838,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-f868d3e914-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 0.760412335395813,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP12-c2-2e91a5ed7c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.5326285362243652,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-6c0441ffaa-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 6.188244819641113,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-d9e76bb100-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 3.863046407699585,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-f4aa058c11-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.3828837871551514,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-804c5b39e9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.526732444763184,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-b0ac6bfafd-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.2913641929626465,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c8-8567791571-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.9072235822677612,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-3c7da7057f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.108765602111816,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-b3d94178c4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 3.471792697906494,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-1b92c30105-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 7.038280010223389,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c3-172dfeade5-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.560782790184021,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP6-c2-13e8b92806-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.158093214035034,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c5-98d5927b3d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.7714991569519043,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c7-8491ca8f63-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": -0.1401151567697525,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-10cfa3a6db-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.0851826667785645,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-bb62726b51-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": -1.5395491123199463,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-59506dff57-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 5.435792446136475,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-d6f4f4b565-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 3.366259813308716,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-d3671136b8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 5.47235631942749,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-37a1a43fed-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 8.202169418334961,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-790e843f0d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.299534559249878,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP6-c3-0e5079c67f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 4.033992767333984,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-f91090642c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 5.472593784332275,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-42d7fb6fea-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.5869526863098145,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-f034006970-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.895334720611572,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-6279fd0b32-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 2.4933078289031982,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-3718e55262-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 0.4179692566394806,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-df48192eab-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.04901647567749,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-e9fe83e745-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 1.5508276224136353,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP13-c2-384bcbc6ee-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 1.6573854684829712,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-f7e5514396-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 5.443606853485107,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-d2d5db7baf-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 4.795104503631592,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-9f0636561d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.664754390716553,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-d2f306e650-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 7.195486068725586,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c4-45da961d40-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 7.223968029022217,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c3-6dee515d0e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 4.537225246429443,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-ea28d5e54c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.3586466312408447,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-5a08d1457e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 2.7636213302612305,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c4-ee0904f447-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 2.33559250831604,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-6327b75a67-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.492930889129639,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-072b26f7e7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 0.03473767638206482,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-bac81e1ef6-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.736496925354004,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP7-c3-a998cd4f51-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 7",
+   "top_pub_id": "MCDP 7",
+   "top_score": 1.617061972618103,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-1e16e2bcf4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 2.703181266784668,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-64d3868f4b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 7.249439716339111,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-fe4b9b2561-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.794109344482422,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c8-188606ce9f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 5.242077350616455,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-b39fe11853-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 3.6392288208007812,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c2-c1eb7dc1c2-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.468221664428711,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-390c8666da-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.922119379043579,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-715a8c1f85-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.2880077362060547,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c1-48bad912e7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 1.2399581670761108,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-2e5fa12232-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.734339237213135,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c2-95f66c061e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 6.032509803771973,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c2-1cea4599d1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.2230286598205566,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP13-c4-4245e31d30-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 4.865736484527588,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-6ea6146e70-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.824606418609619,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-77803f4d45-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.958785533905029,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-8ae8e99c49-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.502969741821289,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-50c7f2d256-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 4.37497091293335,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-ac1b6744e2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 7.046923637390137,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-88e3d89b16-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 8.250125885009766,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-d258f29aae-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.4378530979156494,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-dbb5f01cfd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 3.961916446685791,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-c5c9a6e9a7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.224328637123108,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c12-a8694a0609-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.607332229614258,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-0762aae690-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 0.9333771467208862,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-febb3de6ea-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.055701494216919,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-4c09fc8174-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 5.406500339508057,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c5-e0ec79ce89-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.8094801902771,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-0aee5afc9d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.941323757171631,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c2-abbc0d32c2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 0.6929937601089478,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-0e02ba9230-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 5.538794994354248,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-0c9e9a40c1-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.196005344390869,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-834e9dc6d7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 4.788809299468994,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-996e9d518a-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 1.2866579294204712,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-c1678891f4-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 2.11535382270813,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-2f34e64e55-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 6.776767253875732,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-8177a5fdc7-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 6.245334148406982,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-37b557b51f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.401219129562378,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c2-c6ab13231e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.9407153129577637,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-3346a517e0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 2.4016261100769043,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-c465d74cce-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 6.1235175132751465,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-999a06127a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": -0.9361395835876465,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-7cae9b9811-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.2454442977905273,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-8766229d9f-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 7",
+   "top_score": 0.6803802251815796,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP10-c12-ce1ddc071e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.168494701385498,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-55d6f72e3d-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.550144910812378,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-8cba0f27cd-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 6.394620418548584,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-d3b7f2a4e3-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 4.75221586227417,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-5b6132b4e2-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 0.76694655418396,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-4cb45b59f8-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 7.4679131507873535,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-31601d8f7c-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.9803147315979,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c4-10c6e65e82-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 2.44905948638916,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-543b3d7855-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.692227840423584,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c2-894a713404-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.0002881288528442,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-db9dee5d0f-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.704677104949951,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c3-2cff0719dc-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.9991984367370605,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c9-65036a1f5a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 7.406116962432861,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-ba82eb1053-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 5.8899149894714355,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-f0549d6b7e-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 5.395521640777588,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c4-7f5eff9d35-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.6826868057250977,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-af721c1042-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 4.367147922515869,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c6-4d6aa58986-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 2.8816733360290527,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-da35ccbea4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 9.115779876708984,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c1-730b99f6a9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 1.390467882156372,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c4-3fc094f057-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 5.476385593414307,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c2-a7f522cc66-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.8549023866653442,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-3f44c08624-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.87558650970459,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-31c0dc6673-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.018862247467041,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c4-33d4c43126-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 2.2362680435180664,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP13-c2-97d030388d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-3",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 1.5395301580429077,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP6-c2-584c6f7aec-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 2.422513246536255,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c8-84781950b3-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 7.264929294586182,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-1759ef3d19-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.231149911880493,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-1404bbb84d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 7.452378749847412,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-5313eeba4d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 2.509917736053467,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-5806b603b9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 1.4089754819869995,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "MCDP11-c2-e92117662a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 4.625518321990967,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c6-55adba6c19-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 1.0829766988754272,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-a08e5d8319-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.3173295259475708,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c2-6130aff881-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 0.13683375716209412,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c1-b1ae623c1c-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 1.6980217695236206,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c3-b06688935b-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 5.77186393737793,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c1-b373c23d93-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 3.1843929290771484,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c11-9a502e7381-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.0634145736694336,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP2-c2-221bdaea30-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 2",
+   "top_pub_id": "MCDP 2",
+   "top_score": 0.8363465070724487,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-e8369428a5-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": -0.37552717328071594,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-9c5d5d07d0-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 2.896479606628418,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c1-2c98a0da1a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 3.565685272216797,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-f03e4e3fd0-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 8.51952075958252,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-d12bb70c84-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 7.3738250732421875,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c1-30ede1ea5e-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 8.052165985107422,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-a715f9ad4a-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.3951311111450195,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-1b16299acd-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 5.211013317108154,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c13-a4ce8f7271-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 3.5572800636291504,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-9281d029ec-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 3.4354517459869385,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-fba1007c57-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 5.318854808807373,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-353b86413d-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 1.7516075372695923,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c3-53577369e9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 1.7893363237380981,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP6-c3-bb6d96f360-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 6",
+   "top_pub_id": "MCDP 6",
+   "top_score": 1.0963701009750366,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c3-2a2f6ebf62-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-3",
+   "top_score": 3.7546353340148926,
+   "top_is_item_pub": false
+  },
+  {
+   "id": "TC3229-c9-b5618f5f5c-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 3.1624865531921387,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP10-c10-ef97ced96d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-0",
+   "top_pub_id": "MCDP 1-0",
+   "top_score": 4.2550950050354,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCWP3113-c7-dfc73634b5-0",
+   "kind": "in",
+   "item_pub_id": "MCWP 3-11.3",
+   "top_pub_id": "MCWP 3-11.3",
+   "top_score": 3.944464921951294,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP11-c2-3759c6124d-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-1",
+   "top_pub_id": "MCDP 1-1",
+   "top_score": 3.4026987552642822,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c1-7196222b43-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 2.128870964050293,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c7-2d9ad6ba5a-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 5.3886919021606445,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c2-f5919e4855-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 4.811879634857178,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c9-244142c7ba-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 2.993126630783081,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP3-c1-340caf1576-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 3",
+   "top_pub_id": "MCDP 3",
+   "top_score": 3.9215521812438965,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-2a75e075ec-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.009339809417725,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP1-c3-2318c7df26-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1",
+   "top_pub_id": "MCDP 1",
+   "top_score": 3.0234601497650146,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP12-c1-f7dca96edb-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 1-2",
+   "top_pub_id": "MCDP 1-2",
+   "top_score": 3.308549165725708,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-b2b7abf6b4-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 1.5363489389419556,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "MCDP5-c3-e4bcdf58e9-0",
+   "kind": "in",
+   "item_pub_id": "MCDP 5",
+   "top_pub_id": "MCDP 5",
+   "top_score": 4.7414774894714355,
+   "top_is_item_pub": true
+  },
+  {
+   "id": "TC3229-c5-aa0957f94e-0",
+   "kind": "in",
+   "item_pub_id": "TC 3-22.9",
+   "top_pub_id": "TC 3-22.9",
+   "top_score": 6.038659572601318,
+   "top_is_item_pub": true
+  }
+ ],
+ "n": 999,
+ "errors": 0,
+ "generated_s": 3228
+}

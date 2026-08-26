@@ -1,0 +1,12 @@
+{
+  "marks": {
+    "ssh": 40.1,
+    "kernel_up_at_ssh": 20.1,
+    "pre_kernel": 20.0,
+    "services": 41.7,
+    "usable": 60.2
+  },
+  "budget_s": 60.0,
+  "pass": false,
+  "note": "clock starts when the host stops answering, so it includes the shutdown tail; a true power-on excludes that"
+}

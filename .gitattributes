@@ -1,0 +1,15 @@
+# These files get copied to the Jetson and executed there. CRLF line endings break
+# shebangs and shell parsing on Linux, so force LF regardless of host platform.
+*.sh    text eol=lf
+*.py    text eol=lf
+Makefile text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.jsonl text eol=lf
+*.json  text eol=lf
+
+# Images and model weights are never text.
+*.gguf  binary
+*.img   binary
+*.zst   binary
+*.pdf   binary

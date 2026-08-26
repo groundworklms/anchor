@@ -1,0 +1,544 @@
+{
+  "schema_version": 2,
+  "generated_utc": "2026-08-13",
+  "policy": "Public-domain / publicly releasable only. No CUI, FOUO, distribution-restricted, PII, or classified. Ambiguous releasability is skipped and logged, never assumed.",
+  "documents": [
+    {
+      "pub_id": "MCDP 1-0",
+      "pub_title": "Marine Corps Operations",
+      "filename": "MCDP_1-0_Marine_Corps_Operations.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCDP%201-0%20w%20Ch%201-3.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "88b01a40b83cd3a64fb824a389e0bb6668e3ed0126f71b6b3fa633e3fede0a0f",
+      "bytes": 2292589,
+      "pages": 279,
+      "publication_date": null,
+      "pcn": "142 000014 00",
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": [
+          {
+            "finding": {
+              "marking": "NOFORN",
+              "count": 1,
+              "sample": "NOFORN"
+            },
+            "cleared_because": "2026-08-24: References section, PDF p.274. MCDP 1-0 is describing the classification of OTHER publications it cites -- 'Defense Planning and Programming Guidance (Publication is classified SECRET/NOFORN)'. The marking refers to a different document; MCDP 1-0 itself carries Distribution Statement A. No classified content present."
+          },
+          {
+            "finding": {
+              "marking": "classification marking",
+              "count": 2,
+              "sample": "SECRET"
+            },
+            "cleared_because": "2026-08-24: Same References list, PDF p.274 -- SECRET/NOFORN and SECRET/LIMDIS, both naming the classification of cited publications rather than marking this one. Verified the text does not appear in any chunk."
+          }
+        ],
+        "human_review": "Automated screen flagged upper-case SECRET x2. Reviewed 2026-08-13: both are on page 274, in a reference list describing the classification of OTHER documents ('Defense Planning and Programming Guidance (Publication is classified SECRET/NOFORN)'). Not a marking on this document, which carries Distribution Statement A. CLEARED."
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 26,
+        "image_only_pages": [],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "Adobe Acrobat Pro 2017 17 Paper Capture Plug-in"
+      }
+    },
+    {
+      "pub_id": "MCDP 1-1",
+      "pub_title": "Strategy",
+      "filename": "MCDP_1-1_Strategy.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCDP%201-1%20Strategy.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "90465b1684684d0401c469a5388650fd35e4c477d996dfc142c9f9a4b0bacfff",
+      "bytes": 849600,
+      "pages": 122,
+      "publication_date": null,
+      "pcn": null,
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": null
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [
+          5,
+          9,
+          13,
+          15,
+          41,
+          43,
+          69,
+          83,
+          85,
+          111
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "Adobe Acrobat 6.02 Paper Capture Plug-in"
+      }
+    },
+    {
+      "pub_id": "MCDP 1-2",
+      "pub_title": "Campaigning",
+      "filename": "MCDP_1-2_Campaigning.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCDP%201-2%20Campaigning.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "6242f1596113224c84e46b97d0d5bf326ca4bb07745862469d5fa0d19fa208c3",
+      "bytes": 1437836,
+      "pages": 120,
+      "publication_date": null,
+      "pcn": "142 000008 00",
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": null
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [
+          9,
+          39,
+          41,
+          69,
+          103
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "CVISION Technologies"
+      }
+    },
+    {
+      "pub_id": "MCDP 1-3",
+      "pub_title": "Tactics",
+      "filename": "MCDP_1-3_Tactics.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCDP%201-3%20Tactics.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "16c7ba8fe2958587ad06dff6dcb3ac77339f55f6296750b8c5bd423e461e3029",
+      "bytes": 1684572,
+      "pages": 145,
+      "publication_date": "30 July 1997",
+      "pcn": null,
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": null
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [
+          5,
+          9,
+          21,
+          43,
+          45,
+          65,
+          87,
+          97,
+          107,
+          119
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "CVISION Technologies"
+      }
+    },
+    {
+      "pub_id": "MCDP 1",
+      "pub_title": "Warfighting",
+      "filename": "MCDP_1_Warfighting.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCDP%201%20Warfighting.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "51008277a48f89dc4f302715764461086a5e616d520a41b71bdbd3f8f35097c0",
+      "bytes": 681064,
+      "pages": 115,
+      "publication_date": "20 June 1997",
+      "pcn": "142 000006 00",
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": "Automated screen reported no distribution statement. Cover page is an unOCR'd image; rendered page 1 and read it visually 2026-08-13 -- it carries 'DISTRIBUTION STATEMENT A: Approved for public release; distribution is unlimited' and 'PCN 142 000006 00'. CLEARED."
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [
+          1,
+          5,
+          11,
+          31,
+          59,
+          61,
+          79
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "CVISION Technologies"
+      }
+    },
+    {
+      "pub_id": "MCDP 2",
+      "pub_title": "Intelligence",
+      "filename": "MCDP_2_Intelligence.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCDP%202%20Intelligence.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "9c6d353de4b1e2bde76b6e60dd6773c277ba7e32744fcb786443b489948b8571",
+      "bytes": 1234731,
+      "pages": 114,
+      "publication_date": null,
+      "pcn": null,
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": null
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [
+          5,
+          9,
+          37,
+          39,
+          79,
+          81
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "CVISION Technologies"
+      }
+    },
+    {
+      "pub_id": "MCDP 3",
+      "pub_title": "Expeditionary Operations",
+      "filename": "MCDP_3_Expeditionary_Operations.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCDP%203%20Expeditionary%20Operations.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "aa2750a5b8e53ce112ff2ee1fceef581d33b78caa235b9add15dfa2701027462",
+      "bytes": 2568851,
+      "pages": 153,
+      "publication_date": null,
+      "pcn": "142 000009 00",
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": null
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [
+          2,
+          6,
+          10,
+          36,
+          68,
+          70,
+          94,
+          96,
+          132
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "CVISION Technologies"
+      }
+    },
+    {
+      "pub_id": "MCDP 5",
+      "pub_title": "Planning",
+      "filename": "MCDP_5_Planning.pdf",
+      "source_url": "https://www.marines.mil/portals/1/publications/mcdp%205%20planning.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "69d7f5b41c430c17c760161010cffd9410799a9fb166274235f449de33f51424",
+      "bytes": 1056963,
+      "pages": 107,
+      "publication_date": "21 July 1997",
+      "pcn": null,
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": null
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [
+          5,
+          9,
+          35,
+          67,
+          69
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "CVISION Technologies"
+      }
+    },
+    {
+      "pub_id": "MCDP 6",
+      "pub_title": "Command and Control",
+      "filename": "MCDP_6_Command_and_Control.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCDP%206%20Command%20and%20Control.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "967db4d6b56116907d3c6af62de3a65a1e14d2da692c262501d68ddea7cb2529",
+      "bytes": 1437730,
+      "pages": 154,
+      "publication_date": "4 October 1996",
+      "pcn": null,
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": null
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [
+          41,
+          69,
+          113
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "CVISION Technologies"
+      }
+    },
+    {
+      "pub_id": "MCDP 7",
+      "pub_title": "Learning",
+      "filename": "MCDP_7_Learning.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCDP%207.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "117d777efa14e4a06f6c4e62811ed6041edf7cd198ee7d77c932348959923444",
+      "bytes": 2203940,
+      "pages": 81,
+      "publication_date": null,
+      "pcn": "142 000016 00",
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": null
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 32,
+        "image_only_pages": [
+          2,
+          8,
+          28,
+          30,
+          44,
+          64
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "Adobe Acrobat Pro DC 15 Paper Capture Plug-in"
+      }
+    },
+    {
+      "pub_id": "MCWP 3-11.3",
+      "pub_title": "Scouting and Patrolling",
+      "filename": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "source_url": "https://www.marines.mil/Portals/1/Publications/MCWP%203-11.3%20%20Scouting%20and%20Patrolling.pdf",
+      "source_host": "marines.mil - official USMC (MCPEL: publicly releasable publications)",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "browser session (Akamai edge blocks non-browser clients)",
+      "sha256": "1a2dc7ce46439047aefb0f4f2bb17a5dc1fa02c214ca0bfacc541f08990fc4fe",
+      "bytes": 2319051,
+      "pages": 121,
+      "publication_date": null,
+      "pcn": "143 000075 00",
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": [
+          {
+            "finding": {
+              "marking": "classification marking",
+              "count": 1,
+              "sample": "SECRET"
+            },
+            "cleared_because": "2026-08-24: OCR of a BLANK message-form graphic, PDF p.36. 'TOPSEC SECRET CONF' is the pre-printed classification checkbox row on an empty patrol report template, surrounded by OCR noise ('RAi N CO', '762.3 Vjg 5i 4L'). The form is unfilled and carries no content. Verified the text does not appear in any chunk."
+          }
+        ],
+        "human_review": "Automated screen flagged upper-case SECRET x1. Reviewed 2026-08-13: page 36 is an OCR'd image of a blank message form whose printed classification checkbox row reads 'TOPSEC SECRET CONF'. A form template, not a marking. Document carries Distribution Statement A. CLEARED."
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [
+          4,
+          8,
+          10,
+          18,
+          40,
+          46,
+          50,
+          52,
+          58,
+          102,
+          110,
+          120
+        ],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "CVISION Technologies"
+      }
+    },
+    {
+      "pub_id": "TCCC",
+      "pub_title": "Tactical Combat Casualty Care Guidelines",
+      "filename": "TCCC_Guidelines_2026-05-01.pdf",
+      "source_url": "https://learning-media.allogy.com/api/v1/pdf/18ccfdfc-a076-47e9-8a34-376efdd81b43/contents",
+      "source_host": "deployedmedicine.com CDN - the distribution platform JTS/CoTCCC links to from jts.health.mil for the current TCCC Guidelines",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "direct https",
+      "sha256": "0055c81c39f57e36f1b3c1ac82a4e443387b77378b1302c637f80062b83f84ef",
+      "bytes": 313941,
+      "pages": 17,
+      "publication_date": "01 May 2026",
+      "pcn": null,
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": null,
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": "No distribution statement appears anywhere in the document, so the automated screen could not clear it. CLEARED BY JUDGEMENT 2026-08-13, reasoning recorded: absence of a distribution statement is normal formatting for clinical practice guidelines and is not a restriction signal. Published by the Committee on TCCC via jts.health.mil (.mil, no CAC), mirrored openly on deployedmedicine with no login, and printed in the Journal of Special Operations Medicine. The document's purpose is the widest possible dissemination to point-of-injury caregivers. Edition pinned at 01 May 2026 -- TCCC content changes materially between editions, so the edition is part of the citation, not a footnote."
+      },
+      "content_note": "CLINICAL CONTENT. Answers drawn from this document are medical guidance. The citation must always carry the edition date (01 May 2026), because TCCC recommendations change between editions and a stale answer here is worse than an abstention.",
+      "ingest_notes": {
+        "pdf_bookmarks": 0,
+        "image_only_pages": [],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": "Adobe PDF Library 26.1.25"
+      }
+    },
+    {
+      "pub_id": "TC 3-22.9",
+      "pub_title": "Rifle and Carbine",
+      "filename": "TC_3-22.9_Rifle_and_Carbine.pdf",
+      "source_url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN19927_TC_3-22x9_C3_FINAL_WEB.pdf",
+      "source_host": "armypubs.army.mil - official Army Publishing Directorate",
+      "retrieved_utc": "2026-08-13",
+      "retrieval_method": "direct https",
+      "sha256": "268941c0ed41e71e6aa838e39a84f54b7cde853d66f75852b95469f0f0344354",
+      "bytes": 14328641,
+      "pages": 252,
+      "publication_date": "May 2016 (Change 3)",
+      "pcn": null,
+      "releasability": {
+        "cleared_for_ingest": true,
+        "distribution_statement": "A",
+        "statement_text": "Approved for public release; distribution is unlimited",
+        "verified_by": "src/ingest/inspect_corpus.py + human review where noted",
+        "verified_utc": "2026-08-13",
+        "positive_evidence": true,
+        "blocked_by": null,
+        "adjudicated_findings": null,
+        "human_review": null
+      },
+      "content_note": null,
+      "ingest_notes": {
+        "pdf_bookmarks": 1827,
+        "image_only_pages": [],
+        "image_only_pages_reviewed": "all 73 rendered and ink-measured 2026-08-25 (corpus/image_page_inspection.json); 72 blank, 1 with content (MCDP 1 p.1 cover, Distribution Statement A, visually confirmed)",
+        "ocr_producer": ""
+      }
+    }
+  ],
+  "totals": {
+    "documents": 13,
+    "blocked": 0,
+    "cleared_for_ingest": 13,
+    "pages": 1780
+  },
+  "excluded": {
+    "Joint Publications": "DELIBERATELY EXCLUDED 2026-08-13. jcs.mil publishes zero PDF links; the Joint Electronic Library moved behind CAC-gated JEL+ (jdeis.js.mil). GPO govinfo hosts only the superseded 11 August 2011 JP 3-0 -- the current publication is retitled 'Joint Campaigns and Operations'. Superseded doctrine is the one thing that must not enter a corpus whose product is trustworthy, citable answers. This exclusion is load-bearing, not a gap: joint-doctrine questions are now genuine out-of-corpus questions, so the abstention behaviour is demonstrated against a real corpus boundary rather than a contrived one. See eval/out_of_corpus.jsonl rows ooc-025 through ooc-028."
+  },
+  "known_scope_limits": {
+    "MCWP/MCRP/MCTP series (beyond MCWP 3-11.3)": "The MCPEL listing service returned 'ArticleCS is currently unavailable' during acquisition, so the series could not be enumerated programmatically. The set here was assembled by probing known publication paths and is CURATED, NOT EXHAUSTIVE. Re-run enumeration when MCPEL recovers if fuller series coverage is wanted."
+  }
+}

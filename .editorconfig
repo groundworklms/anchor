@@ -1,0 +1,25 @@
+# LF everywhere. A CRLF checkout on the Windows workstation is scp'd byte-for-byte to the
+# device, where /bin/sh fails on the first line with "set: Illegal option -" -- which
+# reads like a script bug rather than a line-ending problem and cost a real debugging
+# round. scripts/push.sh strips CR at the transfer boundary as a second line of defence.
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+indent_style = space
+
+[*.py]
+indent_size = 4
+max_line_length = 90
+
+[*.{html,js,css,json,yaml,yml}]
+indent_size = 2
+
+[Makefile]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false

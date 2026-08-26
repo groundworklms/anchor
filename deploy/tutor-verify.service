@@ -1,0 +1,17 @@
+[Unit]
+Description=Doctrine tutor HHEM grounding verifier (loopback :8083)
+After=network.target
+
+[Service]
+Type=simple
+User=vanguard
+Environment=CUDA_VISIBLE_DEVICES=
+Environment=HF_HUB_OFFLINE=1
+Environment=TRANSFORMERS_OFFLINE=1
+Environment=LD_LIBRARY_PATH=/home/vanguard/.local/lib/python3.10/site-packages/nvidia/cublas/lib:/home/vanguard/.local/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib:/home/vanguard/.local/lib/python3.10/site-packages/nvidia/cu12/lib
+ExecStart=/usr/bin/python3 /opt/tutor/verifier_server.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

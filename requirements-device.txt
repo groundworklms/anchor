@@ -1,0 +1,18 @@
+# Runs ON the Jetson: serving only. Versions are what is actually installed on
+# orin-vanguard (JetPack 6.2.1 / L4T R36.4.3 / Ubuntu 22.04 / Python 3.10.12), read from
+# the device rather than chosen here -- the guardrail is that every pin is a fact.
+#
+#   python3 -m pip install -r requirements-device.txt
+#
+# NOT listed, deliberately:
+#   llama.cpp   built from source, CUDA, commit a94d563 (see DECISIONS.md D-002)
+#   PyGObject   3.42.1, needed only by scripts/kiosk.py and installed as a SYSTEM package
+#               (python3-gi + gir1.2-webkit2-4.0). pip-installing it would build against
+#               the wrong GLib. Both were already on the JetPack image.
+#   PyMuPDF     ingest runs on the workstation, never on the device.
+
+fastapi==0.141.1
+uvicorn==0.52.3
+pydantic==2.13.4
+sqlite-vec==0.1.9
+PyYAML==5.4.1

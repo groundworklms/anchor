@@ -1,0 +1,1356 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anchor — offline doctrine tutor</title>
+<style>
+/* Air-gapped: system font stack only. No CDN, no remote anything. */
+:root {
+  color-scheme: dark;
+  --bg:        #0e0e0d;
+  --surface-1: #171716;
+  --surface-2: #201f1e;
+  --line:      #34332e;
+  --line-soft: #262521;
+  --text-1:    #ffffff;
+  --text-2:    #c3c2b7;
+  --text-3:    #8b8a80;
+
+  /* Status palette — reserved, never decorative, never colour alone. */
+  --good:     #0ca30c;
+  --warning:  #fab219;
+  --critical: #d03b3b;
+  --accent:   #3987e5;
+
+  /* Text-tier status colours (closes C4 / docs/ACCESSIBILITY.md finding 10, SC 1.4.3).
+     The saturated tokens above are tuned as FILLS and dots — they carry meaning at size
+     and pass non-text contrast — but as small TEXT on the dark surfaces they fall below
+     the 4.5:1 WCAG 2.1 AA floor. Measured from the source (alpha tints composited on
+     --surface-1): --critical on the .verdict.incorrect / .flag.UNGROUNDED tint = 3.25:1,
+     --good on the .state.mastered / .verdict.correct tint = 4.42:1. Both fail at 12–13px.
+     Lightening the base tokens themselves would dim the .ok button, the calbars and every
+     status dot, so the fix is a second, lighter tier used ONLY for small text and small
+     badges while the saturated originals stay for fills/dots/bars. Recomputed contrast:
+     --good-text #0daf0d = 5.05:1 on the good tint, 6.11:1 on --surface-1;
+     --critical-text #ff5757 = 5.02:1 on the crit tint, 5.77:1 on --surface-1 — both clear
+     4.5:1 at badge sizes. --warning already passes everywhere as text (worst case 7.06:1),
+     so --warning-text equals it; the token exists so every small status label routes
+     through a *-text variant and the rule stays legible: saturated = fill, *-text = text.
+     This file is single-theme (color-scheme:dark, data-theme="dark" hard-set on <html>,
+     no prefers-color-scheme block anywhere), so the tokens are defined once here to match
+     the file's actual structure rather than a light/dark split it does not have. */
+  --good-text:     #0daf0d;
+  --warning-text:  #fab219;
+  --critical-text: #ff5757;
+
+  /* Button-fill status colours (closes the last C4 / SC 1.4.3 gap: the saturated FILLS
+     under white text). The verdict pills were already fixed by the *-text tier above —
+     they are tinted backgrounds with light text and measure good-text 5.05:1, critical-text
+     5.02:1, warning-text 7.07:1 on their tints, so they need nothing here. What remained was
+     the solid-fill buttons carrying #fff:
+       .primary  #fff on --accent  #3987e5 = 3.64:1   (rendered 17px/700)
+       .ok       #fff on --good    #0ca30c = 3.35:1   (rendered 17px/700)
+     Both render at 17px bold. WCAG's large-text exemption (3:1) only starts at 18.66px bold,
+     so at their ACTUAL size these are normal text and owe the full 4.5:1 — the 19px size-bump
+     the audit floated does not apply until they are actually 19px, and darkening the fill is
+     the fix that holds at any size. The base --accent/--good tokens are NOT touched: they are
+     tuned as fills/dots/bars/borders where they pass 3:1 non-text contrast, and darkening them
+     globally would dim every progress bar and status dot. So a fill-only tier, minimally
+     darkened along the same hue to just clear 4.5:1 white text:
+       --accent-fill #3277ca : #fff = 4.54:1  (blue identity preserved; this is the exact
+                               darkened accent the accessibility audit named)
+       --good-fill   #0a880a : #fff = 4.63:1  (same green hue, R=B kept minimal)
+     .danger is not a fill at all — it is --critical text on transparent (--surface-1) at
+     3.73:1; it routes to the existing --critical-text (5.77:1 on --surface-1), the same text
+     tier the verdict/flag badges use. Measured with the sRGB WCAG formula; see docs/ACCESSIBILITY.md. */
+  --accent-fill:   #3277ca;
+  --good-fill:     #0a880a;
+}
+/* Metadata sits at 13-15px rather than 11-12px: the smaller tier passed contrast and
+   was still unreadable from four feet, which is the distance the brief specifies. The
+   citation under a source paragraph was the smallest text on screen and is the single
+   thing the product exists to show. */
+
+/* Visually hidden but available to assistive technology. display:none would remove it
+   from the accessibility tree, which defeats the purpose. */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+           overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+* { box-sizing: border-box; }
+/* The drawer is fixed and translated off-screen to the right; it still contributes to
+   scrollWidth, so without this the page scrolls sideways to reveal a panel that is
+   supposed to be hidden. WCAG 1.4.10 requires reflow with no horizontal scroll. */
+html, body { margin: 0; height: 100%; overflow-x: hidden; }
+body {
+  background: var(--bg); color: var(--text-1);
+  font: 400 17px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+button { font: inherit; cursor: pointer; border: 0; border-radius: 10px; }
+.muted { color: var(--text-3); }
+
+/* ---- header: deliberately thin ---------------------------------------- */
+/* The learner's screen is for learning. Connection state stays visible -- a judge can
+   pull the cable and watch it flip -- but as a chip, not a billboard. The full trust
+   story lives behind "See how it works". */
+header {
+  display: flex; align-items: center; gap: 16px;
+  padding: 12px 22px; border-bottom: 1px solid var(--line);
+  background: var(--surface-1); flex: none;
+}
+.brand { font-size: 19px; font-weight: 700; letter-spacing: .2px; }
+.brand small { display: block; font-size: 13px; font-weight: 500;
+               color: var(--text-3); letter-spacing: 1.4px; text-transform: uppercase; }
+.chip { display: inline-flex; align-items: center; gap: 7px; padding: 6px 12px;
+        border-radius: 20px; font-size: 13px; font-weight: 600;
+        border: 1px solid var(--line); color: var(--text-2); white-space: nowrap; }
+.chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--text-3); }
+body[data-net="OFFLINE"]          .chip .dot { background: var(--good); }
+body[data-net="LINK_NO_INTERNET"] .chip .dot { background: var(--warning); }
+body[data-net="ONLINE"]           .chip .dot { background: var(--critical); }
+.spacer { margin-left: auto; }
+.ghost { background: transparent; color: var(--text-2);
+         border: 1px solid var(--line); padding: 9px 16px; font-size: 14px; }
+.ghost:hover { color: var(--text-1); border-color: var(--accent); }
+
+.rail { flex: 1; max-width: 320px; min-width: 0; }
+.rail .bar { height: 7px; background: var(--surface-2); border-radius: 4px;
+             overflow: hidden; }
+.rail .fill { height: 100%; background: var(--accent); width: 0; transition: width .4s; }
+.rail .cap { font-size: 13px; color: var(--text-3); margin-top: 4px; }
+
+/* ---- main ------------------------------------------------------------- */
+main { flex: 1; min-height: 0; overflow: auto; display: flex;
+       justify-content: center; padding: 26px 22px 60px; }
+.col { width: 100%; max-width: 1320px; min-width: 0; }
+
+/* Reading views keep the measure; the dashboard gets the room. */
+#view-practice > .card,
+#view-cal > .card,
+#view-hist > .card,
+#view-review > .card { max-width: 880px; margin-left: auto; margin-right: auto; }
+
+/* Below this the five header items cannot share a row. The rail goes first: it is a
+   duplicate of the counts on the home screen, not unique information. */
+@media (max-width: 760px) {
+  header { flex-wrap: wrap; row-gap: 8px; padding: 10px 14px; }
+  .rail { display: none; }
+  .brand { font-size: 17px; }
+  .brand small { display: none; }
+}
+
+.card { background: var(--surface-1); border: 1px solid var(--line);
+        border-radius: 14px; padding: 26px; min-width: 0; }
+.card + .card { margin-top: 16px; }
+
+h1 { font-size: 27px; margin: 0 0 6px; }
+h2 { font-size: 13px; font-weight: 700; letter-spacing: 1.4px;
+     text-transform: uppercase; color: var(--text-3); margin: 0 0 14px; }
+.crumb { font-size: 14px; letter-spacing: 1.2px; text-transform: uppercase;
+         color: var(--text-3); margin-bottom: 12px; }
+
+/* ---- the question ----------------------------------------------------- */
+.qtext { font-size: 27px; line-height: 1.38; font-weight: 600;
+         overflow-wrap: anywhere; }
+textarea { width: 100%; min-height: 130px; margin-top: 18px; padding: 15px;
+           background: var(--surface-2); color: var(--text-1); font: inherit;
+           font-size: 18px; border: 2px solid var(--line); border-radius: 10px;
+           resize: vertical; }
+textarea:focus { outline: none; border-color: var(--accent); }
+
+/* Confidence is asked BEFORE the answer is revealed. Four options, no neutral middle. */
+.conf { margin-top: 20px; }
+.conf .q { font-size: 15px; color: var(--text-2); margin-bottom: 9px; }
+.confbtns { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 9px; }
+.confbtns button { background: var(--surface-2); color: var(--text-2);
+                   border: 2px solid var(--line); padding: 13px 8px; font-size: 15px;
+                   font-weight: 600; }
+.confbtns button.on { border-color: var(--accent); color: var(--text-1);
+                      background: #17263a; }
+.actions { display: flex; gap: 12px; margin-top: 20px; align-items: center;
+           flex-wrap: wrap; }
+.primary { background: var(--accent-fill); color: #fff; font-weight: 700;
+           font-size: 17px; padding: 14px 30px; }  /* fill darkened to 4.54:1 white text (SC 1.4.3) */
+.primary:disabled { opacity: .45; cursor: default; }
+
+/* ---- feedback --------------------------------------------------------- */
+.verdict { display: inline-flex; align-items: center; gap: 9px; padding: 9px 18px;
+           border-radius: 22px; font-weight: 700; font-size: 17px; }
+.verdict.correct   { background: rgba(12,163,12,.16);  color: var(--good-text); }
+.verdict.partial   { background: rgba(250,178,25,.16); color: var(--warning-text); }
+.verdict.incorrect { background: rgba(208,59,59,.16);  color: var(--critical-text); }
+.kp { margin-top: 18px; }
+.kp div { padding: 9px 14px; border-radius: 8px; margin-bottom: 7px; font-size: 16px;
+          overflow-wrap: anywhere; }
+.kp .hit  { background: rgba(12,163,12,.10);  color: var(--text-1); }
+.kp .miss { background: rgba(250,178,25,.10); color: var(--text-1); }
+.src { margin-top: 20px; padding: 16px 18px; background: var(--surface-2);
+       border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0;
+       font-size: 16px; color: var(--text-2); overflow-wrap: anywhere; }
+.src .cite { display: block; margin-top: 10px; font-size: 15px; color: var(--text-3); }
+
+/* ---- calibration ------------------------------------------------------ */
+/* Two measures per row: what the learner claimed, and what was true. Direct-labelled
+   rather than legended -- there are only two and they are always adjacent. */
+.cal { margin-top: 6px; }
+.calrow { display: grid; grid-template-columns: 104px minmax(0,1fr) 88px;
+          gap: 14px; align-items: center; padding: 11px 0;
+          border-bottom: 1px solid var(--line-soft); }
+.calrow:last-child { border-bottom: 0; }
+.calrow .lbl { font-size: 14px; color: var(--text-2); }
+.calbars { min-width: 0; }
+.calbar { height: 11px; border-radius: 3px; background: var(--surface-2);
+          position: relative; margin: 3px 0; }
+.calbar i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px;
+            display: block; }
+.calbar.stated i { background: var(--text-3); }
+.calbar.actual i { background: var(--good); }
+.calbar.actual.under i { background: var(--warning); }
+.caltag { font-size: 13px; color: var(--text-3); }
+.calnum { font-size: 14px; text-align: right; white-space: nowrap; }
+.calnum b { font-size: 17px; }
+.gap-warn { color: var(--warning-text); }
+
+/* ---- track ------------------------------------------------------------ */
+.sec { display: flex; align-items: center; gap: 12px; padding: 10px 0;
+       border-bottom: 1px solid var(--line-soft); min-width: 0; }
+.sec:last-child { border-bottom: 0; }
+.sec .name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;
+             white-space: nowrap; font-size: 16px; }
+.sec .state { font-size: 13px; padding: 3px 10px; border-radius: 12px;
+              white-space: nowrap; font-weight: 600; }
+.state.mastered { background: rgba(12,163,12,.16);  color: var(--good-text); }
+.state.shaky    { background: rgba(250,178,25,.16); color: var(--warning-text); }
+.state.new      { background: var(--surface-2); color: var(--text-3); }
+.chapter-title { font-size: 13px; letter-spacing: 1.3px; text-transform: uppercase;
+                 color: var(--text-3); margin: 20px 0 4px; }
+
+/* ---- review (instructor) ---------------------------------------------- */
+/* A different product for a different person. Keyboard-first, because reviewing 74
+   items with a mouse is how a reviewer starts rubber-stamping. */
+.rvhead { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+          margin-bottom: 14px; }
+.rvcount { font-size: 15px; color: var(--text-3); }
+.flag { display: inline-block; padding: 5px 11px; border-radius: 7px; font-size: 14px;
+        margin: 0 7px 7px 0; overflow-wrap: anywhere; }
+.flag.UNGROUNDED_KEY_POINT { background: rgba(208,59,59,.16); color: var(--critical-text); }
+.flag.ANSWER_LEAKED { background: rgba(250,178,25,.16); color: var(--warning-text); }
+.flag.SHAPE { background: var(--surface-2); color: var(--text-2); }
+.flag.PRECHECK_FAILED { background: var(--surface-2); color: var(--text-3); }
+.flag.none { background: var(--surface-2); color: var(--text-3); }
+.rvq { font-size: 22px; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+.rvedit { width: 100%; font: inherit; font-size: 17px; padding: 12px;
+          background: var(--surface-2); color: var(--text-1);
+          border: 2px solid var(--line); border-radius: 9px; }
+.rvedit:focus { outline: none; border-color: var(--accent); }
+.rvpts { margin: 14px 0 0; padding-left: 20px; }
+.rvpts li { font-size: 16px; color: var(--text-2); margin: 5px 0;
+            overflow-wrap: anywhere; }
+/* Stays at 12px deliberately: single capitals in a badge, on the instructor
+   review screen only -- never on the learner path or the demo script. */
+.keyhint { font-size: 12px; color: var(--text-3); margin-left: 6px; }
+.danger { background: transparent; color: var(--critical-text);
+          border: 1px solid rgba(208,59,59,.5); padding: 13px 22px; font-weight: 600; }
+          /* text was --critical (3.73:1 on --surface-1); --critical-text = 5.77:1 (SC 1.4.3) */
+.ok { background: var(--good-fill); color: #fff; font-weight: 700; padding: 13px 26px; }
+     /* fill darkened to 4.63:1 white text (SC 1.4.3) */
+
+/* ---- admin drawer ----------------------------------------------------- */
+.scrim { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: none; z-index: 40; }
+.scrim.open { display: block; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(560px, 96vw);
+          background: var(--surface-1); border-left: 1px solid var(--line);
+          transform: translateX(100%); transition: transform .22s ease;
+          z-index: 50; display: flex; flex-direction: column; }
+.drawer.open { transform: translateX(0); }
+.drawer header { background: transparent; }
+.drawer .body { flex: 1 1 auto; min-height: 0; overflow-y: auto;
+                padding: 20px 22px 40px; min-width: 0; }
+.kv { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0;
+      border-bottom: 1px solid var(--line-soft); min-width: 0; }
+.kv:last-child { border-bottom: 0; }
+.kv span:first-child { color: var(--text-3); font-size: 14px; }
+.kv span:last-child { color: var(--text-2); font-size: 15px; white-space: nowrap; }
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px;
+        margin-bottom: 6px; }
+.pair .n { font-size: 30px; font-weight: 700; line-height: 1.05; white-space: nowrap;
+           color: var(--text-1); }
+.pair .l { font-size: 13px; text-transform: uppercase; letter-spacing: .6px;
+           color: var(--text-3); }
+.pair .good .n { color: var(--good); }
+.pair .warn .n { color: var(--warning); }
+.block { margin-bottom: 22px; }
+.banner-full { padding: 14px 16px; border-radius: 10px; font-size: 20px;
+               font-weight: 700; display: flex; align-items: center; gap: 12px; }
+body[data-net="OFFLINE"]          .banner-full { background: #0f2a0f; color: var(--good); }
+body[data-net="LINK_NO_INTERNET"] .banner-full { background: #2e2410; color: var(--warning); }
+body[data-net="ONLINE"]           .banner-full { background: #2e1414; color: var(--critical); }
+/* Counts, not chips. These are the numbers a learner steers by, and at four feet a
+   20px number inside a pill is indistinguishable from a label. */
+.duerow { display: flex; gap: 34px; flex-wrap: wrap; margin: 4px 0 26px; }
+.duestat b { display: block; font-size: 42px; line-height: 1; font-weight: 700;
+             color: var(--text-1); letter-spacing: -1px; }
+.duestat span { display: block; font-size: 14px; letter-spacing: 1.2px;
+                text-transform: uppercase; color: var(--text-3); margin-top: 7px; }
+.duestat.now b { color: var(--warning-text); }
+
+.hero { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; }
+@media (min-width: 1080px) {
+  .hero { grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 40px; }
+  .hero .heroact { text-align: right; white-space: nowrap; }
+}
+/* A grid, not a list. Thirteen publications in a single column is a wall on any screen
+   wide enough to show three. */
+.pubgrid { display: grid; gap: 14px;
+           grid-template-columns: repeat(auto-fill, minmax(268px, 1fr)); }
+.pubcard { display: block; text-align: left; width: 100%; font-family: inherit;
+           background: var(--surface-2); border: 1px solid var(--line);
+           border-radius: 12px; padding: 18px 18px 16px; cursor: pointer;
+           min-width: 0; transition: border-color .15s, transform .15s; }
+.pubcard:hover { border-color: var(--accent); transform: translateY(-1px); }
+.pubcard .pcid { display: block; font-weight: 700; font-size: 19px; color: var(--text-1);
+                 letter-spacing: -.2px; }
+.pubcard .pcname { display: block; color: var(--text-3); font-size: 14px; margin: 3px 0 16px;
+                   overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* display:block is load-bearing: a span stays inline, and height is ignored on an
+   inline box. The old list layout got away without it only because the flex parent
+   blockified its children -- here the bar grew to fit its child and shoved the caption
+   clean out of the card. */
+.pubcard .pcbar { display: block; height: 6px; border-radius: 4px;
+                  background: var(--bg); overflow: hidden; }
+.pubcard .pcbar i { display: block; height: 100%; background: var(--accent);
+                    min-width: 0; }
+.pubcard .pcn { display: block; font-size: 14px; color: var(--text-3); margin-top: 9px; }
+.pubcard .pcn b { color: var(--text-2); font-weight: 600; }
+.backlink { background: none; border: 0; color: var(--text-3); font-size: 14px;
+            cursor: pointer; padding: 0 0 12px; font-family: inherit; }
+.backlink:hover { color: var(--text-1); }
+.histrow { display: flex; align-items: baseline; gap: 14px; padding: 11px 0;
+           border-bottom: 1px solid var(--line-soft); min-width: 0; }
+.histrow .v { font-size: 13px; font-weight: 700; white-space: nowrap; width: 84px; }
+.histrow .v.correct { color: var(--good-text); }
+.histrow .v.partial { color: var(--warning-text); }
+.histrow .v.incorrect { color: var(--critical-text); }
+.histrow .q { flex: 1; min-width: 0; color: var(--text-2); font-size: 15px;
+              overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.histrow .c { font-size: 14px; color: var(--text-3); white-space: nowrap; }
+.hint { font-size: 14px; color: var(--text-3); margin-top: 8px; line-height: 1.45; }
+.askbox { display: flex; gap: 10px; margin-top: 10px; }
+.askbox input { flex: 1; min-width: 0; font: inherit; font-size: 15px; padding: 11px 13px;
+                background: var(--surface-2); color: var(--text-1);
+                border: 2px solid var(--line); border-radius: 9px; }
+.askbox input:focus { outline: none; border-color: var(--accent); }
+
+/* ---- learner identity (shared-appliance convenience, D-050) ------------ */
+.whoami { display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+          margin: 0 0 6px; }
+.whoami .wholbl { font-size: 13px; letter-spacing: 1.2px; text-transform: uppercase;
+                  color: var(--text-3); }
+.whoinput { font: inherit; font-size: 15px; padding: 8px 12px; min-width: 180px;
+            background: var(--surface-2); color: var(--text-1);
+            border: 2px solid var(--line); border-radius: 9px; }
+.whoinput:focus { outline: none; border-color: var(--accent); }
+.whoami .ghost { padding: 8px 14px; }
+
+/* ---- instructor class overview ---------------------------------------- */
+.insec { display: flex; align-items: center; gap: 14px; padding: 11px 0;
+         border-bottom: 1px solid var(--line-soft); min-width: 0; }
+.insec:last-child { border-bottom: 0; }
+.insec .name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;
+               white-space: nowrap; font-size: 16px; }
+/* Bars are FILLS, so they keep the saturated status tokens, not the *-text tier. */
+.insec .inbar { flex: 0 0 120px; height: 8px; background: var(--surface-2);
+                border-radius: 4px; overflow: hidden; }
+.insec .inbar i { display: block; height: 100%; background: var(--good); }
+.insec.mid .inbar i { background: var(--warning); }
+.insec.low .inbar i { background: var(--critical); }
+.insec .inpct { flex: 0 0 46px; text-align: right; font-size: 15px; font-weight: 600;
+                color: var(--text-2); }
+.insec .inn { flex: 0 0 62px; text-align: right; font-size: 14px; color: var(--text-3);
+              white-space: nowrap; }
+</style>
+</head>
+<body data-net="UNKNOWN">
+
+<header>
+  <div class="brand" id="brand">Anchor<small id="brandsub">Marine Corps doctrine, offline</small></div>
+  <div class="rail">
+    <div class="bar"><div class="fill" id="railfill"></div></div>
+    <div class="cap" id="railcap">loading…</div>
+  </div>
+  <div class="spacer"></div>
+  <span class="chip" id="netchip" role="status" aria-live="polite">
+    <span class="dot" aria-hidden="true"></span><span id="nettext">checking…</span></span>
+  <button class="ghost" id="opencal">Calibration</button>
+  <button class="ghost" id="openadmin">See how it works</button>
+</header>
+
+<main>
+  <div class="col">
+
+    <section id="view-home">
+      <div class="card">
+        <div class="hero">
+          <div>
+            <div class="whoami">
+              <span class="wholbl">Studying as</span>
+              <label for="learnername" class="sr-only">Your name, for tracking your own progress on this shared device</label>
+              <input id="learnername" class="whoinput" list="knownlearners" autocomplete="off"
+                     spellcheck="false" placeholder="your name (optional)"
+                     aria-describedby="whohint">
+              <datalist id="knownlearners"></datalist>
+              <button class="ghost" id="setlearner">Switch</button>
+            </div>
+            <div class="hint" id="whohint" style="margin:0 0 10px">
+              Several Marines can share this box and keep separate progress — no password,
+              it just keeps your answers under your name.
+            </div>
+            <h1 id="homeh1">Recall practice</h1>
+            <p class="muted" style="margin:0 0 4px;max-width:64ch" id="homelede">
+              Short recall drills straight from doctrine. You answer from memory, then see
+              the exact paragraph you should have recalled — with the printed page, so you
+              can check it in the book.
+            </p>
+            <div class="duerow" id="duerow"></div>
+            <div class="hint" id="homehint" style="margin-top:0"></div>
+          </div>
+          <div class="heroact">
+            <button class="primary" id="startbtn">Start practising</button>
+            <div style="margin-top:10px">
+              <button class="ghost" id="openhist">Recent answers</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Your progress</h2>
+        <div id="track"></div>
+      </div>
+    </section>
+
+    <section id="view-practice" style="display:none">
+      <div class="card">
+        <div class="crumb" id="qcrumb"></div>
+        <div class="qtext" id="qtext" role="status" aria-live="polite">…</div>
+
+        <div id="answerblock">
+          <label for="ans" class="sr-only">Your answer, from memory</label>
+          <textarea id="ans" aria-label="Your answer, from memory"
+            placeholder="Answer from memory. Don't look it up — recalling it is the point."></textarea>
+          <div class="conf">
+            <div class="q">Before you submit — how sure are you?</div>
+            <div class="confbtns" id="confbtns" role="radiogroup"
+                 aria-label="How sure are you, before you submit?"></div>
+          </div>
+          <div class="actions">
+            <button class="primary" id="submit" disabled>Submit answer</button>
+            <span class="muted" id="submithint">Write an answer and pick a confidence.</span>
+          </div>
+        </div>
+
+        <div id="feedback" style="display:none">
+          <div id="verdictrow" role="status" aria-live="assertive"></div>
+          <div class="kp" id="kp"></div>
+          <div class="src" id="src"></div>
+          <div class="actions">
+            <button class="primary" id="nextq">Next question</button>
+            <button class="ghost" id="backhome">Back to progress</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-review" style="display:none">
+      <div class="card">
+        <div class="rvhead">
+          <h1 style="margin:0">Review questions</h1>
+          <span class="rvcount" id="rvcount"></span>
+        </div>
+        <p class="muted" style="margin:0 0 18px;font-size:15px">
+          No question reaches a Marine until you approve it. The flags are automatic
+          hints, not verdicts &mdash; read the source paragraph and decide.
+        </p>
+
+        <div id="rvbody">
+          <div class="crumb" id="rvcrumb"></div>
+          <div id="rvflags"></div>
+          <div class="rvq" id="rvq"></div>
+          <input class="rvedit" id="rvqedit" style="display:none"
+                 aria-label="Edit the question wording">
+          <ul class="rvpts" id="rvpts"></ul>
+          <textarea class="rvedit" id="rvptsedit" rows="4" style="display:none"
+                    aria-label="Key points, one per line"></textarea>
+          <div class="src" id="rvsrc"></div>
+          <div class="actions">
+            <button class="ok" id="rvapprove">Approve <span class="keyhint">A</span></button>
+            <button class="danger" id="rvreject">Reject <span class="keyhint">R</span></button>
+            <button class="ghost" id="rvedit">Edit wording <span class="keyhint">E</span></button>
+            <button class="ghost" id="rvskip">Skip <span class="keyhint">S</span></button>
+          </div>
+        </div>
+        <div class="actions" style="border-top:1px solid var(--line-soft);padding-top:16px">
+          <button class="ghost" id="rvbulk">Clear the unflagged in bulk</button>
+          <button class="ghost" id="rvback">Done reviewing</button>
+        </div>
+        <div class="hint" id="rvbulkhint">
+          Bulk-clearing is recorded separately from individual review, so the audit trail
+          never claims a question was read when it was only screened.
+        </div>
+      </div>
+    </section>
+
+    <section id="view-hist" style="display:none">
+      <div class="card">
+        <h1 style="margin:0 0 6px">Recent answers</h1>
+        <p class="muted" style="margin:0 0 18px;font-size:15px">
+          What you said you knew, next to what you actually recalled.
+        </p>
+        <div id="histrows"></div>
+        <div class="actions"><button class="ghost" id="histback">Back</button></div>
+      </div>
+    </section>
+
+    <section id="view-cal" style="display:none">
+      <div class="card">
+        <h1>How well do you know what you know?</h1>
+        <p class="muted" style="margin:0 0 6px" id="calintro"></p>
+        <div class="cal" id="calrows"></div>
+        <div class="hint">
+          The grey bar is how sure you said you were. The coloured bar is how often you
+          were actually right. When the coloured bar is <b>shorter</b>, you were
+          overconfident — and that gap is the most useful thing on this screen.
+        </div>
+        <div class="actions"><button class="ghost" id="calback">Back</button></div>
+      </div>
+    </section>
+
+    <section id="view-instructor" style="display:none">
+      <div class="card">
+        <h1 style="margin:0 0 6px">Class overview</h1>
+        <p class="muted" style="margin:0 0 6px;font-size:15px">
+          Where the class is strong and where it is weak, across everyone who has practised
+          on this device.
+        </p>
+        <p class="muted" style="margin:0 0 18px;font-size:15px">
+          <b>This is the class as a whole.</b> You see where the class is weak — never any
+          one Marine's answers. A Marine's own record stays with that Marine.
+        </p>
+        <div id="insummary"></div>
+        <h2 style="margin-top:24px">Weakest sections first</h2>
+        <div id="insections"></div>
+        <h2 style="margin-top:24px">Where the corpus falls short</h2>
+        <div id="ingaps"></div>
+        <div class="actions"><button class="ghost" id="inback">Back</button></div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer">
+  <header>
+    <div class="brand">How it works<small>Evidence &amp; instrumentation</small></div>
+    <div class="spacer"></div>
+    <button class="ghost" id="closeadmin">Close</button>
+  </header>
+  <div class="body">
+
+    <div class="block">
+      <h2>Instructor</h2>
+      <button class="ghost" id="openreview" style="width:100%;padding:13px">
+        Review questions</button>
+      <div class="hint" id="reviewhint"></div>
+      <button class="ghost" id="openinstructor" style="width:100%;padding:13px;margin-top:10px">
+        Class overview</button>
+      <div class="hint">
+        Per-section mastery across every Marine on this box, plus the gap report. The
+        aggregate only &mdash; never an individual Marine's answers (D-050: aggregate to
+        the instructor, individual to the Marine).
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>Connection</h2>
+      <div class="banner-full"><span id="admin-neticon">■</span><span id="admin-nettext">…</span></div>
+      <div class="hint" id="admin-netsub"></div>
+      <div class="hint">
+        A live check, not a label: the device attempts a real outbound connection. Unplug
+        the network and this changes within seconds.
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>Answer quality, measured</h2>
+      <div id="admin-score"></div>
+      <div class="hint">
+        False answers and over-refusal are always shown together. Refusing everything
+        would drive the first to zero and produce a useless tutor.
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>Where the corpus falls short</h2>
+      <div id="admin-gaps"></div>
+      <div class="hint">
+        Every refusal is a measurement of the <b>corpus</b>, not just the model — and each
+        kind has a different owner.
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>Device</h2>
+      <div id="admin-telem"></div>
+    </div>
+
+    <div class="block">
+      <h2>Corpus</h2>
+      <div id="admin-corpus"></div>
+    </div>
+
+    <div class="block">
+      <h2>Ask it anything</h2>
+      <div class="askbox">
+        <input id="adminq" aria-label="Ask the corpus a question"
+               placeholder="Try one the corpus cannot answer…">
+        <button class="primary" id="adminask" style="padding:11px 18px;font-size:15px">Ask</button>
+      </div>
+      <div id="adminanswer" class="hint"></div>
+    </div>
+
+  </div>
+</aside>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = x => String(x == null ? "" : x).replace(/[<>&]/g, c => ({"<":"&lt;",">":"&gt;","&":"&amp;"}[c]));
+const pct = v => v == null ? "—" : (v * 100).toFixed(1) + "%";
+const state = { item: null, confidence: null, busy: false, pub: null };
+
+// One place that knows a failed request is not a JSON document. FastAPI returns a 500 as
+// PlainTextResponse("Internal Server Error"), so calling .json() on it throws a parse
+// error and the real status is lost.
+async function getJSON(url, opts) {
+  let r;
+  try {
+    r = await fetch(url, opts);
+  } catch (e) {
+    throw new Error("Cannot reach the tutor service \u2014 is it running?");
+  }
+  if (!r.ok) {
+    let detail = "";
+    try { detail = (await r.text()).slice(0, 120); } catch (e) {}
+    throw new Error("Server error " + r.status + (detail ? ": " + detail : ""));
+  }
+  try {
+    return await r.json();
+  } catch (e) {
+    throw new Error("Server sent something that is not JSON");
+  }
+}
+
+// Paint the failure where the content was going to be, so a dead panel always says why.
+function fail(sel, e, what) {
+  const el = $(sel);
+  if (!el) return;
+  el.innerHTML = '<p class="muted">' + esc(what || "Could not load this.") +
+    '<br><span style="font-size:13px">' + esc(e && e.message ? e.message : String(e)) +
+    "</span></p>";
+}
+let CONF = {};
+
+function show(view) {
+  for (const v of ["home", "practice", "cal", "review", "hist", "instructor"])
+    $("#view-" + v).style.display = (v === view) ? "" : "none";
+}
+
+// The learner name is a SHARED-APPLIANCE CONVENIENCE, not an account. No password, no
+// auth: anyone at the keyboard can pick any name. That is deliberate and bounded per
+// D-050 -- the identifier defaults to "default", is validated and case-folded server-side
+// (the Learner type in main.py), rides only over loopback, and today is nothing more than
+// a way for several Marines sharing one box to keep their progress apart. It is NOT an
+// identity to trust. The moment it becomes a real identifier (an EDIPI), D-050 requires a
+// server-side session instead of a name typed into a box.
+let LEARNER = "default";
+function loadLearner() {
+  try { LEARNER = cleanLearner(localStorage.getItem("tutor.learner")); } catch (e) {}
+}
+// Coerce whatever a Marine types into the shape the server's Learner validator accepts
+// (^[A-Za-z0-9][A-Za-z0-9._-]*$, case-folded, <=64), so a friendly "Sgt Smith" becomes a
+// valid "sgtsmith" rather than a 422, and an empty box falls back to the shared default.
+function cleanLearner(v) {
+  const s = String(v == null ? "" : v).toLowerCase()
+    .replace(/[^a-z0-9._-]/g, "").replace(/^[._-]+/, "");
+  return s.slice(0, 64) || "default";
+}
+// Every learner-scoped request carries the name; extras (pub, limit) merge in.
+function learnQS(extra) {
+  const p = new URLSearchParams();
+  p.set("learner", LEARNER);
+  const e = extra || {};
+  for (const k in e) if (e[k] != null) p.set(k, e[k]);
+  return "?" + p.toString();
+}
+function renderWhoami() {
+  // "default" is the shared fallback, not a name a Marine typed -- show the box empty so
+  // the placeholder invites a name rather than displaying the word "default".
+  $("#learnername").value = LEARNER === "default" ? "" : LEARNER;
+  let known = [];
+  try { known = JSON.parse(localStorage.getItem("tutor.learners") || "[]"); } catch (e) {}
+  $("#knownlearners").innerHTML = known
+    .map(n => '<option value="' + esc(n) + '">').join("");
+}
+function switchLearner() {
+  const next = cleanLearner($("#learnername").value);
+  LEARNER = next;
+  try {
+    localStorage.setItem("tutor.learner", next);
+    if (next !== "default") {
+      let known = [];
+      try { known = JSON.parse(localStorage.getItem("tutor.learners") || "[]"); } catch (e) {}
+      if (!known.includes(next)) {
+        known.push(next); known.sort();
+        localStorage.setItem("tutor.learners", JSON.stringify(known.slice(0, 50)));
+      }
+    }
+  } catch (e) {}
+  renderWhoami();
+  show("home");
+  loadTrack();
+}
+
+const NET = {
+  OFFLINE:          { icon: "✖", short: "Air-gapped",  text: "AIR-GAPPED",
+                      sub: "no uplink, no route, no reachable host" },
+  LINK_NO_INTERNET: { icon: "⚠", short: "No internet", text: "LINK UP — NO INTERNET",
+                      sub: "an interface is up but nothing is reachable" },
+  ONLINE:           { icon: "⚡", short: "Online",      text: "NETWORK REACHABLE",
+                      sub: "this device reached an external host" },
+  UNKNOWN:          { icon: "■", short: "Unknown",     text: "NETWORK UNKNOWN", sub: "" }
+};
+async function pollNet() {
+  try {
+    const s = await (await fetch("/api/network")).json();
+    const m = NET[s.state] || NET.UNKNOWN;
+    document.body.dataset.net = s.state;
+    $("#nettext").textContent = m.short;
+    $("#admin-neticon").textContent = m.icon;
+    $("#admin-nettext").textContent = m.text;
+    $("#admin-netsub").textContent = m.sub + (s.dev_link_present ? " · dev USB link present" : "");
+  } catch (e) { document.body.dataset.net = "UNKNOWN"; }
+}
+
+async function loadTrack() {
+  const q = learnQS(state.pub ? {pub: state.pub} : {});
+  let d;
+  try {
+    d = await getJSON("/api/learn/track" + q);
+  } catch (e) {
+    fail("#track", e, "Could not load your progress.");
+    $("#railcap").textContent = "unavailable";
+    $("#startbtn").disabled = true;
+    return;
+  }
+  if (d.confidence_labels) CONF = d.confidence_labels;
+  if (!d.available) {
+    $("#track").innerHTML = `<p class="muted">${esc(d.note || "no items yet")}</p>`;
+    $("#railcap").textContent = "no practice items";
+    $("#startbtn").disabled = true;
+    $("#homehint").textContent = "Practice items have not been generated yet.";
+    return;
+  }
+  renderDue(d.due);
+  // An items file generated before publications were tracked reports pub_id "?", and a
+  // header reading "? - ?" is worse than a generic one.
+  const ps = (d.publications || []).filter(x => x.pub_id && x.pub_id !== "?");
+  if (ps.length === 1) {
+    $("#brand").childNodes[0].nodeValue = ps[0].pub_id + " \u00b7 " +
+      (ps[0].pub_title || "");
+    $("#brandsub").textContent = "Anchor";
+    $("#homeh1").textContent = ps[0].pub_title || ps[0].pub_id;
+  } else if (ps.length > 1) {
+    $("#brand").childNodes[0].nodeValue = "Anchor";
+    $("#brandsub").textContent = ps.length + " publications, offline";
+    $("#homeh1").textContent = state.pub ? state.pub : "Recall practice";
+  }
+  $("#railfill").style.width = d.pct + "%";
+  $("#railcap").textContent = `${d.items_attempted} of ${d.items_total} questions practised`;
+  // With thirteen publications the flat list is roughly 450 rows, which is not a
+  // progress view -- it is a wall. Show publications first and drill into one.
+  const pubs = d.publications || [];
+  if (!state.pub && pubs.length > 1) {
+    // A real <button>, not a div with an onclick: the div was unreachable by keyboard
+    // and invisible to a screen reader, which is a WCAG 2.1.1 failure as well as a
+    // usability one.
+    $("#track").innerHTML = '<div class="pubgrid">' + pubs.map(p => {
+      const pctP = p.n_items ? Math.round(100 * p.attempted / p.n_items) : 0;
+      return '<button class="pubcard" data-pub="' + esc(p.pub_id) +
+        '" aria-label="' + esc(p.pub_id) + " " + esc(p.pub_title || "") + ", " +
+        p.attempted + " of " + p.n_items + ' practised">' +
+        '<span class="pcid">' + esc(p.pub_id) + "</span>" +
+        '<span class="pcname">' + esc(p.pub_title || "") + "</span>" +
+        '<span class="pcbar"><i style="width:' + pctP + '%"></i></span>' +
+        '<span class="pcn"><b>' + p.attempted + "</b> of " + p.n_items +
+        " practised</span></button>";
+    }).join("") + "</div>";
+    document.querySelectorAll(".pubcard").forEach(c => {
+      c.onclick = () => { state.pub = c.dataset.pub; loadTrack(); };
+    });
+    return;
+  }
+
+  let html = state.pub && pubs.length > 1
+    ? '<button class="backlink" id="puback">\u2190 All publications</button>' : "";
+  let ch = null;
+  for (const s of d.sections) {
+    if (s.chapter !== ch) {
+      ch = s.chapter;
+      html += `<div class="chapter-title">Chapter ${ch} · ${esc(s.chapter_title || "")}</div>`;
+    }
+    const label = s.state === "mastered" ? "solid"
+                : s.state === "shaky" ? `${s.mastered}/${s.n_items}` : "not started";
+    html += `<div class="sec"><span class="name">${esc(s.section)}</span>
+             <span class="state ${s.state}">${label}</span></div>`;
+  }
+  $("#track").innerHTML = html;
+  if ($("#puback")) $("#puback").onclick = () => { state.pub = null; loadTrack(); };
+  // An empty track is almost never "you finished" -- far more often it means nothing
+  // has been approved for learners yet. Saying "done" to someone who has not started is
+  // the worst message the product can send, so the two states are handled separately.
+  const nothingApproved = (d.n_approved || 0) === 0;
+  $("#startbtn").disabled = nothingApproved;
+  if (nothingApproved) {
+    $("#track").innerHTML =
+      '<p class="muted">No questions have been approved for learners yet.</p>';
+    $("#duerow").innerHTML = "";
+    $("#railcap").textContent = d.n_pending_review + " awaiting review";
+    $("#homehint").innerHTML =
+      "<b>" + d.n_pending_review + " generated question" +
+      (d.n_pending_review === 1 ? "" : "s") + " are waiting on review.</b> " +
+      "Nothing reaches a learner until a human approves it \u2014 open " +
+      "<i>See how it works \u2192 Review questions</i> to start.";
+    return;
+  }
+
+  // The chips above already carry the counts. This line exists to explain the schedule,
+  // which is the part a learner cannot infer from a number.
+  const pending = d.n_pending_review || 0;
+  const due = d.due || {};
+  let hint;
+  if (due.due) {
+    hint = "Due questions come first \u2014 those are the ones that didn't stick.";
+  } else if (due.unseen) {
+    hint = "Nothing is due. New questions until something comes back round.";
+  } else if (due.next_due_utc) {
+    hint = "Nothing due right now. Next review " + relDay(due.next_due_utc) + ".";
+  } else {
+    hint = "You've been through every approved question.";
+  }
+  $("#homehint").textContent =
+    hint + (pending ? "  (" + pending + " more awaiting review.)" : "");
+}
+
+function relDay(iso) {
+  const days = Math.round((Date.parse(iso) - Date.now()) / 86400000);
+  if (days <= 0) return "today";
+  if (days === 1) return "tomorrow";
+  return "in " + days + " days";
+}
+
+function renderConfidence() {
+  const labels = Object.keys(CONF).length
+    ? CONF : { 1: "Guessing", 2: "Unsure", 3: "Fairly sure", 4: "Certain" };
+  $("#confbtns").innerHTML = Object.entries(labels)
+    .map(([k, v]) => `<button type="button" role="radio" aria-checked="false" ` +
+                     `data-c="${k}">${v}</button>`).join("");
+  document.querySelectorAll("#confbtns button").forEach(b => b.onclick = () => {
+    state.confidence = +b.dataset.c;
+    document.querySelectorAll("#confbtns button").forEach(x => {
+      const on = x === b;
+      x.classList.toggle("on", on);
+      x.setAttribute("aria-checked", on ? "true" : "false");
+    });
+    updateSubmit();
+  });
+}
+function updateSubmit() {
+  const ready = $("#ans").value.trim().length > 2 && state.confidence != null;
+  $("#submit").disabled = !ready || state.busy;
+  $("#submithint").textContent = state.busy ? "Grading against the source…"
+    : ready ? "" : "Write an answer and pick a confidence.";
+}
+
+async function nextQuestion() {
+  show("practice");
+  $("#feedback").style.display = "none";
+  $("#answerblock").style.display = "";
+  $("#ans").value = ""; state.confidence = null; state.busy = false;
+  document.querySelectorAll("#confbtns button").forEach(x => {
+    x.classList.remove("on"); x.setAttribute("aria-checked", "false"); });
+  $("#qtext").textContent = "Loading…"; $("#qcrumb").textContent = "";
+  updateSubmit();
+
+  const q = learnQS(state.pub ? {pub: state.pub} : {});
+  let d;
+  try {
+    d = await getJSON("/api/learn/next" + q);
+  } catch (e) {
+    // Without this the question stays on "Loading..." forever, which is the worst
+    // possible thing to have on screen in front of a user.
+    $("#qtext").textContent = "Could not load a question.";
+    $("#qcrumb").textContent = "";
+    $("#answerblock").style.display = "none";
+    $("#feedback").style.display = "";
+    $("#verdictrow").innerHTML = "";
+    $("#kp").innerHTML = "";
+    fail("#src", e, "The tutor service did not answer.");
+    return;
+  }
+  $("#answerblock").style.display = "";
+  if (!d.available) {
+    $("#qtext").textContent = "No practice questions have been generated yet.";
+    $("#answerblock").style.display = "none";
+    return;
+  }
+  if (d.blocked) {
+    // The bug this replaces: zero approved items reported as "you have completed
+    // every question in this track."
+    $("#qtext").innerHTML =
+      "Nothing to practise yet \u2014 <b>" + d.n_items +
+      " questions are waiting on review</b>.";
+    $("#qcrumb").textContent = "AWAITING INSTRUCTOR REVIEW";
+    $("#answerblock").style.display = "none";
+    $("#feedback").style.display = "";
+    $("#verdictrow").innerHTML = "";
+    $("#kp").innerHTML = "";
+    $("#src").innerHTML =
+      "No question reaches a Marine until a human has checked it against the source " +
+      "paragraph. Open <b>See how it works \u2192 Review questions</b> to approve some.";
+    return;
+  }
+  if (d.done) {
+    $("#qtext").textContent =
+      "You've answered every approved question. Nothing is due right now.";
+    $("#qcrumb").textContent = "";
+    $("#answerblock").style.display = "none";
+    return;
+  }
+  state.item = d.item;
+  $("#qcrumb").textContent = `Chapter ${d.item.chapter} · ${d.item.section}`;
+  $("#qtext").textContent = d.item.question;
+  $("#ans").focus();
+}
+
+async function submitAnswer() {
+  if (state.busy) return;
+  state.busy = true; updateSubmit();
+  const body = { item_id: state.item.id, answer: $("#ans").value.trim(),
+                 confidence: state.confidence, learner: LEARNER };
+  let d;
+  try {
+    d = await (await fetch("/api/learn/answer", {
+      method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(body)
+    })).json();
+  } catch (e) {
+    state.busy = false; updateSubmit();
+    $("#submithint").textContent =
+      "Could not grade that \u2014 " + (e && e.message ? e.message : "no response") +
+      ". Your answer is still here; try submitting again.";
+    return;
+  }
+  state.busy = false;
+  if (!d.ok) { $("#submithint").textContent = "Could not grade that."; updateSubmit(); return; }
+
+  const VL = { correct: "✔ Got it", partial: "◑ Partly there",
+               incorrect: "✖ Not this time" };
+  $("#verdictrow").innerHTML =
+    `<span class="verdict ${d.verdict}">${VL[d.verdict] || d.verdict}</span>
+     <span class="muted" style="margin-left:12px">${esc(d.feedback || "")}</span>`;
+
+  let kp = "";
+  for (const c of d.covered) kp += `<div class="hit">✔ ${esc(c)}</div>`;
+  for (const m of d.missed)  kp += `<div class="miss">◦ you didn't mention: ${esc(m)}</div>`;
+  $("#kp").innerHTML = kp;
+
+  $("#src").innerHTML = `${esc(d.source_text)}<span class="cite">${esc(d.citation)}</span>`;
+
+  $("#answerblock").style.display = "none";
+  $("#feedback").style.display = "";
+  loadTrack();
+}
+
+function renderDue(due) {
+  if (!due) { $("#duerow").innerHTML = ""; return; }
+  // "Due" leads because it is the only number that changes on its own overnight, and it
+  // is the reason to open this tomorrow rather than once. A zero is omitted rather than
+  // shown: three stats where two are 0 reads as a broken dashboard.
+  const stat = (n, label, cls) => !n ? "" :
+    '<div class="duestat ' + (cls || "") + '"><b>' + n + "</b><span>" + label +
+    "</span></div>";
+  $("#duerow").innerHTML =
+    stat(due.due, "due now", "now") +
+    stat(due.unseen, "never seen") +
+    stat(due.scheduled, "resting");
+  $("#startbtn").textContent = due.due ? "Practise " + due.due + " due"
+                             : due.unseen ? "Start practising" : "Practise anyway";
+}
+
+async function loadHistory() {
+  show("hist");
+  let d;
+  try {
+    d = await getJSON("/api/learn/history" + learnQS({limit: 25}));
+  } catch (e) { fail("#histrows", e, "Could not load your recent answers."); return; }
+  const rows = d.history || [];
+  if (!rows.length) {
+    $("#histrows").innerHTML = '<p class="muted">Nothing answered yet.</p>'; return;
+  }
+  const VL = {correct: "Got it", partial: "Partly", incorrect: "Missed"};
+  $("#histrows").innerHTML = rows.map(r =>
+    '<div class="histrow"><span class="v ' + esc(r.verdict) + '">' +
+    esc(VL[r.verdict] || r.verdict) + '</span>' +
+    '<span class="q">' + esc(r.question || r.item_id) + '</span>' +
+    '<span class="c">said: ' + esc(CONF[r.confidence] || "?") + '</span></div>').join("");
+}
+
+async function loadCalibration() {
+  let d;
+  try {
+    d = await getJSON("/api/learn/calibration" + learnQS());
+  } catch (e) { show("cal"); fail("#calrows", e, "Could not load calibration."); return; }
+  show("cal");
+  if (!d.n) {
+    $("#calintro").textContent = "Answer a few questions first — this needs data to be honest.";
+    $("#calrows").innerHTML = ""; return;
+  }
+  const over = d.overconfident_share;
+  $("#calintro").innerHTML = `Based on <b>${d.n}</b> answer${d.n === 1 ? "" : "s"}.` +
+    (over != null && over > 0
+      ? ` You were overconfident on <b class="gap-warn">${pct(over)}</b> of them.`
+      : " Your confidence has tracked your accuracy so far.");
+
+  $("#calrows").innerHTML = d.buckets.map(b => {
+    const under = b.gap < -0.05;
+    return `<div class="calrow">
+      <div class="lbl">${esc(b.label)}<br><span class="caltag">${b.n} answer${b.n===1?"":"s"}</span></div>
+      <div class="calbars">
+        <div class="calbar stated"><i style="width:${Math.round(b.stated*100)}%"></i></div>
+        <div class="caltag">said this sure &middot; ${Math.round(b.stated*100)}%</div>
+        <div class="calbar actual ${under ? "under" : ""}"><i style="width:${Math.round(b.actual*100)}%"></i></div>
+        <div class="caltag">actually right &middot; ${Math.round(b.actual*100)}%</div>
+      </div>
+      <div class="calnum"><b class="${under ? "gap-warn" : ""}">${(b.gap*100).toFixed(0)}</b><br>
+        <span class="caltag">point gap</span></div>
+    </div>`;
+  }).join("");
+}
+
+/* ---- review (instructor) ----------------------------------------------- */
+const rv = { queue: [], i: 0, editing: false };
+
+async function loadReviewStats() {
+  try {
+    const d = await (await fetch("/api/review/stats")).json();
+    if (!d.available) return;
+    $("#reviewhint").textContent =
+      d.pending + " pending \u00b7 " + d.approved + " approved \u00b7 " +
+      d.rejected + " rejected \u2014 " + d.servable +
+      " reachable by learners right now";
+  } catch (e) { fail("#reviewhint", e, "Review stats unavailable."); }
+}
+
+async function openReview() {
+  openDrawer(false);
+  show("review");
+  $("#rvq").textContent = "Loading\u2026";
+  let d;
+  try {
+    d = await getJSON("/api/review/queue?limit=400");
+  } catch (e) { fail("#rvbody", e, "Could not load the review queue."); return; }
+  rv.queue = d.queue || []; rv.i = 0;
+  rv.pending = d.pending || rv.queue.length;
+  rv.flagged = d.flagged_pending || 0;
+  renderReview();
+}
+
+function renderReview() {
+  const it = rv.queue[rv.i];
+  if (!it) {
+    $("#rvbody").innerHTML =
+      '<p class="muted">Nothing left in the queue \u2014 every item has been reviewed.</p>';
+    $("#rvcount").textContent = "";
+    return;
+  }
+  rv.editing = false;
+  $("#rvcount").textContent =
+    (rv.i + 1) + " of " + rv.queue.length +
+    (rv.pending > rv.queue.length ? " shown (" + rv.pending + " pending)" : " pending") +
+    (rv.flagged ? " \u00b7 " + rv.flagged + " flagged" : "");
+  $("#rvcrumb").textContent = "Chapter " + it.chapter + " \u00b7 " + it.section;
+  const flags = it.flags || [];
+  $("#rvflags").innerHTML = flags.length
+    ? flags.map(f => '<span class="flag ' + esc(f.code) + '">' + esc(f.code) +
+        " \u2014 " + esc(f.detail) + "</span>").join("")
+    : '<span class="flag none">no automatic flags</span>';
+  $("#rvq").textContent = it.question;
+  $("#rvq").style.display = "";
+  $("#rvqedit").style.display = "none";
+  $("#rvqedit").value = it.question;
+  $("#rvpts").innerHTML = it.key_points.map(k => "<li>" + esc(k) + "</li>").join("");
+  $("#rvpts").style.display = "";
+  $("#rvptsedit").style.display = "none";
+  $("#rvptsedit").value = it.key_points.join("\n");
+  $("#rvsrc").innerHTML = esc(it.source_text) +
+    '<span class="cite">' + esc(it.citation) + "</span>";
+}
+
+async function decide(status) {
+  const it = rv.queue[rv.i];
+  if (!it) return;
+  const body = { item_id: it.id, status: status };
+  const edited = $("#rvqedit").value.trim();
+  if (rv.editing && edited && edited !== it.question) body.edited_question = edited;
+  const pts = $("#rvptsedit").value.split("\n").map(x => x.trim()).filter(Boolean);
+  if (rv.editing && pts.length && pts.join("\n") !== it.key_points.join("\n"))
+    body.edited_points = pts;
+  try {
+    await getJSON("/api/review/decide", {
+      method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(body)});
+  } catch (e) {
+    // Advancing on a failed decision is how a reviewer ends up believing they approved
+    // something they did not. Stay on the item and say so.
+    $("#rvflags").innerHTML =
+      '<span class="flag UNGROUNDED_KEY_POINT">not saved \u2014 ' + esc(e.message) +
+      "</span>";
+    return;
+  }
+  rv.i++; renderReview(); loadReviewStats(); loadTrack();
+}
+
+function toggleEdit() {
+  rv.editing = !rv.editing;
+  $("#rvq").style.display = rv.editing ? "none" : "";
+  $("#rvqedit").style.display = rv.editing ? "" : "none";
+  $("#rvpts").style.display = rv.editing ? "none" : "";
+  $("#rvptsedit").style.display = rv.editing ? "" : "none";
+  if (rv.editing) $("#rvqedit").focus();
+}
+
+/* ---- instructor: class aggregate only (D-050) -------------------------- */
+async function loadInstructor() {
+  openDrawer(false);
+  show("instructor");
+  $("#insummary").innerHTML = '<p class="muted">Loading…</p>';
+  $("#insections").innerHTML = ""; $("#ingaps").innerHTML = "";
+  let d;
+  try {
+    d = await getJSON("/api/instructor/overview");
+  } catch (e) { fail("#insummary", e, "Could not load the class overview."); return; }
+  if (!d.available) {
+    $("#insummary").innerHTML =
+      '<p class="muted">No practice items have been generated yet.</p>';
+    return;
+  }
+  // Class-level summary. n_learners is the whole class size, the only per-learner fact
+  // the endpoint returns -- and never who they are.
+  $("#insummary").innerHTML =
+    '<div class="pair">' +
+      '<div><div class="n">' + d.n_learners + '</div>' +
+        '<div class="l">Marines practising</div></div>' +
+      '<div class="good"><div class="n">' + d.mastery_pct + '%</div>' +
+        '<div class="l">Class mastery</div></div>' +
+    '</div>' +
+    '<div class="hint">' + d.mastered_total + ' of ' + d.attempts_total +
+    ' answered questions now stand correct, across ' + d.items_total +
+    ' approved question' + (d.items_total === 1 ? "" : "s") + '.</div>';
+
+  // Weakest first: the whole teaching value is seeing where the class is soft.
+  const secs = (d.sections || []).filter(s => s.attempts > 0)
+    .sort((a, b) => a.mastery_pct - b.mastery_pct);
+  if (!secs.length) {
+    $("#insections").innerHTML =
+      '<p class="muted">Nobody has answered anything yet.</p>';
+  } else {
+    $("#insections").innerHTML = secs.map(s => {
+      const cls = s.mastery_pct >= 80 ? "" : s.mastery_pct >= 50 ? "mid" : "low";
+      return '<div class="insec ' + cls + '">' +
+        '<span class="name">' + esc(s.section) + '</span>' +
+        '<span class="inbar"><i style="width:' + s.mastery_pct + '%"></i></span>' +
+        '<span class="inpct">' + s.mastery_pct + '%</span>' +
+        '<span class="inn">' + s.mastered + '/' + s.attempts + '</span></div>';
+    }).join("");
+  }
+
+  // Reuse the gap report the trust drawer already shows -- same data, instructor framing.
+  const g = d.gaps || {};
+  if (!g.available) {
+    $("#ingaps").innerHTML =
+      '<div class="kv"><span>no gap report yet</span><span>&mdash;</span></div>';
+  } else {
+    const c = g.counts || {};
+    let h = '<div class="kv"><span>Findability &mdash; in corpus, not reached</span><span>' +
+              (c.FINDABILITY_GAP || 0) + '</span></div>' +
+            '<div class="kv"><span>Corpus &mdash; publication not loaded</span><span>' +
+              (c.CORPUS_GAP || 0) + '</span></div>' +
+            '<div class="kv"><span>Doctrinal &mdash; not addressed anywhere</span><span>' +
+              (c.DOCTRINAL_GAP || 0) + '</span></div>';
+    if (g.missing_publications && g.missing_publications.length)
+      h += '<div class="hint">Asked for but not loaded: <b>' +
+           g.missing_publications.map(esc).join(" · ") + '</b></div>';
+    $("#ingaps").innerHTML = h;
+  }
+}
+
+function openDrawer(open) {
+  $("#drawer").classList.toggle("open", open);
+  $("#scrim").classList.toggle("open", open);
+  if (open) { pollScore(); pollTelem(); loadCorpus(); loadGaps(); loadReviewStats(); }
+}
+async function pollScore() {
+  try {
+    const d = await (await fetch("/api/scoreboard")).json();
+    if (!d.available) { $("#admin-score").innerHTML =
+      `<div class="kv"><span>no eval run yet</span><span>make eval</span></div>`; return; }
+    $("#admin-score").innerHTML =
+      `<div class="pair">
+         <div class="${d.false_answer_rate <= 0.15 ? "" : "warn"}">
+           <div class="n">${pct(d.false_answer_rate)}</div><div class="l">False answers</div></div>
+         <div class="good"><div class="n">${pct(d.correct_abstention_rate)}</div>
+           <div class="l">Correct refusals</div></div>
+       </div>
+       <div class="kv"><span>Over-refusal</span><span>${pct(d.over_refusal_rate)}</span></div>
+       <div class="kv"><span>Citation-correct</span><span>${pct(d.citation_correct_rate)}</span></div>
+       <div class="kv"><span>p95 latency</span><span>${d.p95_latency_s != null ? d.p95_latency_s.toFixed(1)+"s" : "—"}</span></div>
+       <div class="kv"><span>Gate threshold</span><span>${d.threshold ?? "off"}</span></div>`;
+  } catch (e) { fail("#admin-score", e, "Scoreboard unavailable."); }
+}
+async function pollTelem() {
+  try {
+    const d = await (await fetch("/api/telemetry")).json();
+    const t = d.telemetry || {};
+    const ram = t.ram_total_mb ? Math.round(100*t.ram_used_mb/t.ram_total_mb) : null;
+    $("#admin-telem").innerHTML =
+      `<div class="kv"><span>Power draw</span><span>${t.power_w != null ? t.power_w.toFixed(1)+" W" : "—"}</span></div>
+       <div class="kv"><span>GPU temp</span><span>${t.gpu_temp_c != null ? Math.round(t.gpu_temp_c)+" °C" : "—"}</span></div>
+       <div class="kv"><span>Memory</span><span>${ram != null ? ram+"% of "+(t.ram_total_mb/1024).toFixed(1)+" GiB" : "—"}</span></div>
+       <div class="kv"><span>Power mode</span><span>${esc(d.power_mode || "—")}</span></div>`;
+  } catch (e) { fail("#admin-telem", e, "Telemetry unavailable."); }
+}
+async function loadCorpus() {
+  try {
+    const c = await (await fetch("/api/corpus")).json();
+    $("#admin-corpus").innerHTML =
+      `<div class="kv"><span>Paragraphs indexed</span><span>${c.total_chunks.toLocaleString()}</span></div>
+       <div class="kv"><span>Publications</span><span>${c.documents.length}</span></div>
+       <div class="kv"><span>Network calls at inference</span><span>0</span></div>`;
+  } catch (e) { fail("#admin-corpus", e, "Corpus list unavailable."); }
+}
+async function loadGaps() {
+  try {
+    const g = await (await fetch("/api/gaps")).json();
+    if (!g.available) { $("#admin-gaps").innerHTML =
+      `<div class="kv"><span>no gap report yet</span><span>—</span></div>`; return; }
+    const c = g.counts || {};
+    let h = `<div class="kv"><span>Findability — in corpus, not reached</span><span>${c.FINDABILITY_GAP||0}</span></div>
+             <div class="kv"><span>Corpus — publication not loaded</span><span>${c.CORPUS_GAP||0}</span></div>
+             <div class="kv"><span>Doctrinal — not addressed anywhere</span><span>${c.DOCTRINAL_GAP||0}</span></div>`;
+    if (g.missing_publications && g.missing_publications.length)
+      h += `<div class="hint">Asked for but not loaded: <b>${g.missing_publications.map(esc).join(" · ")}</b></div>`;
+    $("#admin-gaps").innerHTML = h;
+  } catch (e) { fail("#admin-gaps", e, "Gap report unavailable."); }
+}
+async function adminAsk() {
+  const q = $("#adminq").value.trim(); if (!q) return;
+  $("#adminanswer").textContent = "asking…";
+  try {
+    const d = await (await fetch("/api/ask", {
+      method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({question: q})})).json();
+    $("#adminanswer").innerHTML = d.abstained
+      ? `<b class="gap-warn">Declined</b> — ${esc(d.text)}<br>top score ${d.top_rerank_score != null ? d.top_rerank_score.toFixed(2) : "?"}`
+      : `${esc(d.text)}<br>${(d.citations||[]).map(c => esc(c.citation)).join("<br>")}`;
+  } catch (e) { $("#adminanswer").textContent = "failed"; }
+}
+
+renderConfidence();
+$("#ans").addEventListener("input", updateSubmit);
+$("#submit").onclick = submitAnswer;
+$("#nextq").onclick = nextQuestion;
+$("#startbtn").onclick = nextQuestion;
+$("#backhome").onclick = () => { show("home"); loadTrack(); };
+$("#opencal").onclick = loadCalibration;
+$("#calback").onclick = () => { show("home"); loadTrack(); };
+$("#openadmin").onclick = () => openDrawer(true);
+$("#closeadmin").onclick = () => openDrawer(false);
+$("#scrim").onclick = () => openDrawer(false);
+$("#openreview").onclick = openReview;
+$("#openinstructor").onclick = loadInstructor;
+$("#inback").onclick = () => { show("home"); loadTrack(); };
+$("#setlearner").onclick = switchLearner;
+$("#learnername").addEventListener("keydown", e => {
+  if (e.key === "Enter") { e.preventDefault(); switchLearner(); }
+});
+$("#rvapprove").onclick = function () { decide("approved"); };
+$("#rvreject").onclick = function () { decide("rejected"); };
+$("#rvedit").onclick = toggleEdit;
+$("#rvskip").onclick = function () { rv.i++; renderReview(); };
+$("#rvback").onclick = function () { show("home"); loadTrack(); };
+$("#openhist").onclick = loadHistory;
+$("#histback").onclick = function () { show("home"); loadTrack(); };
+$("#rvbulk").onclick = async function () {
+  $("#rvbulk").disabled = true;
+  $("#rvbulkhint").textContent = "clearing\u2026";
+  try {
+    const d = await (await fetch("/api/review/approve_unflagged",
+                                 {method: "POST"})).json();
+    $("#rvbulkhint").textContent =
+      "Cleared " + d.approved + " unflagged question" + (d.approved === 1 ? "" : "s") +
+      ". " + d.pending + " still need a human \u2014 those are the flagged ones.";
+    await openReview();
+    loadTrack(); loadReviewStats();
+  } finally { $("#rvbulk").disabled = false; }
+};
+// Keyboard-first. Reviewing 74 items by mouse is how a reviewer starts rubber-stamping.
+document.addEventListener("keydown", function (e) {
+  if ($("#view-review").style.display === "none") return;
+  if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") {
+    if (e.key === "Enter" && rv.editing) decide("approved");
+    return;
+  }
+  // A bare letter only. Without this, Ctrl+A -- Select All, the most reflexive shortcut
+  // there is -- irreversibly APPROVES the question on screen and advances past it, and
+  // Ctrl+R (reload) rejects one. Measured with decide() stubbed: Ctrl+A, Cmd+A, Ctrl+R
+  // and Ctrl+S all fired. Nothing in the UI undoes an approval, so a reviewer would have
+  // issued an unread question to Marines and had no way to know.
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+
+  // A shortcut must not double-fire the button that already has focus: after clicking
+  // Approve, focus stays on it, and a subsequent "a" would both activate the button and
+  // run the handler.
+  if (e.target.tagName === "BUTTON") return;
+
+  const k = e.key.toLowerCase();
+  if (k === "a") decide("approved");
+  else if (k === "r") decide("rejected");
+  else if (k === "e") toggleEdit();
+  else if (k === "s") { rv.i++; renderReview(); }
+  else return;
+  e.preventDefault();
+});
+$("#adminask").onclick = adminAsk;
+$("#adminq").addEventListener("keydown", e => { if (e.key === "Enter") adminAsk(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") openDrawer(false); });
+
+show("home");
+loadLearner(); renderWhoami();
+pollNet(); loadTrack();
+setInterval(pollNet, 4000);
+setInterval(() => { if ($("#drawer").classList.contains("open")) pollTelem(); }, 3000);
+</script>
+</body>
+</html>

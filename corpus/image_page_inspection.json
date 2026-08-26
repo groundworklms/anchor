@@ -1,0 +1,447 @@
+{
+  "method": "rendered at 110dpi greyscale; ink = fraction of pixels below 200/255",
+  "blank_threshold": 0.002,
+  "inspected": 73,
+  "blank": 72,
+  "has_content": 1,
+  "pages": [
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 5,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 9,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 13,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 15,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 41,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 43,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 69,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 83,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 85,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-1_Strategy.pdf",
+      "page": 111,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-2_Campaigning.pdf",
+      "page": 9,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-2_Campaigning.pdf",
+      "page": 39,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-2_Campaigning.pdf",
+      "page": 41,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-2_Campaigning.pdf",
+      "page": 69,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-2_Campaigning.pdf",
+      "page": 103,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 5,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 9,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 21,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 43,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 45,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 65,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 87,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 97,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 107,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1-3_Tactics.pdf",
+      "page": 119,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1_Warfighting.pdf",
+      "page": 1,
+      "ink": 0.05876,
+      "verdict": "HAS CONTENT"
+    },
+    {
+      "file": "MCDP_1_Warfighting.pdf",
+      "page": 5,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1_Warfighting.pdf",
+      "page": 11,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1_Warfighting.pdf",
+      "page": 31,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1_Warfighting.pdf",
+      "page": 59,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1_Warfighting.pdf",
+      "page": 61,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_1_Warfighting.pdf",
+      "page": 79,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_2_Intelligence.pdf",
+      "page": 5,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_2_Intelligence.pdf",
+      "page": 9,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_2_Intelligence.pdf",
+      "page": 37,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_2_Intelligence.pdf",
+      "page": 39,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_2_Intelligence.pdf",
+      "page": 79,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_2_Intelligence.pdf",
+      "page": 81,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_3_Expeditionary_Operations.pdf",
+      "page": 2,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_3_Expeditionary_Operations.pdf",
+      "page": 6,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_3_Expeditionary_Operations.pdf",
+      "page": 10,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_3_Expeditionary_Operations.pdf",
+      "page": 36,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_3_Expeditionary_Operations.pdf",
+      "page": 68,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_3_Expeditionary_Operations.pdf",
+      "page": 70,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_3_Expeditionary_Operations.pdf",
+      "page": 94,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_3_Expeditionary_Operations.pdf",
+      "page": 96,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_3_Expeditionary_Operations.pdf",
+      "page": 132,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_5_Planning.pdf",
+      "page": 5,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_5_Planning.pdf",
+      "page": 9,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_5_Planning.pdf",
+      "page": 35,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_5_Planning.pdf",
+      "page": 67,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_5_Planning.pdf",
+      "page": 69,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_6_Command_and_Control.pdf",
+      "page": 41,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_6_Command_and_Control.pdf",
+      "page": 69,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_6_Command_and_Control.pdf",
+      "page": 113,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_7_Learning.pdf",
+      "page": 2,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_7_Learning.pdf",
+      "page": 8,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_7_Learning.pdf",
+      "page": 28,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_7_Learning.pdf",
+      "page": 30,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_7_Learning.pdf",
+      "page": 44,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCDP_7_Learning.pdf",
+      "page": 64,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 4,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 8,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 10,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 18,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 40,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 46,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 50,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 52,
+      "ink": 1e-05,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 58,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 102,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 110,
+      "ink": 0.0,
+      "verdict": "blank"
+    },
+    {
+      "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+      "page": 120,
+      "ink": 0.0,
+      "verdict": "blank"
+    }
+  ]
+}

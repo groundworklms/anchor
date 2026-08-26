@@ -1,0 +1,439 @@
+[
+  {
+    "unscreenable_image_pages": [],
+    "informational_findings": [],
+    "file": "MCDP_1-0_Marine_Corps_Operations.pdf",
+    "bytes": 2292589,
+    "sha256": "88b01a40b83cd3a64fb824a389e0bb6668e3ed0126f71b6b3fa633e3fede0a0f",
+    "pages": 279,
+    "pdf_metadata": {
+      "format": "PDF 1.7",
+      "author": "karl.braaten",
+      "creator": "PScript5.dll Version 5.2.2",
+      "producer": "Adobe Acrobat Pro 2017 17 Paper Capture Plug-in",
+      "creationDate": "D:20190228152755-05'00'",
+      "modDate": "D:20201120084838-05'00'",
+      "encryption": "Standard V5 R6 256-bit AES"
+    },
+    "toc_entries": 26,
+    "extractable_chars": 587539,
+    "text_layer_ok": true,
+    "pcn": "142 000014 00",
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [
+      {
+        "marking": "NOFORN",
+        "count": 1,
+        "sample": "NOFORN"
+      },
+      {
+        "marking": "classification marking",
+        "count": 2,
+        "sample": "SECRET"
+      }
+    ],
+    "front_matter_excerpt": "U.S. Marine Corps\nPCN 142 000014 00\nMCDP 1-0\n(w/change 1, 2, 3)\nMarine Corps Operations\nSEMPER FIDELIS\nCD&I (C 116)\nChange 1\nto\nMCDP 1-0\nMARINE CORPS OPERATIONS\n26 July 2017\n1. Replace pages 2-11 and 2-12 with attached pages 2-11 and 2-12. This change \nremoves an erroneous paragraph discussing specific MEBs. \n2. Replace appendix C, pages C-1 through C-6 with attached appendix C, pages \nC-1 through C-12. This change corrects an outdated discussion of tactical tasks \nand replaces it with an expanded and accurate discussion of tactical tasks. It \nalso groups tactical tasks into enemy-oriented tasks, terrain-oriented tasks, \nfriendly-oriented tasks, and population-oriented tasks. \n3. File this transmittal sheet in the front of this publication.\nReviewed and approved this date.\nROBERT B. NELLER\nGeneral, United States Marine Corps\nCommandant of the Marine Corps \nPublication Control Number 142 000014 01\nDISTRIBUTION STATEMENT A: Approved for public release; distribution \nis unlimited.\nC-2\nMCDP 1-0\nThis Page Intentionally Left Blank\nDEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20350-3000\n29 March 2019\nCHANGE 2 to MCDP 1-0\nMarine Corps Operations\n1. Thi"
+  },
+  {
+    "unscreenable_image_pages": [
+      5,
+      9,
+      13,
+      15,
+      41,
+      43,
+      69,
+      83,
+      85,
+      111
+    ],
+    "informational_findings": [],
+    "file": "MCDP_1-1_Strategy.pdf",
+    "bytes": 849600,
+    "sha256": "90465b1684684d0401c469a5388650fd35e4c477d996dfc142c9f9a4b0bacfff",
+    "pages": 122,
+    "pdf_metadata": {
+      "format": "PDF 1.6",
+      "title": "MCDP 1-1 Strategy",
+      "creator": "Adobe Acrobat 6.02",
+      "producer": "Adobe Acrobat 6.02 Paper Capture Plug-in",
+      "creationDate": "D:20060504154157Z",
+      "modDate": "D:20070419115645-04'00'",
+      "encryption": "Standard V4 R4 128-bit RC4"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 146937,
+    "text_layer_ok": true,
+    "pcn": null,
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "DISTRIBUTION STATEMENT A:Approved for public release; distribution is unlimited\nDEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20380-1775\n12 November 1997\nFOREWORD\nThis publication is designed to give Marine leaders a solid,\ncommon understanding of the fundamental nature of military\nstrategy that is inherent in each military action. Its intent is to\ngive the reader the basic knowledge required to think \"strate-\ngically,\" that is, to be able to examine the particulars of any\nspecific situation and understand the political and military\nfactors behind the use of military force.\nMarine Corps Doctrinal Publication (MCDP) 1-1 provides\nthe foundation for thinking strategically. This foundation will\nenable Marines to better understand their roles in a particular\nsituation and to consider the implications of their actions on\nthe military strategy being employed and the political objec-\ntives that strategy is intended to achieve.\nJust as it is important to appreciate what this publication is\ndesigned to do, it is equally important to understand what this\npublication does not seek to do. It does not attempt to provide\na solution to current strategic problems,"
+  },
+  {
+    "unscreenable_image_pages": [
+      9,
+      39,
+      41,
+      69,
+      103
+    ],
+    "informational_findings": [],
+    "file": "MCDP_1-2_Campaigning.pdf",
+    "bytes": 1437836,
+    "sha256": "6242f1596113224c84e46b97d0d5bf326ca4bb07745862469d5fa0d19fa208c3",
+    "pages": 120,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "MCDP 1-2 Campaigning",
+      "creator": "PdfCompressor 3.1.28",
+      "producer": "CVISION Technologies",
+      "creationDate": "D:20060504154159Z",
+      "modDate": "D:20070129162225-05'00'",
+      "encryption": "Standard V2 R3 128-bit RC4"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 147970,
+    "text_layer_ok": true,
+    "pcn": "142 000008 00",
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "Campaigning\nU.S. Marine Corps\nMCDP 1-2\nPCN 142 000008 00\nDISTRIBUTION STATEMENT A: Approved for public release; distribution is unlimited\nDEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20380-1775\n1 August 1997\nFOREWORD\nTactical success in combat does not of itself guarantee victory\nin war. What matters ultimately in war is strategic success:\nattainment of our political aims and the protection of our na-\ntional interests. The operational level of war provides the\nlinkage between tactics and strategy. It is the discipline of\nconceiving, focusing, and exploiting a variety of tactical ac-\ntions to realize a strategic aim. With that thought as our point\nof departure, this publication discusses the intermediate, op-\nerational level of war and the military campaign which is the\nvehicle for organizing tactical actions to achieve strategic\nobjectives.\nThe Marine air-ground task force (MAGTF) clearly has\noperational as well as tactical capabilities. Thus it is essential\nthat Marine leaders learn to think operationally. Marine Corps\nDoctrinal Publication (MCDP) 1-2, Campaigning, provides\nthe doctrinal basis for military campaigning in the Marine\nCorps, partic"
+  },
+  {
+    "unscreenable_image_pages": [
+      5,
+      9,
+      21,
+      43,
+      45,
+      65,
+      87,
+      97,
+      107,
+      119
+    ],
+    "informational_findings": [
+      {
+        "marking": "classification marking",
+        "count": 2,
+        "sample": "secret",
+        "note": "lower-case only; likely prose, not a marking"
+      }
+    ],
+    "file": "MCDP_1-3_Tactics.pdf",
+    "bytes": 1684572,
+    "sha256": "16c7ba8fe2958587ad06dff6dcb3ac77339f55f6296750b8c5bd423e461e3029",
+    "pages": 145,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "MCDP 1-3 Tactics",
+      "creator": "PdfCompressor 3.1.28",
+      "producer": "CVISION Technologies",
+      "creationDate": "D:20060504154309Z",
+      "modDate": "D:20070129162226-05'00'",
+      "encryption": "Standard V2 R3 128-bit RC4"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 160907,
+    "text_layer_ok": true,
+    "pcn": null,
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "DISTRIBUTION STATEMENT A:Approved for public release; distribution is unlimited\nDEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20380-1775\n30 July 1997\nFOREWORD\nThis publication is about winning in combat. Winning re-\nquires many things: excellence in techniques, an appreciation\nof the enemy, exemplary leadership, battlefield judgment, and\nfocused combat power. Yet these factors by themselves do\nnot ensure success in battle. Many armies, both winners and\nlosers, have possessed many or all of these attributes. When\nwe examine closely the differences between victor and van-\nquished, we draw one conclusion. Success went to the ar-\nmies whose leaders, senior and junior, could best focus their\nefforts\u2014their skills and their resources\u2014toward a decisive\nend. Their success arose not merely from excellence in tech-\nniques, procedures, and material but from their leaders' abili-\nties to uniquely and effectively combine them. Winning in\ncombat depends upon tactical leaders who can think crea-\ntively and act decisively.\nThis book pertains equally to all Marine leaders, whether\ntheir duties entail combat service support, combat support, or\ncombat arms. It applie"
+  },
+  {
+    "unscreenable_image_pages": [
+      1,
+      5,
+      11,
+      31,
+      59,
+      61,
+      79
+    ],
+    "informational_findings": [],
+    "file": "MCDP_1_Warfighting.pdf",
+    "bytes": 681064,
+    "sha256": "51008277a48f89dc4f302715764461086a5e616d520a41b71bdbd3f8f35097c0",
+    "pages": 115,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "MCDP 1 Warfighting",
+      "creator": "PdfCompressor 3.1.28",
+      "producer": "CVISION Technologies",
+      "creationDate": "D:20060504154302Z",
+      "modDate": "D:20070129162220-05'00'",
+      "encryption": "Standard V2 R3 128-bit RC4"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 139843,
+    "text_layer_ok": true,
+    "pcn": null,
+    "distribution_statement_a": false,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "DEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20380-1775\n20 June 1997\nFOREWORD\nSince Fleet Marine Force Manual 1, Warfighting, was first\npublished in 1989, it has had a significant impact both inside\nand outside the Marine Corps. That manual has changed the\nway Marines think about warfare. It has caused energetic de-\nbate and has been translated into several foreign languages,\nissued by foreign militaries, and published commercially. It\nhas strongly influenced the development of doctrine by our\nsister Services. Our current naval doctrine is based on the ten-\nets of maneuver warfare as described in that publication.\nCurrent and emerging concepts such as operational maneuver\nfrom the sea derive their doctrinal foundation from the phi-\nlosophy contained in Warfighting. Our philosophy of war-\nfighting, as described in the manual, is in consonance with\njoint doctrine, contributing to our ability to operate harmoni-\nously with the other Services.\nThat said, I believe WarfIghting can and should be im-\nproved. Military doctrine cannot be allowed to stagnate, espe-\ncially an adaptive doctrine like maneuver warfare. Doctrine\nmust continue to evolve based on"
+  },
+  {
+    "unscreenable_image_pages": [
+      5,
+      9,
+      37,
+      39,
+      79,
+      81
+    ],
+    "informational_findings": [
+      {
+        "marking": "classification marking",
+        "count": 3,
+        "sample": "secret",
+        "note": "lower-case only; likely prose, not a marking"
+      }
+    ],
+    "file": "MCDP_2_Intelligence.pdf",
+    "bytes": 1234731,
+    "sha256": "9c6d353de4b1e2bde76b6e60dd6773c277ba7e32744fcb786443b489948b8571",
+    "pages": 114,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "MCDP 2 Intelligence",
+      "creator": "PdfCompressor 3.1.28",
+      "producer": "CVISION Technologies",
+      "creationDate": "D:20060504154404Z",
+      "modDate": "D:20070129162227-05'00'",
+      "encryption": "Standard V2 R3 128-bit RC4"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 140341,
+    "text_layer_ok": true,
+    "pcn": null,
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "DISTRIBUTION STATEMENT A:Approved for public release; distribution is unlimited\nDEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20380-1775\n7 June 1997\nFOREWORD\nMarine Corps Doctrinal Publication (MCDP) 2, Intelligence,\ndescribes the theory and philosophy of intelligence as prac-\nticed by the United States Marine Corps. It provides Marines\na conceptual framework for understanding and conducting\neffective intelligence activities. The Marine Corps' view of\nintelligence is based on our common understanding of the na-\nture of war and on our warfighting philosophy as described in\nMCDP 1, Warfighting.\nIntelligence discusses the effective use of knowledge about\nthe enemy and the environment in support of military deci-\nsionmaking. Intelligence acknowledges that uncertainty per-\nvades the battlefield and that our best intelligence efforts can\nonly reduce, not eliminate, uncertainty.\nOne of the main aims of this manual is to put intelligence\ninto its proper context in relation to other activities of\nwarfighting. The Marine Corps views intelligence as a funda-\nmental component of command and control that is insepara-\nble from operations. The general concepts"
+  },
+  {
+    "unscreenable_image_pages": [
+      2,
+      6,
+      10,
+      36,
+      68,
+      70,
+      94,
+      96,
+      132
+    ],
+    "informational_findings": [],
+    "file": "MCDP_3_Expeditionary_Operations.pdf",
+    "bytes": 2568851,
+    "sha256": "aa2750a5b8e53ce112ff2ee1fceef581d33b78caa235b9add15dfa2701027462",
+    "pages": 153,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "MCDP 3 Expeditionary Operations",
+      "creator": "PdfCompressor 3.1.28",
+      "producer": "CVISION Technologies",
+      "creationDate": "D:20060505122659Z",
+      "modDate": "D:20070129162229-05'00'",
+      "encryption": "Standard V2 R3 128-bit RC4"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 183622,
+    "text_layer_ok": true,
+    "pcn": "142 000009 00",
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "Expeditionary\nOperations\nMCDP 3\nU.S. Marine Corps\nPCN 142 000009 00\nDISTRIBUTION STATEMENT A: Approved for public release; distribution is unlimited\nDEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20380-1775\n16 April 1998\nFOREWORD\nMarine Corps Doctrinal Publication (MCDP) 3, Expedition-\nary Operations, establishes doctrine for the conduct of mili-\ntary operations by the U.S. Marine Corps. It describes the\nMarine Corps as an expeditionary force-in-readiness that is\nmanned, trained, and equipped specifically to respond quickly\nto a broad variety of crises and conflicts across the full range\nof military operations anywhere in the world. It emphasizes\nthe naval character of Marine Corps forces. This naval expe-\nditionary character provides capabilities both to forward-\ndeploy forces near the scene of potential crises as well as to\ndeploy sustainable, combined arms teams rapidly by sea and\nair. With reduced overseas presence in terms of force levels\nand bases, these capabilities have become essential elements\nof our national military strategy. This publication also under-\nscores the value of Marine Corps forces as a highly cost-\neffective option in a wi"
+  },
+  {
+    "unscreenable_image_pages": [
+      5,
+      9,
+      35,
+      67,
+      69
+    ],
+    "informational_findings": [],
+    "file": "MCDP_5_Planning.pdf",
+    "bytes": 1056963,
+    "sha256": "69d7f5b41c430c17c760161010cffd9410799a9fb166274235f449de33f51424",
+    "pages": 107,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "MCDP 5 Planning",
+      "creator": "PdfCompressor 3.1.28",
+      "producer": "CVISION Technologies",
+      "creationDate": "D:20060504154526Z",
+      "modDate": "D:20070129162231-05'00'",
+      "encryption": "Standard V2 R3 128-bit RC4"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 128658,
+    "text_layer_ok": true,
+    "pcn": null,
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "DISTRIBUTION STATEMENT A:Approved for public release; distribution is unlimited\nDEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20380-1775\n21 July 1997\nFOREWORD\nThis publication describes the theory and philosophy of mili-\ntary planning as practiced by the U.S. Marine Corps. The in-\ntent is to describe how we can prepare effectively for future\naction when the future is uncertain and unpredictable. In so\ndoing, this publication provides all Marines a conceptual\nframework for planning in peace, in crisis, or in war. This ap-\nproach to planning is based on our common understanding of\nthe nature of war and on our warfighting philosophy of ma-\nneuver warfare as described in Marine Corps Doctrinal Publi-\ncation (MCDP) 1, Warfighting.\nOur doctrine for planning establishes planning as an essen-\ntial component of the broader field of command and control.\nThe object of both is to recognize what needs to be done in\nany given situation and see to it that appropriate actions are\ntaken. This publication should be read in conjunction with\nMCDP 6, Command and Control. The concepts described\ntherein also generally apply to planning.\nThe approach to planning present"
+  },
+  {
+    "unscreenable_image_pages": [
+      41,
+      69,
+      113
+    ],
+    "informational_findings": [],
+    "file": "MCDP_6_Command_and_Control.pdf",
+    "bytes": 1437730,
+    "sha256": "967db4d6b56116907d3c6af62de3a65a1e14d2da692c262501d68ddea7cb2529",
+    "pages": 154,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "MCDP 6 Command and Control",
+      "creator": "PdfCompressor 3.1.28",
+      "producer": "CVISION Technologies",
+      "creationDate": "D:20060504154646Z",
+      "modDate": "D:20070419115654-04'00'",
+      "encryption": "Standard V4 R4 128-bit RC4"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 204980,
+    "text_layer_ok": true,
+    "pcn": null,
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "DISTRIBUTION STATEMENT A:Approved for public release; distribution is unlimited\nDEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20380-1775\n4 October 1996\nFOREWORD\nThis doctrinal publication describes a theory and philosophy\nof command and control for the U.S. Marine Corps. Put very\nsimply, the intent is to describe how we can reach effective\nmilitary decisions and implement effective military actions\nfaster than an adversary in any conflict setting on any scale.\nIn so doing, this publication provides a framework for all\nMarines for the development and exercise of effective com-\nmand and control in peace, in crisis, or in war. This publica-\ntion represents a finn commitment by the Marine Corps to a\nbold, even fundamental shift in the way we will view and deal\nwith the dynamic challenges of command and control in the\ninformation age.\nThe Marine Corps' view of command and control is based\non our common understanding of the nature of war and on our\nwarfighting philosophy, as described in Fleet Marine Force\nManual 1, Warfighting (to be superseded by Marine Corps\nDoctrinal Publication 1, Warfighting). It takes into account\nboth the timeless features of wa"
+  },
+  {
+    "unscreenable_image_pages": [
+      2,
+      8,
+      28,
+      30,
+      44,
+      64
+    ],
+    "informational_findings": [],
+    "file": "MCDP_7_Learning.pdf",
+    "bytes": 2203940,
+    "sha256": "117d777efa14e4a06f6c4e62811ed6041edf7cd198ee7d77c932348959923444",
+    "pages": 81,
+    "pdf_metadata": {
+      "format": "PDF 1.6",
+      "author": "karl.braaten",
+      "creator": "FrameMaker 2019.0.2",
+      "producer": "Adobe Acrobat Pro DC 15 Paper Capture Plug-in",
+      "creationDate": "D:20190918093227-04'00'",
+      "modDate": "D:20200330070000-04'00'",
+      "encryption": "Standard V4 R4 128-bit AES"
+    },
+    "toc_entries": 32,
+    "extractable_chars": 110185,
+    "text_layer_ok": true,
+    "pcn": "142 000016 00",
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "Learning\nMCDP 7\nU.S. Marine Corps\nPCN 142 000016 00\nSEMPER FIDELIS\nDEPARTMENT OF THE NAVY\nHeadquarters United States Marine Corps\nWashington, D.C. 20350-3000\n20 February 2020\nFOREWORD\nThe purpose of this publication is to describe the Marine Corps\u2019\nlearning philosophy and explain why learning is critically\nimportant to the profession of arms. While many of the concepts\nin this publication have been passed on by Marine leaders\nthroughout our history, this publication seeks to formalize them\nand provide aspirational goals. Learning is an institutional\npriority and a professional expectation for all Marines. This\nmentality is key to the Marine Corps becoming a more effective\nlearning organization.\nThe most important factor in this philosophy is the importance of\ncontinuous learning throughout our careers for warfighting.\nContinuous learning is essential to maneuver warfare because it\nenables Marines to quickly recognize changing conditions in the\nbattlespace, adapt, and make timely decisions against a thinking\nenemy. These skills required in war must be learned, developed,\nand honed over time\u2014if neglected, they quickly atrophy. Marines\nleverage the art and science of learning, techn"
+  },
+  {
+    "unscreenable_image_pages": [
+      4,
+      8,
+      10,
+      18,
+      40,
+      46,
+      50,
+      52,
+      58,
+      102,
+      110,
+      120
+    ],
+    "informational_findings": [],
+    "file": "MCWP_3-11.3_Scouting_and_Patrolling.pdf",
+    "bytes": 2319051,
+    "sha256": "1a2dc7ce46439047aefb0f4f2bb17a5dc1fa02c214ca0bfacc541f08990fc4fe",
+    "pages": 121,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "MCWP 3-11.3  Scouting and Patrolling",
+      "creator": "PdfCompressor 3.1.28",
+      "producer": "CVISION Technologies",
+      "creationDate": "D:20060804104552Z",
+      "modDate": "D:20070129162404-05'00'",
+      "encryption": "Standard V2 R3 128-bit RC4"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 277556,
+    "text_layer_ok": true,
+    "pcn": "143 000075 00",
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [
+      {
+        "marking": "classification marking",
+        "count": 1,
+        "sample": "SECRET"
+      }
+    ],
+    "front_matter_excerpt": "Scouting and Patrolling\nMCWP 3-11.3\nU.S. Marine Corps\nPCN 143 000075 00\nDistribution Statement A: approved for public release; distribution is unlimited\nTo Our Readers \nChanges: Readers of this publication are encouraged to submit suggestions and changes that \nwill improve it. Recommendations may be sent directly to Commanding General, Marine \nCorps Combat Development Command, Doctrine Division (C 42), 3300 Russell Road, Suite \n318A, Quantico, VA 22134-5021 or by fax to 703-784-2917 (DSN 278-2917) or by E-mail to \nmorgannc@mccdc.usmc.mil. Recommendations should include the following information: \nLocation of change \nPublication number and title \nCurrent page number \nParagraph number (if applicable) \nLine number \nFigure or table number (if applicable) \nNature of change \nAdd, delete \nProposed new text, preferably double-spaced and typewritten \nJustification andlor source of change \nAdditional copies: A printed copy of this publication may be obtained from Marine Corps \nLogistics Base, Albany, GA 3 1704-5001, by following the instructions in MCBul 5600, Ma- \nrine Corps Doctrinal Publications Status. An electronic copy may be obtained from the Doc- \ntrine Division, MCCDC, world wide w"
+  },
+  {
+    "unscreenable_image_pages": [],
+    "informational_findings": [],
+    "file": "TCCC_Guidelines_2026-05-01.pdf",
+    "bytes": 313941,
+    "sha256": "0055c81c39f57e36f1b3c1ac82a4e443387b77378b1302c637f80062b83f84ef",
+    "pages": 17,
+    "pdf_metadata": {
+      "format": "PDF 1.6",
+      "title": "TCCC-Guidelines-2026",
+      "author": "Harold Montgomery;Brendon Drew;Frank Butler;Steve Giebner;Travis Deaton",
+      "keywords": "#TCCC #TC3 #CoTCCC",
+      "creator": "Acrobat PDFMaker 26 for Word",
+      "producer": "Adobe PDF Library 26.1.25",
+      "creationDate": "D:20260501134602-04'00'",
+      "modDate": "D:20260501134608-04'00'",
+      "encryption": "Standard V4 R4 128-bit AES"
+    },
+    "toc_entries": 0,
+    "extractable_chars": 36003,
+    "text_layer_ok": true,
+    "pcn": null,
+    "distribution_statement_a": false,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "1 \n \n \nTactical Combat Casualty Care (TCCC)  \nGuidelines \n \n01 May 2026 \n \n \nRED text indicates new text in this year\u2019s update to the TCCC Guidelines; BLUE text indicates \ntext that did not change but was relocated within the guidelines.  Recent changes include airway \nmanagement and traumatic brain injury management in tactical field care. \n \n \nBasic Management Plan for Care Under Fire/Threat \n \n1. Return fire and take cover. \n \n2. Direct or expect casualty to remain engaged as a combatant if appropriate. \n \n3. Direct casualty to move to cover and apply self-aid if able or when tactically feasible, move \nor drag casualty to cover. \n \n4. Try to keep the casualty from sustaining additional wounds. \n \n5. Casualties should be extracted from burning vehicles or buildings and moved to places of \nrelative safety. Do what is necessary to stop the burning process. \n \n6. Stop life-threatening external hemorrhage if tactically feasible: \na. Direct casualty to control hemorrhage by self-aid if able. \nb. Use a CoTCCC-recommended limb tourniquet for hemorrhage that is anatomically \namenable to tourniquet use. \nc. Apply the limb tourniquet over the uniform clearly proximal to the bleeding site(s"
+  },
+  {
+    "unscreenable_image_pages": [],
+    "informational_findings": [],
+    "file": "TC_3-22.9_Rifle_and_Carbine.pdf",
+    "bytes": 14328641,
+    "sha256": "268941c0ed41e71e6aa838e39a84f54b7cde853d66f75852b95469f0f0344354",
+    "pages": 252,
+    "pdf_metadata": {
+      "format": "PDF 1.6",
+      "creationDate": "D:20191113142224-05'00'",
+      "modDate": "D:20191121100934-05'00'"
+    },
+    "toc_entries": 1827,
+    "extractable_chars": 323129,
+    "text_layer_ok": true,
+    "pcn": null,
+    "distribution_statement_a": true,
+    "distribution_restricted": null,
+    "blocking_findings": [],
+    "front_matter_excerpt": "TC 3-22.9 \nRifle and Carbine \nMAY 2016 \nDistribution \nRestriction: \nApproved \nfor \npublic \nrelease; \ndistribution is unlimited. \n*This publication supersedes FM 3-22.9, 12 August 2008.\nHeadquarters, Department of the Army \nThis publication is available at the Army Publishing Directorate site \n(http://www.apd.army.mil), and the Central Army Registry site \n(https://atiam.train.army.mil/catalog/dashboard). \nTC 3-22.9, C3 \nChange 3 \nHeadquarters \nDepartment of the Army\nWashington, DC, 20 November 2019\nRifle and Carbine \n1.\nChange TC 3-22.9, 13 May 2016, as follows:\nRemove old pages: \niii through x \n1-1 through 1-9\nF-1 through F-22\nReferences-1 through References-2 \nIndex-1\nInsert new pages: \niii through ix\n1-1 through 1-13\nF-1 through F-10\nReferences-1 through References-2 \nIndex-1\n2.\nA triangle (\n   ) marks new or changed material. \n3.\nFile this transmittal sheet in front of the publication.\nDISTRIBUTION RESTRICTION: Approved for public release; distribution is \nunlimited. \nPIN: 106419-003 \nTC 3-22.9\n20 November\u0003\u0015\u0013\u0014\u001c\n%\\\u00032UGHU\u0003RI\u0003WKH\u00036HFUHWDU\\\u0003RI\u0003WKH\u0003$UP\\\u001d\u0003\n-$0(6\u0003&\u0011\u00030&&219,//(\u0003\u0003 \n*HQHUDO\u000f\u00038QLWHG\u00036WDWHV\u0003$UP\\\u0003\u0003 \n&KLHI\u0003RI\u00036WDII\u0003\n2IILFLDO\u001d\u0003\nDISTRIBUTION:\nActive Army, Army National Guard"
+  }
+]

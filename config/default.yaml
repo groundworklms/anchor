@@ -1,0 +1,178 @@
+# Offline Doctrine-Grounded Tutor — default configuration
+#
+# Every model call goes through an OpenAI-compatible client. Swapping the generator
+# is a change to `model.name` and `model.base_url` only. No code change.
+
+device:
+  host: 192.168.55.1          # Jetson Orin Nano 8GB over USB device-mode
+  user: vanguard
+  # No password here, ever. Key auth only. See DECISIONS.md open-items.
+
+model:
+  # OpenAI-compatible endpoint served by llama.cpp --server, bound to loopback.
+  base_url: http://127.0.0.1:8080/v1
+  api_key: "not-used-offline"   # llama.cpp ignores this; kept for client compatibility
+  name: gemma-4-E2B-it-qat-q4_0
+  # Primary is E2B per DECISIONS.md D-002. E4B is a stretch target only.
+  # To swap: change name + gguf_path, restart. Nothing else.
+  gguf_path: /opt/tutor/models/gemma-4-E2B-it-qat-Q4_0.gguf
+  n_ctx: 8192                 # NOT the model's 128K max — deliberately small, see note
+  # 999 = offload every layer. NOT -1: this llama.cpp build silently accepts -1 and
+  # runs entirely on CPU (verified 2026-08-13 - GR3D_FREQ sat at 0% and generation
+  # was an order of magnitude slower). Always confirm GPU use via tegrastats.
+  n_gpu_layers: 999
+  temperature: 0.0            # deterministic: an eval table needs reproducible runs
+  max_tokens: 512
+
+  # Note on n_ctx: Gemma 4 supports 128K, but KV cache is the second-largest memory
+  # consumer after weights on an 8GB shared-memory board. 8192 comfortably holds 8
+  # reranked chunks plus the system prompt. Raise only with a measured memory number.
+
+embeddings:
+  model: BAAI/bge-small-en-v1.5
+  device: cuda
+  batch_size: 32
+  normalize: true
+
+reranker:
+  model: BAAI/bge-reranker-base
+  device: cuda
+  batch_size: 16
+
+retrieval:
+  top_k_dense: 50
+  top_k_bm25: 50
+  rrf_k: 60                   # reciprocal rank fusion constant
+  top_n_rerank: 8             # what actually reaches the generator
+
+abstention:
+  # 3.0, RE-SET 2026-08-25 against 63 in-corpus + 58 out-of-corpus questions on device.
+  # Originally 3.5, tuned in D-024 against a 46-question set that no longer exists.
+  #
+  # The argument for 3.0 is NOT that it scores better -- that claim was refused for the
+  # grounding gate in D-044 on 420-candidate overfitting grounds, and the same scepticism
+  # applies here. It is that **3.5 buys nothing 3.0 does not already give**: the set of
+  # false answers at the two thresholds is not merely the same size, it is the SAME SEVEN
+  # QUESTIONS. 3.5 costs two correct answers -- "What is a strategic corporal?" and the
+  # OODA attribution question -- and prevents zero false ones. Declining to pay for
+  # something you do not receive is not curve-fitting.
+  #
+  # This does not fix the real problem. D-045: for 11 of 12 over-refusals the correct
+  # chunk WAS retrieved, six of them at rank 1, and the reranker scored it below the gate.
+  # Retrieval is not the bottleneck; using an absolute reranker score as a calibrated
+  # relevance signal is.
+  #
+  # Re-tune with `make tune-abstention` whenever the corpus, the reranker, or the
+  # retrieval depth changes -- the scale is not portable across models.
+  reranker_score_threshold: 3.0
+
+  # Per-publication reranker-score calibration offsets (D-045). APPLIED PER PUBLICATION:
+  # each entry is ADDED to the raw rank-1 reranker score of a chunk from that publication
+  # BEFORE it is compared to reranker_score_threshold above.
+  #
+  # Why it exists: bge-reranker-base is trained to RANK, not to emit a calibrated value,
+  # so its scores are not comparable across publications. All three TCCC over-refusals
+  # scored NEGATIVE at rank 1 -- the correct chunk was found and then scored away --
+  # because terse clinical lists (TCCC) score systematically lower than MCDP prose. One
+  # global threshold penalises a whole publication for its genre. An offset shifts each
+  # publication onto a common reference so "3.0" means the same relevance in a TCCC list
+  # as in an MCDP paragraph.
+  #
+  # An EMPTY MAP IS A DELIBERATE NO-OP: every publication gets +0.0 and the gate behaves
+  # byte-for-byte as it did before calibration existed. This is the shipped default.
+  #
+  # Do NOT hand-tune these and do NOT fit them to which eval questions passed or failed
+  # (that is the D-044 overfitting trap). Derive them on the device from recorded rank-1
+  # score DISTRIBUTIONS with scripts/compute_rerank_offsets.py, review the printed
+  # before/after per-publication table, then paste the reviewed values here as
+  #     <pub_id>: <float>
+  # e.g.  TCCC: 4.2
+  # APPLIED 25 Aug 2026 from a 999-item probe (scripts/probe_rerank_by_pub.py),
+  # aligning each publication's FIRST-QUARTILE rank-1 score to a common reference
+  # (D-054). Not fit to eval pass/fail. Held-out on the eval: over-refusal unchanged
+  # at 15.5%, false-answer 17.3%->13.5%, combined 0.328->0.290. TCCC (+1.389) is the
+  # genre outlier D-045 predicted.
+  reranker_score_offsets:
+    MCDP 1: 0.0
+    MCDP 1-0: -0.866
+    MCDP 1-1: 0.658
+    MCDP 1-2: -0.16
+    MCDP 1-3: -0.016
+    MCDP 2: 0.445
+    MCDP 3: -0.111
+    MCDP 5: 0.414
+    MCDP 6: 0.281
+    MCDP 7: 0.999
+    MCWP 3-11.3: -0.314
+    TC 3-22.9: -1.475
+    TCCC: 1.389
+
+  # BM25 lexical-match RESCUE -- a SECONDARY abstention signal for the D-054 remaining
+  # limit. D-054's per-publication offset shifts TCCC's score location but, as D-054 states,
+  # cannot rescue its low TAIL: the failing TCCC clinical questions score around -2.5 at
+  # rank 1 and a +1.389 offset leaves them below reranker_score_threshold. Those answers
+  # are in the corpus verbatim ("cricothyroidotomy cannula specifications"), and BM25 -- a
+  # LEXICAL model -- matches them strongly even when bge-reranker-base (a ranker, not a
+  # calibrated relevance model; D-045) underscores them.
+  #
+  # When the reranker gate WOULD REFUSE, a retrieved chunk whose positive BM25 relevance
+  # (-1 * the raw sqlite bm25() score surfaced as bm25_score) clears this bar rescues the
+  # answer instead. It can ONLY flip refuse -> answer, never the reverse, and the model's
+  # own INSUFFICIENT_SOURCES still applies afterwards.
+  #
+  # THE BAR MUST BE HIGH. A low bar rescues out-of-corpus questions that merely share
+  # vocabulary with the corpus and RAISES the false-answer rate -- the number every
+  # abstention decision here fights to hold down. It must be a near-exact lexical match,
+  # not incidental term overlap.
+  #
+  # null BY DEFAULT = disabled = reranker-only gate, byte-for-byte. Do NOT guess a value:
+  # tune it ON DEVICE against recorded false-answer data (out-of-corpus questions with
+  # incidental term overlap must NOT be rescued), the same held-out discipline D-054 used
+  # for its offsets -- not the D-044 trap of fitting a number to which eval questions passed.
+  bm25_rescue_threshold: null
+  min_supporting_chunks: 1
+  refusal_text: >-
+    I can't answer that from the doctrine I have on this device. Nothing in the
+    indexed corpus supports an answer to this question.
+
+grounding:
+  # Post-generation check: map every claim sentence back to a retrieved chunk.
+  enabled: true
+  # 'flag' annotates unsupported sentences; 'strip' removes them.
+  unsupported_sentence_action: flag
+
+  # DELIBERATELY null -- this signal does NOT separate answerable from unanswerable.
+  # Measured 2026-08-13: out-of-corpus grounding reached 0.985 while in-corpus topped out
+  # at 0.861, i.e. the ranges overlap completely and the wrong side scores HIGHER.
+  # The reason is structural: the check measures whether the answer faithfully paraphrases
+  # the retrieved chunks, which it always does because the model was instructed to use
+  # only those chunks. It says nothing about whether those chunks answer the question.
+  # Kept ON for per-sentence flagging (useful, honest), but it must not gate abstention.
+  # See DECISIONS.md D-024.
+  sentence_support_threshold: null
+
+# D-056: premise pre-gate. Refuses a question whose asserted specific (a count, edition,
+# page, or attribution) is not supported by the retrieved passages -- the false-premise
+# class the reranker gate cannot catch. OFF by default: it verifies with the resident 2B,
+# which is noisy, so enabling it trades some over-refusal for fewer false answers (a values
+# call for a safety-critical tutor, measured in D-056, not a free win). The real fix is a
+# purpose-built verifier (MiniCheck/HHEM) via grounding_verifier's hhem_url seam, which
+# needs an ML runtime + freed memory this 8GB board does not currently have.
+premise_gate:
+  enabled: true
+  hhem_url: http://127.0.0.1:8083/verify   # HHEM service (tutor-verify); null -> 2B fallback
+  support_tau: 0.5
+
+index:
+  path: index/doctrine.sqlite       # one portable artifact: sqlite-vec + FTS5
+
+server:
+  host: 127.0.0.1                   # loopback only. Never bind 0.0.0.0.
+  port: 8000
+  stream: true                      # SSE token streaming
+
+telemetry:
+  tegrastats_interval_ms: 1000
+  # Large network-status banner is driven by a real interface check, never a
+  # hardcoded string. See src/api/network_status.py.
+  network_check_interfaces: [eth0, wlan0, l4tbr0, usb0, usb1]

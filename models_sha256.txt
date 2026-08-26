@@ -1,0 +1,8 @@
+gemma-4-E2B_q4_0-it.gguf  3349516256  fa401b55b07ee70a54c6dae3903c783a6e65064312529ea57175cb5f8dec6634
+gemma-4-E4B_q4_0-it.gguf  5154941280  676c35070db6dbe52f93e9c864ee0fba4eddea94b9c875d9cb10daff453fbaee
+
+# Pinned 2026-08-24. These two were flagged 'pin on first download' at P2 and never
+# were -- they have been serving retrieval since, unverifiable. Hashed on device.
+# Sizes are approximate (MiB as reported by ls -lh); the hash is the pin.
+bge-small-en-v1.5-q8_0.gguf  ~35MiB  f046db1dc724cf4f6f0a0c5917e922823b73eb1d27b8f9a9c2797f7866974804
+bge-reranker-base-q8_0.gguf  ~290MiB  4bf3f9269c55954a5ad4d9e0e7fb05b448cb1053818170f497242ff760fd46bb

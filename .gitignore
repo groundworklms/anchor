@@ -1,0 +1,61 @@
+# --- secrets: never commit anything matching these -------------------------
+*.pem
+*.key
+id_ed25519*
+.env
+.env.*
+secrets.yaml
+credentials*
+*_password*
+*.token
+
+# --- large binaries: models and indexes are rebuilt, never committed -------
+models/
+*.gguf
+*.onnx
+*.engine
+*.safetensors
+
+# --- built artifacts -------------------------------------------------------
+index/*.db
+index/*.sqlite
+index/*.sqlite3
+# The rules above were anchored to index/, and every file that actually holds a learner's
+# answers lands somewhere else. records.sqlite contains free-text answers; an xAPI bundle
+# is an export of them. None of these may ever be committed.
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+records.sqlite*
+doctrine.sqlite*
+xapi_bundle*.json
+learn_items*.json
+gap_report.json
+archive/
+backups/
+*.img
+*.img.zst
+corpus/pdf/
+
+# --- eval outputs (the table is committed; raw runs are not) ---------------
+eval/runs/
+eval/*.raw.jsonl
+
+# --- python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- editors / os ----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# chunk output is rebuilt by `make ingest`; the report and verification are committed
+corpus/chunks.jsonl
+corpus/chunks_test.jsonl
+corpus/chunk_report_test.json

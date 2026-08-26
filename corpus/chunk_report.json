@@ -1,0 +1,716 @@
+[
+  {
+    "pub_id": "MCDP 1-0",
+    "pages": 279,
+    "chunks": 712,
+    "structure_source": "bookmarks",
+    "pct_with_printed_page": 88.6,
+    "pct_with_section": 100.0,
+    "pct_spanning_pages": 25.6,
+    "median_chunk_chars": 477,
+    "nav_chunks_skipped": 365,
+    "unmatched_heading_count": 393,
+    "unmatched_headings": [
+      {
+        "page_pdf": 1,
+        "raw": "(w/change 1, 2, 3)",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 1,
+        "raw": "U.S. Marine Corps",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 2,
+        "raw": "CD&I (C 116)",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 2,
+        "raw": "MARINE CORPS OPERATIONS",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 2,
+        "raw": "ROBERT B. NELLER",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 4,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 4,
+        "raw": "CHANGE 2 to MCDP 1-0",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 4,
+        "raw": "BY DIRECTION OF THE COMMANDANT OF THE MARINE CORPS",
+        "best_score": 0.0
+      }
+    ],
+    "furniture_patterns": [
+      "#-#",
+      "A-#",
+      "B-#",
+      "C-#",
+      "Glossary-#",
+      "MCDP #-#"
+    ]
+  },
+  {
+    "pub_id": "MCDP 1-1",
+    "pages": 122,
+    "chunks": 250,
+    "structure_source": "printed TOC (4ch/37sec)",
+    "pct_with_printed_page": 87.6,
+    "pct_with_section": 94.0,
+    "pct_spanning_pages": 42.4,
+    "median_chunk_chars": 526,
+    "nav_chunks_skipped": 0,
+    "unmatched_heading_count": 10,
+    "unmatched_headings": [
+      {
+        "page_pdf": 2,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.462
+      },
+      {
+        "page_pdf": 2,
+        "raw": "FOREWORD",
+        "best_score": 0.357
+      },
+      {
+        "page_pdf": 4,
+        "raw": "DISTRIBUTION: 142 000007 00",
+        "best_score": 0.321
+      },
+      {
+        "page_pdf": 6,
+        "raw": "MCDP1-1",
+        "best_score": 0.25
+      },
+      {
+        "page_pdf": 23,
+        "raw": "ENTITIES",
+        "best_score": 0.421
+      },
+      {
+        "page_pdf": 51,
+        "raw": "LIMITED",
+        "best_score": 0.37
+      },
+      {
+        "page_pdf": 52,
+        "raw": "UNLIMITED",
+        "best_score": 0.345
+      },
+      {
+        "page_pdf": 59,
+        "raw": "MCD:P 1-1",
+        "best_score": 0.235
+      }
+    ],
+    "furniture_patterns": [
+      "MCDP #-#",
+      "Strategic Opposites",
+      "Strategy",
+      "Strategy: Ends and Means",
+      "The Making of Strategy",
+      "The Strategic Environment"
+    ]
+  },
+  {
+    "pub_id": "MCDP 1-2",
+    "pages": 120,
+    "chunks": 245,
+    "structure_source": "printed TOC (2ch/26sec)",
+    "pct_with_printed_page": 91.8,
+    "pct_with_section": 94.3,
+    "pct_spanning_pages": 42.9,
+    "median_chunk_chars": 527,
+    "nav_chunks_skipped": 7,
+    "unmatched_heading_count": 14,
+    "unmatched_headings": [
+      {
+        "page_pdf": 1,
+        "raw": "PCN 142 000008 00",
+        "best_score": 0.304
+      },
+      {
+        "page_pdf": 2,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.483
+      },
+      {
+        "page_pdf": 2,
+        "raw": "FOREWORD",
+        "best_score": 0.333
+      },
+      {
+        "page_pdf": 5,
+        "raw": "DISTRIBUTION: 142 000008 00",
+        "best_score": 0.373
+      },
+      {
+        "page_pdf": 48,
+        "raw": "VULNERABILITIES",
+        "best_score": 0.476
+      },
+      {
+        "page_pdf": 61,
+        "raw": "MCDP 1.2",
+        "best_score": 0.24
+      },
+      {
+        "page_pdf": 70,
+        "raw": "STRATEGIC ORIENTATION",
+        "best_score": 0.604
+      },
+      {
+        "page_pdf": 71,
+        "raw": "Tin USE OF COMBAT",
+        "best_score": 0.432
+      }
+    ],
+    "furniture_patterns": [
+      "Campaigning",
+      "Conducting the Campaign",
+      "Designing the Campaign",
+      "MCDP #-#",
+      "Notes",
+      "The Campaign"
+    ]
+  },
+  {
+    "pub_id": "MCDP 1-3",
+    "pages": 145,
+    "chunks": 318,
+    "structure_source": "printed TOC (8ch/55sec)",
+    "pct_with_printed_page": 89.6,
+    "pct_with_section": 89.6,
+    "pct_spanning_pages": 39.3,
+    "median_chunk_chars": 430,
+    "nav_chunks_skipped": 9,
+    "unmatched_heading_count": 9,
+    "unmatched_headings": [
+      {
+        "page_pdf": 2,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.458
+      },
+      {
+        "page_pdf": 2,
+        "raw": "FOREWORD",
+        "best_score": 0.375
+      },
+      {
+        "page_pdf": 4,
+        "raw": "DISTRIBUTION: 142 000002 00",
+        "best_score": 0.372
+      },
+      {
+        "page_pdf": 27,
+        "raw": "ACHIEVED",
+        "best_score": 0.48
+      },
+      {
+        "page_pdf": 100,
+        "raw": "COMMANDER",
+        "best_score": 0.316
+      },
+      {
+        "page_pdf": 100,
+        "raw": "COMMANDER",
+        "best_score": 0.316
+      },
+      {
+        "page_pdf": 100,
+        "raw": "COMMANDER",
+        "best_score": 0.316
+      },
+      {
+        "page_pdf": 100,
+        "raw": "COMMANDER",
+        "best_score": 0.316
+      }
+    ],
+    "furniture_patterns": [
+      "Achieving a Decision",
+      "Adapting",
+      "Being Faster",
+      "Cooperating",
+      "Exploiting Success and Finishing",
+      "Gaining Advantage"
+    ]
+  },
+  {
+    "pub_id": "MCDP 1",
+    "pages": 115,
+    "chunks": 241,
+    "structure_source": "printed TOC (4ch/45sec)",
+    "pct_with_printed_page": 90.0,
+    "pct_with_section": 93.8,
+    "pct_spanning_pages": 42.7,
+    "median_chunk_chars": 466,
+    "nav_chunks_skipped": 0,
+    "unmatched_heading_count": 7,
+    "unmatched_headings": [
+      {
+        "page_pdf": 2,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.591
+      },
+      {
+        "page_pdf": 4,
+        "raw": "DISTRIBUTION: 142 000006 00",
+        "best_score": 0.383
+      },
+      {
+        "page_pdf": 6,
+        "raw": "PREFACE",
+        "best_score": 0.444
+      },
+      {
+        "page_pdf": 54,
+        "raw": "VULNERABILITIES",
+        "best_score": 0.484
+      },
+      {
+        "page_pdf": 91,
+        "raw": "MCD? 1",
+        "best_score": 0.333
+      },
+      {
+        "page_pdf": 103,
+        "raw": "MCD? 1",
+        "best_score": 0.333
+      },
+      {
+        "page_pdf": 115,
+        "raw": "MCDP1",
+        "best_score": 0.3
+      }
+    ],
+    "furniture_patterns": [
+      "MCDP #",
+      "MCDP I",
+      "Notes",
+      "Preparing for War",
+      "The Conduct of War",
+      "The Nature of War"
+    ]
+  },
+  {
+    "pub_id": "MCDP 2",
+    "pages": 114,
+    "chunks": 226,
+    "structure_source": "printed TOC (3ch/28sec)",
+    "pct_with_printed_page": 94.2,
+    "pct_with_section": 96.5,
+    "pct_spanning_pages": 43.8,
+    "median_chunk_chars": 544,
+    "nav_chunks_skipped": 1,
+    "unmatched_heading_count": 15,
+    "unmatched_headings": [
+      {
+        "page_pdf": 2,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.48
+      },
+      {
+        "page_pdf": 2,
+        "raw": "FOREWORD",
+        "best_score": 0.222
+      },
+      {
+        "page_pdf": 4,
+        "raw": "DISTRIBUTION: 142 000005 00",
+        "best_score": 0.338
+      },
+      {
+        "page_pdf": 40,
+        "raw": "ENEMY?",
+        "best_score": 0.286
+      },
+      {
+        "page_pdf": 51,
+        "raw": "SUtAI1&I",
+        "best_score": 0.375
+      },
+      {
+        "page_pdf": 53,
+        "raw": "MCD? 2",
+        "best_score": 0.188
+      },
+      {
+        "page_pdf": 54,
+        "raw": "MCD? 2",
+        "best_score": 0.188
+      },
+      {
+        "page_pdf": 61,
+        "raw": "MCBP 2",
+        "best_score": 0.188
+      }
+    ],
+    "furniture_patterns": [
+      "Creating Effective Intelligence",
+      "Intelligence",
+      "Intelligence Theory",
+      "MCDP #",
+      "MCDP#",
+      "Notes"
+    ]
+  },
+  {
+    "pub_id": "MCDP 3",
+    "pages": 153,
+    "chunks": 287,
+    "structure_source": "printed TOC (4ch/38sec)",
+    "pct_with_printed_page": 93.4,
+    "pct_with_section": 96.2,
+    "pct_spanning_pages": 46.0,
+    "median_chunk_chars": 535,
+    "nav_chunks_skipped": 2,
+    "unmatched_heading_count": 18,
+    "unmatched_headings": [
+      {
+        "page_pdf": 3,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.417
+      },
+      {
+        "page_pdf": 5,
+        "raw": "DISTRIBUTION: 142 000009 00",
+        "best_score": 0.406
+      },
+      {
+        "page_pdf": 7,
+        "raw": "MCDP3",
+        "best_score": 0.235
+      },
+      {
+        "page_pdf": 29,
+        "raw": "LITTORAL REGIONS",
+        "best_score": 0.485
+      },
+      {
+        "page_pdf": 37,
+        "raw": "CRISIS RESPONSE",
+        "best_score": 0.411
+      },
+      {
+        "page_pdf": 39,
+        "raw": "DISCUSSED",
+        "best_score": 0.327
+      },
+      {
+        "page_pdf": 44,
+        "raw": "OPERATIONS",
+        "best_score": 0.6
+      },
+      {
+        "page_pdf": 46,
+        "raw": "FORCES",
+        "best_score": 0.375
+      }
+    ],
+    "furniture_patterns": [
+      "Expeditionary Concepts",
+      "Expeditionary Operations",
+      "Expeditionary Organizations",
+      "MCDP #",
+      "Notes",
+      "Operation Littoral Chaos"
+    ]
+  },
+  {
+    "pub_id": "MCDP 5",
+    "pages": 107,
+    "chunks": 223,
+    "structure_source": "printed TOC (3ch/34sec)",
+    "pct_with_printed_page": 91.0,
+    "pct_with_section": 97.3,
+    "pct_spanning_pages": 43.9,
+    "median_chunk_chars": 527,
+    "nav_chunks_skipped": 1,
+    "unmatched_heading_count": 13,
+    "unmatched_headings": [
+      {
+        "page_pdf": 2,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.383
+      },
+      {
+        "page_pdf": 2,
+        "raw": "FOREWORD",
+        "best_score": 0.258
+      },
+      {
+        "page_pdf": 4,
+        "raw": "DISTRIBUTION: 142 000004 00",
+        "best_score": 0.391
+      },
+      {
+        "page_pdf": 6,
+        "raw": "MCDP5",
+        "best_score": 0.353
+      },
+      {
+        "page_pdf": 28,
+        "raw": "FORESIGHT AND DESIGN",
+        "best_score": 0.606
+      },
+      {
+        "page_pdf": 29,
+        "raw": "MCDP5",
+        "best_score": 0.267
+      },
+      {
+        "page_pdf": 33,
+        "raw": "\u2022MCDP5",
+        "best_score": 0.25
+      },
+      {
+        "page_pdf": 39,
+        "raw": "MCD? 5",
+        "best_score": 0.261
+      }
+    ],
+    "furniture_patterns": [
+      "MCDP #",
+      "Notes",
+      "Planning",
+      "Planning Effectively",
+      "Planning Theory",
+      "The Nature of Planning"
+    ]
+  },
+  {
+    "pub_id": "MCDP 6",
+    "pages": 154,
+    "chunks": 250,
+    "structure_source": "printed TOC (3ch/40sec)",
+    "pct_with_printed_page": 80.8,
+    "pct_with_section": 95.2,
+    "pct_spanning_pages": 50.0,
+    "median_chunk_chars": 580,
+    "nav_chunks_skipped": 0,
+    "unmatched_heading_count": 21,
+    "unmatched_headings": [
+      {
+        "page_pdf": 2,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.522
+      },
+      {
+        "page_pdf": 2,
+        "raw": "FOREWORD",
+        "best_score": 0.37
+      },
+      {
+        "page_pdf": 5,
+        "raw": "DISTRIBU11ON: 142 000001 00",
+        "best_score": 0.341
+      },
+      {
+        "page_pdf": 13,
+        "raw": "BMPs, T-80s.\"",
+        "best_score": 0.32
+      },
+      {
+        "page_pdf": 46,
+        "raw": "CONTROL?",
+        "best_score": 0.444
+      },
+      {
+        "page_pdf": 48,
+        "raw": "COMMANDER",
+        "best_score": 0.432
+      },
+      {
+        "page_pdf": 48,
+        "raw": "I COMMANDER",
+        "best_score": 0.513
+      },
+      {
+        "page_pdf": 48,
+        "raw": "COMMANDER",
+        "best_score": 0.432
+      }
+    ],
+    "furniture_patterns": [
+      "Command and Control",
+      "Command and Control Theory",
+      "Creating Effective Command and Control",
+      "MCDP #",
+      "Notes",
+      "Operation VERBAL IMAGE"
+    ]
+  },
+  {
+    "pub_id": "MCDP 7",
+    "pages": 81,
+    "chunks": 140,
+    "structure_source": "bookmarks",
+    "pct_with_printed_page": 67.1,
+    "pct_with_section": 100.0,
+    "pct_spanning_pages": 49.3,
+    "median_chunk_chars": 704,
+    "nav_chunks_skipped": 0,
+    "unmatched_heading_count": 0,
+    "unmatched_headings": [],
+    "furniture_patterns": [
+      "#-#",
+      "MCDP # Learning",
+      "Notes",
+      "Notes-#",
+      "The Culture of Learning",
+      "The Learning Environment"
+    ]
+  },
+  {
+    "pub_id": "MCWP 3-11.3",
+    "pages": 121,
+    "chunks": 668,
+    "structure_source": "printed TOC (0ch/0sec)",
+    "pct_with_printed_page": 76.9,
+    "pct_with_section": 99.0,
+    "pct_spanning_pages": 12.6,
+    "median_chunk_chars": 329,
+    "nav_chunks_skipped": 3,
+    "unmatched_heading_count": 260,
+    "unmatched_headings": [
+      {
+        "page_pdf": 1,
+        "raw": "U.S. Marine Corps",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 1,
+        "raw": "PCN 143 000075 00",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 3,
+        "raw": "DEPARTMENT OF THE NAVY",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 3,
+        "raw": "FOREWORD",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 3,
+        "raw": "1. PURPOSE",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 3,
+        "raw": "2. SCOPE",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 3,
+        "raw": "3. SUPERSESSION",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 3,
+        "raw": "4. CERTIFICATION",
+        "best_score": 0.0
+      }
+    ],
+    "furniture_patterns": [
+      "#-#",
+      "#.",
+      "-",
+      "A-GUNNER",
+      "C-#",
+      "D-#"
+    ]
+  },
+  {
+    "pub_id": "TCCC",
+    "pages": 17,
+    "chunks": 43,
+    "structure_source": "printed TOC (0ch/0sec)",
+    "pct_with_printed_page": 4.7,
+    "pct_with_section": 100.0,
+    "pct_spanning_pages": 30.2,
+    "median_chunk_chars": 575,
+    "nav_chunks_skipped": 0,
+    "unmatched_heading_count": 18,
+    "unmatched_headings": [
+      {
+        "page_pdf": 1,
+        "raw": "Tactical Combat Casualty Care (TCCC)",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 1,
+        "raw": "Guidelines",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 1,
+        "raw": "Basic Management Plan for Care Under Fire/Threat",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 2,
+        "raw": "Basic Management Plan for Tactical Field Care",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 2,
+        "raw": "1. Establish a security perimeter in accordance with unit tactical standard operating",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 2,
+        "raw": "2. Triage casualties as required. See Triage Recommendations in Supplement A \u2013 Triage in",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 2,
+        "raw": "3. Massive Hemorrhage",
+        "best_score": 0.0
+      },
+      {
+        "page_pdf": 3,
+        "raw": "4. Airway Management",
+        "best_score": 0.0
+      }
+    ],
+    "furniture_patterns": [
+      "TCCC Guidelines #"
+    ]
+  },
+  {
+    "pub_id": "TC 3-22.9",
+    "pages": 252,
+    "chunks": 627,
+    "structure_source": "bookmarks",
+    "pct_with_printed_page": 94.4,
+    "pct_with_section": 98.4,
+    "pct_spanning_pages": 21.1,
+    "median_chunk_chars": 310,
+    "nav_chunks_skipped": 40,
+    "unmatched_heading_count": 0,
+    "unmatched_headings": [],
+    "furniture_patterns": [
+      "# August #",
+      "# January #",
+      "# May #",
+      "# November #",
+      "#-#",
+      "#-Meter Boresight Offsets and #-Meter Zero Offsets"
+    ]
+  }
+]
