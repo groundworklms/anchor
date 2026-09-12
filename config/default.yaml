@@ -136,28 +136,51 @@ abstention:
     indexed corpus supports an answer to this question.
 
 grounding:
-  # Post-generation check: map every claim sentence back to a retrieved chunk.
+  # Post-generation ANSWER gate. Two independent signals live here; the split matters.
+  #
+  # (a) CITE-OR-REFUSE -- the structural, always-on floor (pipeline.ask, "Gate 2b"). Every
+  #     factual sentence must carry a valid in-range [N] citation marker; an answer that
+  #     asserts factual sentences with ZERO such markers is refused as `uncited_answer`.
+  #     It costs nothing (it reads markers already in the text -- no embedding, no
+  #     verifier), so it ships ON and is NOT toggled by a threshold. This is the gate the
+  #     README/mermaid "Grounding check -- every sentence cited" box describes, and it is
+  #     what makes "every factual sentence carries a citation" true in the shipped config
+  #     rather than only in the prose.
+  #
+  # (b) SENTENCE-SUPPORT (cosine) -- per-sentence support scoring, below. Kept ON for
+  #     honest per-sentence FLAGGING but deliberately does NOT gate abstention.
   enabled: true
   # 'flag' annotates unsupported sentences; 'strip' removes them.
   unsupported_sentence_action: flag
 
-  # DELIBERATELY null -- this signal does NOT separate answerable from unanswerable.
-  # Measured 2026-08-13: out-of-corpus grounding reached 0.985 while in-corpus topped out
-  # at 0.861, i.e. the ranges overlap completely and the wrong side scores HIGHER.
-  # The reason is structural: the check measures whether the answer faithfully paraphrases
-  # the retrieved chunks, which it always does because the model was instructed to use
-  # only those chunks. It says nothing about whether those chunks answer the question.
-  # Kept ON for per-sentence flagging (useful, honest), but it must not gate abstention.
-  # See DECISIONS.md D-024.
+  # DELIBERATELY null -- the cosine SUPPORT score does NOT separate answerable from
+  # unanswerable, so it must not gate abstention (the cite-or-refuse floor above does that
+  # job for free). Measured 2026-08-13: out-of-corpus grounding reached 0.985 while
+  # in-corpus topped out at 0.861 -- the ranges overlap completely and the WRONG side
+  # scores HIGHER, so any threshold that refuses the ungrounded also refuses real answers
+  # (catastrophic over-refusal). The reason is structural: the check measures whether the
+  # answer faithfully paraphrases the retrieved chunks, which it always does because the
+  # model was instructed to use only those chunks. It says nothing about whether those
+  # chunks answer the question. Kept ON for per-sentence flagging (useful, honest), but it
+  # must not gate abstention. The directional entailment upgrade (grounding_verifier /
+  # HHEM) is the real fix for this signal; see DECISIONS.md D-024.
   sentence_support_threshold: null
 
-# D-056: premise pre-gate. Refuses a question whose asserted specific (a count, edition,
-# page, or attribution) is not supported by the retrieved passages -- the false-premise
-# class the reranker gate cannot catch. OFF by default: it verifies with the resident 2B,
-# which is noisy, so enabling it trades some over-refusal for fewer false answers (a values
-# call for a safety-critical tutor, measured in D-056, not a free win). The real fix is a
-# purpose-built verifier (MiniCheck/HHEM) via grounding_verifier's hhem_url seam, which
-# needs an ML runtime + freed memory this 8GB board does not currently have.
+# D-056/D-057: premise pre-gate. Refuses a question whose asserted specific (a count,
+# edition, page, or attribution) is not supported by the retrieved passages -- the
+# false-premise class the reranker gate structurally cannot catch (retrieval is correct;
+# only the asserted specific is false).
+#
+# SHIPPED ON (enabled: true). It routes verification to the HHEM entailment service at
+# hhem_url below, which D-057 measured as the verifier that actually works (8/21 traps
+# caught, 2 over-refused) versus the resident 2B's roughly 1:1. It FAILS OPEN: if the HHEM
+# service is unreachable or errors, the pipeline degrades to normal answering rather than
+# break the query (a verifier outage must never take the tutor offline) -- see the
+# fail-open try/except in pipeline.ask(). trust_remote_code=True is required to load the
+# HHEM head; see docs/HHEM_VERIFIER.md for the offline staging and the transformers pin.
+#
+# To turn the gate off entirely, set enabled: false. To fall back to the noisy resident 2B
+# instead of HHEM (no extra service, but ~1:1 precision), set hhem_url: null.
 premise_gate:
   enabled: true
   hhem_url: http://127.0.0.1:8083/verify   # HHEM service (tutor-verify); null -> 2B fallback

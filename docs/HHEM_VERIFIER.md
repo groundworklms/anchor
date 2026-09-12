@@ -21,7 +21,13 @@ temporary reverse-SSH tunnel to a workstation's internet, then the model runs of
    libs were not on the loader path. The `tutor-verify` unit fixes this with:
    `LD_LIBRARY_PATH=~/.local/lib/python3.10/site-packages/nvidia/{cublas,cuda_nvrtc,cu12}/lib`
 2. **transformers pin:** `pip install 'transformers==4.46.3' 'pillow>=10.2' sentencepiece`.
-   HHEM-2.1-Open's `trust_remote_code` head does NOT import on transformers 5.x.
+   HHEM-2.1-Open ships a custom classification head, so it MUST be loaded with
+   **`trust_remote_code=True`** (`AutoModelForSequenceClassification.from_pretrained(
+   "vectara/hallucination_evaluation_model", trust_remote_code=True)`) -- the model
+   executes repo-provided modeling code, which is why the weights are staged once from the
+   pinned `vectara/hallucination_evaluation_model` repo and then run offline (step 3), and
+   why the transformers version is pinned: that `trust_remote_code` head does NOT import on
+   transformers 5.x.
 3. **Stage the model offline:** first load with network (through the tunnel) downloads
    `vectara/hallucination_evaluation_model` into `~/.cache/huggingface`; thereafter it runs
    with `HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1` and no network.

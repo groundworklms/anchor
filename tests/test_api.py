@@ -450,3 +450,34 @@ def test_instructor_overview_ignores_a_learner_query_param(client):
     `learner` parameter, so a smuggled ?learner= is simply ignored -- there is no
     per-Marine view to request."""
     assert client.get("/api/instructor/overview?learner=sgtsmith").status_code == 200
+
+
+# --------------------------------------------------------------------------
+# 8. Decision's optional fields accept an explicit null (item 7).
+#    note / edited_question / edited_points are `... | None`, so a client that sends
+#    `null` (not just an absent key) is validated, not 422'd. STATE["learn"] is None in
+#    this fixture, so a well-formed body reaches the handler and returns 200 with
+#    {"ok": false, "error": "unknown item"} -- the point is the 200, i.e. it passed
+#    validation. A bare `str`/`list` with default=None would 422 on the explicit null.
+# --------------------------------------------------------------------------
+
+def test_decision_accepts_explicit_null_optionals(client):
+    body = {"item_id": "does-not-exist", "status": "approved",
+            "note": None, "edited_question": None, "edited_points": None}
+    r = client.post("/api/review/decide", json=body)
+    assert r.status_code == 200
+    assert r.json() == {"ok": False, "error": "unknown item"}
+
+
+def test_decision_accepts_omitted_optionals(client):
+    r = client.post("/api/review/decide",
+                    json={"item_id": "does-not-exist", "status": "approved"})
+    assert r.status_code == 200
+    assert r.json()["error"] == "unknown item"
+
+
+def test_decision_still_enforces_bounds_on_optionals(client):
+    # The nullable annotation must not drop the length bound: a 2001-char note is still 422.
+    r = client.post("/api/review/decide",
+                    json={"item_id": "x", "status": "approved", "note": "n" * 2001})
+    assert r.status_code == 422

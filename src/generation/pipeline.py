@@ -195,12 +195,15 @@ class TutorPipeline:
         self.sentence_threshold = g.get("sentence_support_threshold")
         self.unsupported_action = g.get("unsupported_sentence_action", "flag")
 
-        # D-056 premise pre-gate. When the question ASSERTS a specific (a count, edition,
-        # page, or attribution) that the passages do not support, refuse before generation
-        # rather than let the 2B fabricate it. OFF by default: it reuses the 2B as its
-        # verifier, which is noisy, so it trades some over-refusal for fewer false answers
-        # (a values call, not a free win -- see D-056). The HHEM/MiniCheck upgrade seam is
-        # in grounding_verifier; not usable on this box for lack of an ML runtime + memory.
+        # D-056/D-057 premise pre-gate. When the question ASSERTS a specific (a count,
+        # edition, page, or attribution) that the passages do not support, refuse before
+        # generation rather than let the 2B fabricate it. The SHIPPED config turns this ON
+        # (config/default.yaml premise_gate.enabled: true) and routes it to the HHEM
+        # entailment service via hhem_url; D-057 measured HHEM as the verifier that works
+        # (8/21 caught, 2 over-refused) vs the resident 2B's ~1:1. With no hhem_url it falls
+        # back to the noisy 2B. It FAILS OPEN below (a verifier outage degrades to normal
+        # answering, never an outage). The code default here is False for the case where a
+        # config omits the block entirely; the repo's default.yaml overrides it to True.
         pg = config.get("premise_gate", {})
         self.premise_gate_enabled = pg.get("enabled", False)
         self.premise_tau = pg.get("support_tau", 0.5)
@@ -401,13 +404,36 @@ class TutorPipeline:
                         answer = answer.replace(
                             o["sentence"], o["sentence"] + " [UNSUPPORTED]")
 
-        used = sorted({n for o in (grounding["sentences"] if grounding else [])
-                       for n in o["cited_sources"]})
+        # In-range citation markers actually present in the (possibly stripped) answer.
+        # Read straight from the text, not from the grounding pass, so the cite-or-refuse
+        # gate below holds even when grounding.enabled is False -- it needs no embedding
+        # and no verifier, only the [N] markers already in the answer.
+        used = sorted({n for n in map(int, CITE_RE.findall(answer))
+                       if 1 <= n <= len(chunks)})
+
+        # Gate 2b -- CITE-OR-REFUSE (structural, free, always on). SYSTEM_PROMPT rule 2
+        # requires a citation marker on every factual sentence, and the README promises
+        # "every factual sentence carries a citation". Enforce it here rather than trust
+        # the model to obey: if the answer asserts factual sentences but carries ZERO
+        # valid in-range citation markers, it is an uncited answer -- a fluent, plausible,
+        # UNVERIFIABLE claim. Refuse it instead of shipping it with abstained:false. A
+        # "factual sentence" is one long enough to assert something (same >25-char claim
+        # heuristic check_grounding uses); a short lead-in or a bare marker is not one.
+        # This is the free floor under the answer-grounding pass: no verifier, no memory,
+        # so it ships ON in the default config (see config/default.yaml grounding block).
+        claim_sentences = [s for s in
+                           (s.strip() for s in SENT_SPLIT.split(answer) if s.strip())
+                           if len(s) > 25]
+        if claim_sentences and not used:
+            result.update(abstained=True, abstain_reason="uncited_answer",
+                          text=self.refusal_text)
+            return result
+
         result["citations"] = [
             {"n": n, "citation": chunks[n - 1]["citation"],
              "pub_id": chunks[n - 1]["pub_id"],
              "page_printed": chunks[n - 1]["page_printed"]}
-            for n in used if 1 <= n <= len(chunks)]
+            for n in used]
         result["text"] = answer
         result["sources"] = [{"n": i, "citation": c["citation"],
                               "rerank_score": c.get("rerank_score")}

@@ -15,4 +15,10 @@ fastapi==0.141.1
 uvicorn==0.52.3
 pydantic==2.13.4
 sqlite-vec==0.1.9
-PyYAML==5.4.1
+# PyYAML 5.4.1 does not build against a modern toolchain: its pinned build requirement
+# `Cython<3` conflicts with Cython 3 and the sdist fails to compile (the well-known
+# "Cannot convert ... yaml._yaml" break). Only yaml.safe_load is used here, so any 6.x is
+# a drop-in. 6.0.1 ships cp310 wheels for the device's Python 3.10, so it installs without
+# a compiler at all. (Pinning `Cython<3` first would also work but keeps building from
+# source for no benefit.)
+PyYAML>=6.0.1

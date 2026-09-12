@@ -8,3 +8,7 @@
 
 PyMuPDF==1.27.1
 pytest==8.4.2
+# Starlette's TestClient (fastapi.testclient) drives the ASGI app over httpx; tests/test_api.py
+# instantiates it, so the suite does not collect without httpx present. Device serving does
+# not need it -- this is a workstation-only, test-time dependency.
+httpx

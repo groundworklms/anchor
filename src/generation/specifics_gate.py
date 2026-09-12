@@ -1,6 +1,17 @@
 #!/usr/bin/env python3
 """A verbatim-specific backstop: refuse when a LOAD-BEARING specific was fabricated.
 
+============================================================================
+NOT IN THE ANSWER PATH. As of this build, nothing imports specifics_gate: it is
+NOT wired into pipeline.ask() and does NOT run on any live query. The false-premise
+class it targets is handled in production by the premise pre-gate (Gate 1.5 in
+pipeline.py, backed by the HHEM entailment verifier in grounding_verifier.py). This
+module is retained as a documented, stdlib-only EXPERIMENT / reference implementation
+of a lexical specifics backstop and is exercised only by tests/test_specifics_gate.py.
+Do not assume any behaviour here affects a shipped answer; to actually use it, it would
+first have to be imported and called from the pipeline.
+============================================================================
+
 WHY THIS EXISTS. Gate 2 in pipeline.py checks that every claim SENTENCE is grounded in a
 retrieved chunk (D-023). That catches a sentence built entirely from nothing. It does NOT
 reliably catch the failure mode this module targets: on a FALSE-PREMISE question the 2B

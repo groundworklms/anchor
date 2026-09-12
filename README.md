@@ -73,7 +73,7 @@ flowchart LR
 2. **Gate on retrieval.** A reranker score threshold, calibrated *per publication* (terse clinical text scores differently than doctrine prose), tuned to minimize the **sum** of false answers and over-refusals — not false answers alone, which degenerates to refusing everything.
 3. **Gate on the premise.** When a question asserts a specific — a count, an edition, a page, an attribution — Anchor checks that presupposition against the retrieved passages *before answering*, using a small entailment verifier ([Vectara HHEM-2.1-Open](https://huggingface.co/vectara/hallucination_evaluation_model), 110 M). This catches false-premise fabrications the retrieval gates structurally can't: retrieval is *correct* on those questions; only the asserted specific is false.
 4. **Generate, grounded.** A 2 B instruction model answers **only** from the retrieved sources, every factual sentence carrying a citation, and is free to emit `INSUFFICIENT_SOURCES`.
-5. **Gate on the answer.** A final pass checks each produced sentence back against the sources.
+5. **Gate on the answer (cite-or-refuse).** A final structural pass enforces the citation rule: every factual sentence must carry a valid in-range citation marker (`[1]`, `[2]`). An otherwise-fluent answer that asserts factual sentences with **no** citation is refused (`uncited_answer`) rather than shipped — this is what makes "every factual sentence carries a citation" a property of the running system, not just a prompt instruction. It is free (it reads the markers already in the text; no extra model call), so it ships **on**. A second, cosine sentence-support signal runs alongside it for per-sentence *flagging* but deliberately does **not** gate abstention: measured on this corpus its scores do not separate answerable from unanswerable, so gating on it would over-refuse (see [`DECISIONS.md`](DECISIONS.md) D-024). The directional-entailment upgrade for that signal is `src/generation/grounding_verifier.py`.
 
 Everything is local. Nothing a user asks or does leaves the device.
 
@@ -121,6 +121,7 @@ The premise-verifier (HHEM) setup — offline model staging, the CUDA-library fi
 - This build carries **public-releasable doctrine only**. The offline architecture is designed to host controlled material, but that requires proper accreditation.
 - Roughly **1 in 6** out-of-scope questions may still be answered, and about **1 in 5** answerable questions may be over-refused. Always verify against the cited source.
 - A small on-device model: it retrieves and grounds well; it is not a substitute for a large model on open-ended synthesis.
+- **The learner identifier is unauthenticated.** The `learner` value is chosen by the client and nothing verifies it; the API binds **loopback only** (`127.0.0.1`) on a single-user, air-gapped kiosk, which is the only reason that is acceptable. Anyone who can reach port 8000 can read any learner's history by naming it. This is a deliberate, stated position — **not** a fielding-ready auth story. The moment that identifier becomes an EDIPI (a real person's record), it needs a genuine fielding gate: a server-side session or kiosk PIN, the identifier out of the query string and logs, and an HMAC/retention decision. See [`docs/FIELDING.md`](docs/FIELDING.md) and [`src/api/main.py`](src/api/main.py) (the `Learner` note).
 
 ## Repository
 

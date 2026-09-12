@@ -171,13 +171,18 @@ class Decision(BaseModel):
     item_id: str = Field(min_length=1, max_length=128)
     status: str = Field(min_length=1, max_length=16)   # approved | rejected | pending
     reviewer: str = Field(default="instructor", max_length=64)
-    note: str = Field(default=None, max_length=2000)
-    edited_question: str = Field(default=None, max_length=2000)
+    # These three are optional: the client sends what it edited and omits the rest, and
+    # some clients send an explicit null. The annotation must therefore be `... | None`
+    # -- a bare `str`/`list` with default=None accepts an ABSENT key but 422s on an
+    # explicit `null` (pydantic v2 validates None against the declared type), which is a
+    # surprising, client-breaking asymmetry for an optional field.
+    note: str | None = Field(default=None, max_length=2000)
+    edited_question: str | None = Field(default=None, max_length=2000)
     # build_items.py keeps at most three key points per item (:93), each around 90
     # characters. Eight at 600 leaves a reviewer room to rewrite one properly without
     # leaving the field open -- the reviewer console is the one endpoint that legitimately
     # accepts prose, so it is the one worth bounding explicitly.
-    edited_points: list[Annotated[str, StringConstraints(max_length=600)]] = Field(
+    edited_points: list[Annotated[str, StringConstraints(max_length=600)]] | None = Field(
         default=None, max_length=8)
 
 
