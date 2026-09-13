@@ -11,10 +11,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install workstation deps
+      - name: Install deps (serving + workstation/test)
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements-workstation.txt
-          pip install httpx pytest
+          pip install -r requirements-device.txt -r requirements-workstation.txt
       - name: Run tests
         run: python -m pytest tests -q
