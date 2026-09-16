@@ -17,6 +17,7 @@ import time
 import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from functools import partial
 from math import isfinite
 from pathlib import Path
 from typing import Annotated, Literal
@@ -179,6 +180,7 @@ _GROUND_MAX_PASSAGES = 16
 _GROUND_MAX_PASSAGE_CHARS = 8000
 _GROUND_MAX_SOURCE_CHARS = 2048
 _GROUND_TOP_N = 8
+_GROUND_RERANK_TIMEOUT_S = 20
 # This is the shipped default.yaml threshold. A normally started service takes its
 # configured value from the pipeline; retaining this fallback makes the standalone route
 # fail closed if it is mounted before startup configuration has been installed.
@@ -737,9 +739,14 @@ async def ground(body: GroundRequest):
 
     loop = asyncio.get_running_loop()
     try:
-        ranked = await loop.run_in_executor(
-            None, rerank, body.question, [p.text for p in body.passages],
-            _ground_rerank_url())
+        # The ordinary Anchor query path deliberately tolerates long reranker requests and
+        # retries (hybrid.rerank's legacy defaults). SchoolCircle is a request/response
+        # evidence API, so its one reranker request is strictly bounded to 20 seconds with
+        # neither transport retries nor the context-budget retry.
+        rerank_request = partial(
+            rerank, body.question, [p.text for p in body.passages], _ground_rerank_url(),
+            timeout=_GROUND_RERANK_TIMEOUT_S, attempts=1, retry_context_errors=False)
+        ranked = await loop.run_in_executor(None, rerank_request)
     except urllib.error.HTTPError as e:
         # post_json has already retried 502/503/504. Those are still availability errors
         # after the retry budget; other HTTP responses mean the upstream request failed.

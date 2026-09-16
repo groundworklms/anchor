@@ -123,7 +123,10 @@ passages; it does not inspect, retrieve from, or add material from Anchor's glob
 index. It uses Anchor's local reranker to rank the supplied text, does not generate an
 answer, and abstains (`abstained: true`) only when there are no supplied passages or the best
 valid reranker score does not clear Anchor's reranker gate. A failed or unavailable reranker
-is a service error, not a claim that the approved evidence is irrelevant.
+is a service error, not a claim that the approved evidence is irrelevant. Unlike Anchor's
+legacy full-corpus query path, this endpoint makes one local reranker request with a maximum
+20-second upstream timeout: it does not use transport retries or context-budget retries that
+could extend the request beyond that budget.
 
 ```json
 {

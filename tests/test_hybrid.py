@@ -12,6 +12,7 @@ sqlite3.OperationalError raised on a user's question at query time. sqlite3 ship
 FTS5 in CPython, so this stays offline and instant.
 """
 import sqlite3
+import urllib.error
 
 import pytest
 
@@ -313,3 +314,40 @@ def test_k_damps_the_advantage_of_rank_one():
     small_gap = small[0][1] - small[1][1]
     large_gap = large[0][1] - large[1][1]
     assert small_gap > large_gap
+
+
+# ---------------------------------------------------------------------------
+# rerank transport controls. The general retrieval path keeps its established
+# long-running recovery policy; the scoped API opts into the bounded variant.
+# ---------------------------------------------------------------------------
+
+def test_rerank_defaults_keep_legacy_timeout_and_context_recovery(monkeypatch):
+    calls = []
+
+    def fake_post_json(url, payload, **kwargs):
+        calls.append((payload["documents"], kwargs))
+        if len(calls) == 1:
+            raise urllib.error.HTTPError(url, 500, "context", {}, None)
+        return {"results": [{"index": 0, "relevance_score": 4.0}]}
+
+    monkeypatch.setattr(hybrid, "post_json", fake_post_json)
+    assert hybrid.rerank("question", ["x" * 800]) == [(0, 4.0)]
+    assert calls == [
+        (["x" * 700], {"timeout": 300}),
+        (["x" * 350], {"timeout": 300}),
+    ]
+
+
+def test_rerank_can_disable_retries_for_a_bounded_caller(monkeypatch):
+    calls = []
+
+    def fake_post_json(url, payload, **kwargs):
+        calls.append((payload["documents"], kwargs))
+        raise urllib.error.HTTPError(url, 500, "context", {}, None)
+
+    monkeypatch.setattr(hybrid, "post_json", fake_post_json)
+    with pytest.raises(urllib.error.HTTPError):
+        hybrid.rerank("question", ["x" * 800], timeout=20, attempts=1,
+                      retry_context_errors=False)
+    # No smaller-document retry occurs, and post_json is told to make one request only.
+    assert calls == [(["x" * 700], {"timeout": 20, "attempts": 1})]

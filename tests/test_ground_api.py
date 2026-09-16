@@ -39,8 +39,8 @@ def test_ground_reranks_only_supplied_passages_and_preserves_provenance(client, 
     ]
     calls = {}
 
-    def fake_rerank(question, documents, url, budget=700):
-        calls.update(question=question, documents=documents, url=url)
+    def fake_rerank(question, documents, url, budget=700, **kwargs):
+        calls.update(question=question, documents=documents, url=url, **kwargs)
         return [(1, 8.0), (0, 4.0)]
 
     monkeypatch.setattr(main, "rerank", fake_rerank)
@@ -54,6 +54,9 @@ def test_ground_reranks_only_supplied_passages_and_preserves_provenance(client, 
         "question": "Which supplied passage is relevant?",
         "documents": [p["text"] for p in supplied],
         "url": "http://reranker.test",
+        "timeout": 20,
+        "attempts": 1,
+        "retry_context_errors": False,
     }
     assert response.json() == {
         "abstained": False,

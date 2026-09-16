@@ -67,20 +67,32 @@ def embed(text, url="http://127.0.0.1:8081"):
 RERANK_DOC_CHARS = 700
 
 
-def rerank(query, documents, url="http://127.0.0.1:8082", budget=RERANK_DOC_CHARS):
-    """Returns [(index, score)] sorted best-first. Scores are raw logits, not 0-1."""
+def rerank(query, documents, url="http://127.0.0.1:8082", budget=RERANK_DOC_CHARS,
+           timeout=300, attempts=None, retry_context_errors=True):
+    """Returns [(index, score)] sorted best-first. Scores are raw logits, not 0-1.
+
+    The defaults are Anchor's original full-retrieval behaviour: a 300-second request,
+    http_retry's normal retry budget, and a smaller-document retry for context-related
+    400/500 responses. Callers with a tighter service-level deadline can explicitly set
+    ``timeout``, ``attempts``, and ``retry_context_errors`` without changing that legacy
+    path.
+    """
     if not documents:
         return []
     for attempt_budget in (budget, budget // 2, budget // 4):
         try:
             # post_json re-raises HTTPError untouched, so the budget-shrinking recovery
             # below still sees it; only transport failures are retried.
+            request_args = {"timeout": timeout}
+            if attempts is not None:
+                request_args["attempts"] = attempts
             data = post_json(
                 url.rstrip("/") + "/v1/rerank",
                 {"query": query,
-                 "documents": [d[:attempt_budget] for d in documents]}, timeout=300)
+                 "documents": [d[:attempt_budget] for d in documents]}, **request_args)
         except urllib.error.HTTPError as e:
-            if e.code in (400, 500) and attempt_budget > budget // 4:
+            if (retry_context_errors and e.code in (400, 500)
+                    and attempt_budget > budget // 4):
                 continue
             raise
         out = [(d["index"], d["relevance_score"]) for d in data["results"]]
