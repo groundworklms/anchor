@@ -14,19 +14,22 @@ import json
 import sys
 import threading
 import time
+import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from functools import partial
+from math import isfinite
 from pathlib import Path
-from typing import Annotated
+from typing import Annotated, Literal
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent / "generation"))
 sys.path.insert(0, str(HERE.parent / "retrieval"))
 
-from fastapi import FastAPI, Query                             # noqa: E402
+from fastapi import FastAPI, HTTPException, Query              # noqa: E402
 from fastapi.responses import FileResponse, StreamingResponse  # noqa: E402
-from pydantic import BaseModel, Field, StringConstraints       # noqa: E402
+from pydantic import BaseModel, ConfigDict, Field, StringConstraints  # noqa: E402
 
 import network_status                                          # noqa: E402
 import telemetry                                               # noqa: E402
@@ -36,6 +39,7 @@ sys.path.insert(0, str(HERE.parent / "learn"))
 from store import RecordStore                                  # noqa: E402
 from review import precheck                                    # noqa: E402
 from session import CONFIDENCE, LearnStore                     # noqa: E402
+from hybrid import rerank                                     # noqa: E402
 
 app = FastAPI(title="Offline Doctrine-Grounded Tutor")
 STATE = {"pipeline": None, "config": {}, "ui_dir": None, "eval_path": None,
@@ -165,6 +169,48 @@ class Ask(BaseModel):
     # buffers the entire body before pydantic sees it and this unit runs under
     # MemoryMax=800M on a 7.4 GiB board shared with three llama.cpp servers.
     question: str = Field(min_length=1, max_length=2000)
+
+
+# SchoolCircle's caller supplies the approved source set. This is intentionally a
+# different operation from /api/ask: it ranks only this request's passages and never opens
+# or queries Anchor's doctrine index. The request cap also keeps the cross-encoder request
+# comfortably below the API's body-size guard.
+_GROUND_CONTRACT = "schoolcircle-grounding-v1"
+_GROUND_MAX_PASSAGES = 16
+_GROUND_MAX_PASSAGE_CHARS = 8000
+_GROUND_MAX_SOURCE_CHARS = 2048
+_GROUND_TOP_N = 8
+_GROUND_RERANK_TIMEOUT_S = 20
+# This is the shipped default.yaml threshold. A normally started service takes its
+# configured value from the pipeline; retaining this fallback makes the standalone route
+# fail closed if it is mounted before startup configuration has been installed.
+_GROUND_DEFAULT_RERANK_THRESHOLD = 3.0
+
+
+class GroundPassage(BaseModel):
+    """An opaque, caller-approved passage whose provenance must survive unchanged."""
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+    id: str = Field(min_length=1, max_length=256)
+    text: str = Field(min_length=1, max_length=_GROUND_MAX_PASSAGE_CHARS)
+    source: str = Field(min_length=1, max_length=_GROUND_MAX_SOURCE_CHARS)
+
+
+class GroundRequest(BaseModel):
+    """Source-scoped grounding request; no corpus identifiers are accepted or inferred."""
+
+    model_config = ConfigDict(extra="forbid")
+    question: str = Field(min_length=1, max_length=2000)
+    passages: list[GroundPassage] = Field(max_length=_GROUND_MAX_PASSAGES)
+
+
+class GroundResponse(BaseModel):
+    """The fixed SchoolCircle response contract."""
+
+    model_config = ConfigDict(extra="forbid")
+    abstained: bool
+    passages: list[GroundPassage]
+    contract: Literal["schoolcircle-grounding-v1"] = _GROUND_CONTRACT
 
 
 class Decision(BaseModel):
@@ -641,6 +687,104 @@ async def review_precheck():
 @app.get("/api/history")
 def history():
     return {"recent": STATE["history"][-20:]}
+
+
+def _ground_rerank_url():
+    """Return the existing local reranker URL without invoking corpus retrieval."""
+    pipe = STATE.get("pipeline")
+    if pipe and getattr(pipe, "rerank_url", None):
+        return pipe.rerank_url
+    return (STATE.get("config", {}).get("reranker", {}).get("base_url")
+            or "http://127.0.0.1:8082")
+
+
+def _ground_score_threshold():
+    """Use Anchor's configured score gate, with a fail-closed startup fallback."""
+    pipe = STATE.get("pipeline")
+    if pipe and hasattr(pipe, "score_threshold"):
+        return pipe.score_threshold
+    configured = (STATE.get("config", {}).get("abstention", {})
+                  .get("reranker_score_threshold", _GROUND_DEFAULT_RERANK_THRESHOLD))
+    return configured
+
+
+def _ground_response(abstained, passages=()):
+    """Build the fixed response shape without transforming caller provenance."""
+    return GroundResponse(
+        abstained=abstained,
+        passages=[GroundPassage(id=p.id, text=p.text, source=p.source) for p in passages],
+    )
+
+
+def _ground_reranker_error(status_code, detail):
+    """Raise a deliberately generic upstream-service error for /api/ground."""
+    raise HTTPException(status_code=status_code, detail=detail)
+
+
+@app.post("/api/ground", response_model=GroundResponse,
+          responses={502: {"description": "reranker returned an invalid or failed response"},
+                     503: {"description": "reranker is unavailable"}})
+async def ground(body: GroundRequest):
+    """Rank only caller-supplied approved passages and return their exact provenance.
+
+    This endpoint deliberately calls the existing reranker directly rather than
+    ``pipeline.retrieve`` or ``hybrid.search``. Consequently neither BM25, embeddings,
+    nor SQLite's global index can add an unapproved passage to the result. It does not
+    generate an answer. Only an empty source set or a valid low relevance score is an
+    abstention. A failed, unavailable, or malformed reranker response is an explicit,
+    sanitized 502/503 service error rather than a misleading normal abstention.
+    """
+    if not body.passages:
+        return _ground_response(True)
+
+    loop = asyncio.get_running_loop()
+    try:
+        # The ordinary Anchor query path deliberately tolerates long reranker requests and
+        # retries (hybrid.rerank's legacy defaults). SchoolCircle is a request/response
+        # evidence API, so its one reranker request is strictly bounded to 20 seconds with
+        # neither transport retries nor the context-budget retry.
+        rerank_request = partial(
+            rerank, body.question, [p.text for p in body.passages], _ground_rerank_url(),
+            timeout=_GROUND_RERANK_TIMEOUT_S, attempts=1, retry_context_errors=False)
+        ranked = await loop.run_in_executor(None, rerank_request)
+    except urllib.error.HTTPError as e:
+        # post_json has already retried 502/503/504. Those are still availability errors
+        # after the retry budget; other HTTP responses mean the upstream request failed.
+        if e.code in (502, 503, 504):
+            _ground_reranker_error(503, "reranker unavailable")
+        _ground_reranker_error(502, "reranker failed")
+    except (urllib.error.URLError, ConnectionError, TimeoutError):
+        _ground_reranker_error(503, "reranker unavailable")
+    except Exception:                                              # noqa: BLE001
+        _ground_reranker_error(502, "reranker failed")
+
+    # Treat results from the model server as untrusted. In particular, never use its
+    # returned text or identifier: an index can select only an original request passage.
+    if not isinstance(ranked, list) or not ranked:
+        _ground_reranker_error(502, "reranker returned an invalid response")
+    selected, seen = [], set()
+    for item in ranked:
+        if not isinstance(item, tuple) or len(item) != 2:
+            _ground_reranker_error(502, "reranker returned an invalid response")
+        index, score = item
+        if (isinstance(index, bool) or not isinstance(index, int)
+                or index < 0 or index >= len(body.passages)
+                or index in seen
+                or isinstance(score, bool) or not isinstance(score, (int, float))
+                or not isfinite(score)):
+            _ground_reranker_error(502, "reranker returned an invalid response")
+        seen.add(index)
+        selected.append((index, score))
+
+    threshold = _ground_score_threshold()
+    if threshold is not None and selected[0][1] < threshold:
+        return _ground_response(True)
+
+    # rerank() is Anchor's existing best-first ordering. Preserve it; only cap the number
+    # of evidence passages, and copy each original id/text/source verbatim into the
+    # response. No generated text and no global-index metadata can cross this boundary.
+    return _ground_response(False, (body.passages[index]
+                                    for index, _score in selected[:_GROUND_TOP_N]))
 
 
 @app.post("/api/ask")

@@ -115,6 +115,58 @@ make eval                           # reproduce the numbers above on-device
 
 The premise-verifier (HHEM) setup — offline model staging, the CUDA-library fix, the systemd unit — is documented in [`docs/HHEM_VERIFIER.md`](docs/HHEM_VERIFIER.md). It is optional and fails open: if the verifier is unavailable, Anchor still answers, it simply loses the false-premise gate.
 
+## SchoolCircle source-scoped grounding API
+
+`POST /api/ground` selects evidence **only** from the approved passages supplied in that
+request. It is intended for a trusted SchoolCircle caller that owns approval of those
+passages; it does not inspect, retrieve from, or add material from Anchor's global doctrine
+index. It uses Anchor's local reranker to rank the supplied text, does not generate an
+answer, and abstains (`abstained: true`) only when there are no supplied passages or the best
+valid reranker score does not clear Anchor's reranker gate. A failed or unavailable reranker
+is a service error, not a claim that the approved evidence is irrelevant. Unlike Anchor's
+legacy full-corpus query path, this endpoint makes one local reranker request with a maximum
+20-second upstream timeout: it does not use transport retries or context-budget retries that
+could extend the request beyond that budget.
+
+```json
+{
+  "question": "What does this lesson say about friction?",
+  "passages": [
+    {
+      "id": "lesson-42-p3",
+      "text": "Friction is the force that makes the apparently easy so difficult.",
+      "source": "SchoolCircle lesson 42, passage 3"
+    }
+  ]
+}
+```
+
+The fixed response contract is:
+
+```json
+{
+  "abstained": false,
+  "passages": [
+    {
+      "id": "lesson-42-p3",
+      "text": "Friction is the force that makes the apparently easy so difficult.",
+      "source": "SchoolCircle lesson 42, passage 3"
+    }
+  ],
+  "contract": "schoolcircle-grounding-v1"
+}
+```
+
+Every returned `id`, `text`, and `source` is an exact original value from the request; the
+endpoint never returns reranker text, generated text, or global-index provenance. Requests
+are bounded to a 2,000-character question and at most 16 passages, each with a 256-character
+`id`, 8,000-character `text`, and 2,048-character `source`. Invalid or oversized input is
+rejected with HTTP 422. A successful abstention has the same response shape with
+`"passages": []`. Reranker transport/unavailability returns sanitized HTTP 503
+`{"detail":"reranker unavailable"}`; an upstream failure or malformed reranker result returns
+sanitized HTTP 502 (`"reranker failed"` or `"reranker returned an invalid response"`). These
+error responses intentionally contain no model-server, passage, or internal exception detail.
+
 ## Honest limitations
 
 - A **working prototype**, not an accredited system — a study aid and reference, **not** an authority for orders or decisions, and no substitute for the publications or an instructor.
